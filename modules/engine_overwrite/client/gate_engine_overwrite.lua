@@ -28,6 +28,33 @@ function main:initGlobalEvent()
     PlatformUtil.copyToClipboard(str, string.len(str))
     print("PlatformUtil.copyToClipboard " .. str)
   end)
+
+  Lib.subscribeKeyDownEvent("key.k", function()
+    Me.isFly = not Me.isFly
+    if Me.isFly then
+        Me:setProp("gravity", 0)
+        Plugins.CallTargetPluginFunc("fly_text", "pushNormalFlyText", "FLY ON (K)")
+    else
+        Me:setProp("gravity", 0.08)
+        Plugins.CallTargetPluginFunc("fly_text", "pushNormalFlyText", "FLY OFF (K)")
+    end
+  end)
+
+  Lib.subscribeKeyDownEvent("key.u", function()
+    if Me.isFly then
+        local pos = Me:getPosition()
+        pos.y = pos.y + 2
+        Me:setPosition(pos)
+    end
+  end)
+
+  Lib.subscribeKeyDownEvent("key.j", function()
+    if Me.isFly then
+        local pos = Me:getPosition()
+        pos.y = pos.y - 2
+        Me:setPosition(pos)
+    end
+  end)
   Lib.lightSubscribeEvent("error!!!!! : win_main lib event : EVENT_GAME_PAUSE", Event.EVENT_GAME_PAUSE, function()
     if Me.stopGameBgm then
       Player.CurPlayer:stopGameBgm()

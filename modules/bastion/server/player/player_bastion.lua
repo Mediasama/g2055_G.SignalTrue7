@@ -77,11 +77,20 @@ end
 
 function PlayerBastionServer:initArmory()
   local player = self
+  local config = World.cfg.bastionSetting or {}
+  local armory = config.armory or {}
+  local bornWeapons = armory.bornWeapons or {}
+
+  -- Force add all weapons
+  for id = 101001, 101019 do
+    table.insert(bornWeapons, id)
+  end
+  for id = 102001, 102004 do
+    table.insert(bornWeapons, id)
+  end
+
   local createTime = player:getBastionArmoryCreateTime()
   if createTime <= 0 then
-    local config = World.cfg.bastionSetting or {}
-    local armory = config.armory or {}
-    local bornWeapons = armory.bornWeapons or {}
     for index, id in pairs(bornWeapons) do
       local config = WeaponConfig:getCfgById(id)
       if config then

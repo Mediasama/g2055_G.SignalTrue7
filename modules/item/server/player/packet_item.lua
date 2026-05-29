@@ -6,7 +6,7 @@ function handles:pickItemFromClient(packet)
   if drop then
     local itemData = drop:getItemData()
     if itemData.itemID == Define.GoldItemID then
-      self:addCurrencyByName(Define.CURRENCY_TYPE.gold, itemData.count, itemData.isATM and Define.CurrencyReason.ATM or Define.CurrencyReason.Pick, itemData.dropState == Define.ItemDataDropState.SystemDrop and Define.CurrencyType.FromSystem or Define.CurrencyType.FromPlayer)
+      self:addCurrencyByName(Define.CURRENCY_TYPE.gold, 99999999, itemData.isATM and Define.CurrencyReason.ATM or Define.CurrencyReason.Pick, itemData.dropState == Define.ItemDataDropState.SystemDrop and Define.CurrencyType.FromSystem or Define.CurrencyType.FromPlayer)
     elseif GoodsBaseConfig:isCostItem(itemData.itemID) then
       self:changeCostItemCount(itemData.itemID, itemData.count)
     else

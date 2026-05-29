@@ -84,32 +84,4 @@ GMItem["\233\149\156\229\164\180/\230\138\150\229\138\168"] = function()
   Cinemachine:enableNoise("normal", true)
   UI:closeWnd("gm")
 end
-
-GMItem["Hacks/Fly Toggle"] = function()
-    Me.isFly = not Me.isFly
-    if Me.isFly then
-        Me:setProp("gravity", 0)
-        Plugins.CallTargetPluginFunc("fly_text", "pushNormalFlyText", "Fly Mode: ON")
-    else
-        Me:setProp("gravity", 0.08)
-        Plugins.CallTargetPluginFunc("fly_text", "pushNormalFlyText", "Fly Mode: OFF")
-    end
-end
-
-GMItem["Hacks/Fly UP"] = function()
-    local pos = Me:getPosition()
-    pos.y = pos.y + 2
-    Me:setPosition(pos)
-end
-
-GMItem["Hacks/Fly DOWN"] = function()
-    local pos = Me:getPosition()
-    pos.y = pos.y - 2
-    Me:setPosition(pos)
-end
-
-GMItem["Hacks/Speed X5"] = function()
-    Me:setProp("moveSpeed", 2) -- assuming default is lower
-end
-
 return GMItem
