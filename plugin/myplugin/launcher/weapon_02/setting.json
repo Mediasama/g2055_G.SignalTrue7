@@ -1,0 +1,107 @@
+{
+    "launcher": {
+        "//fullAuto": "半自动/全自动开关",
+        "fullAuto":true,
+        "//fireRate": "子弹射速，次/没秒",
+        "fireRate":0.08,
+        "//burstNum":"连发数量",
+        "burstNum":1,
+        "//burstCd":"连发时间间隔",
+        "burstCd":0,
+        "//reloadTime":"换弹时间",
+        "reloadTime":1,
+        "//pellets": "每发弹片数量",
+        "pellets":1,
+        "//pelletSpread": "单片散射值",
+        "pelletSpread":0,
+        "//clipSize": "弹夹容量",
+        "clipSize":300,
+        "openAim": 45,
+        "autoAim": true,
+        "autoFire": false,
+        "autoFireDistance": 150,
+        "autoFireDelay":0,
+        "weaponPlayerYaw": 3,
+        "action":{
+            "run":"g2055_gun_minigun_run",
+            "attack":[
+                "g2055_gun_minigun_attack"
+            ],
+            "idle":"g2055_gun_minigun_idle"
+        },
+        "moveSpeed": 0.71,
+        "moveAcc": 1,
+        "camera": {
+            "cameraDistance": 6,
+            "cameraXOffset": 1.5,
+            "cameraYOffset": 0.7,
+            "cameraFovAngle": 65
+        }
+    },
+    "bullet": {
+        "damageLevel":2,
+        "///": "散射值",
+        "spreadXY":    [0.8, 2, 999],
+        "spreadValues":[0,  0.3,0.5],
+
+        "//recoilInterval": "抖动间隔",
+        "recoilInterval":0.08,
+
+        "//recoilPitchS": "俯仰距离",
+        "recoilPitchS":[1,1],
+        "//recoilPitchSMax": "俯仰距离",
+        "recoilPitchSMax":6.5,
+        "//recoilPitchBalanceS": "俯仰平衡距离",
+        "recoilPitchBalanceS":[0.7,0.7],
+        "//recoilPitchBalanceT": "俯仰平衡上跳时间",
+        "recoilPitchBalanceT":0.03,
+
+        "//recoilYawS": "偏航距离",
+        "recoilYawS":[-0.3,0.3],
+        "//recoilYawSMax": "偏航平衡距离",
+        "recoilYawSMax":0.3,
+        "//recoilYawBalanceS": "偏航平衡距离",
+        "recoilYawBalanceS":[0.2,0.2],
+        "//recoilYawBalanceT": "偏航平衡上跳时间",
+        "recoilYawBalanceT":0.08,
+
+        "//recoilT": "上跳时间",
+        "recoilT":0.07,
+        "//recoilBackT": "回落时间",
+        "recoilBackT": 0.25,
+
+        "//rang": "射程",
+        "rang": 500,
+        "//damage":"子弹伤害",
+        "damage":4,
+        "//minDamage":"最小伤害",
+        "minDamage":3,
+        "//damageDecayStartDis": "伤害衰减起始距离",
+        "damageDecayStartDis":100,
+        "//damageDecayEndDis": "伤害衰减终止距离",
+        "damageDecayEndDis":300,
+        "//damageDecayFactor1":"伤害衰减系数",
+        "damageDecayFactor1":0.4,
+        
+        "//damageDecayMaxDis": "伤害衰减最大距离",
+        "damageDecayMaxDis":300,
+        "//damageDecayFactor2":"伤害衰减系数2",
+        "damageDecayFactor2":0.6,
+
+        "bornSound": "minigun_shoot",
+
+        "length": 30,
+        "width": 10,
+        "material" : "jiguang.json",
+        "imgTexture": ["plugin/myplugin/launcher/hjg03.png","plugin/myplugin/launcher/hjg04.png"],
+        "segmentLength": 2,
+        "frameSpeed": 0.05,
+        "lineTime": 0.1,
+        "offset": [-0.25, 0.7, 1.3],
+        "hitEffect": {
+            "effect": "g2050_cover_hurt_2.effect",
+            "time": 500,
+            "scale": [0.8, 0.8, 0.8]
+        }
+    }
+}

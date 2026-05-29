@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="103" nativeHorzRes="406" version="2" imagefile="g2055_activity.png" name="g2055_activity" autoScaled="false">
+      <Image yPos="1" xPos="202" height="101" name="btn_0_pay02" width="66"/>
+    <Image yPos="1" xPos="135" height="101" name="btn_0_pay01" width="66"/>
+    <Image yPos="1" xPos="269" height="87" name="img_0_activity01" width="136"/>
+    <Image yPos="1" xPos="1" height="101" name="btn_0_free01" width="66"/>
+    <Image yPos="1" xPos="68" height="101" name="btn_0_free02" width="66"/>
+</Imageset>

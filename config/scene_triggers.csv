@@ -1,0 +1,14 @@
+n_id	s_description	s_entity_cfg	s_position	s_rotation
+id	备注	entity配置名	位置	旋转
+1		myplugin/trigger_bgm_casino	19.03, 30.5, -18.02	0,90,0
+2		myplugin/trigger_bgm_common	23, 30.5, -16	0,0,0
+3		myplugin/trigger_bgm_bar	-35.5, 30.5, -36.5	0,-60,0
+4		myplugin/trigger_bgm_bar_common	-32.852, 30.5, -35.	0,-60,0
+5		myplugin/trigger_bgm_car_store	55.907898, 30.5, -16.076088	0,0,0
+6		myplugin/trigger_bgm_bar_common	53.93,30.5,-14.71	0,0,0
+7		myplugin/trigger_bgm_weapon_store	9.573545, 30.5, 54.027935	0,0,0
+8		myplugin/trigger_bgm_bar_common	9.611536, 30.5, 55.977547	0,0,0
+9		myplugin/trigger_bgm_weapon_store	23.793247, 30.5, 44.726280	0,90,0
+10		myplugin/trigger_bgm_bar_common	25.5, 30.5, 42.83	0,90,0
+11		myplugin/trigger_bgm_clothing_store	-85.5, 30.5, -2.5	0,-70,0
+12		myplugin/trigger_bgm_bar_common	-83.6, 30.5, -1.76	0,-70,0

@@ -1,0 +1,4 @@
+SoundId	IsRepeat	RepeatInterval_min	RepeatInterval_max	SoundFile	Type	SubType	Desc
+0	0	0	0	plugin/myplugin/sound/ui_click			通用UI点击音效
+1	1	1	3	plugin/myplugin/sound/bgm_main			非战斗bgm
+2	1	1	3	plugin/myplugin/sound/bgm_battle			战斗bgm

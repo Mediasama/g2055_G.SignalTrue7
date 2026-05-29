@@ -1,0 +1,322 @@
+
+
+language_start:g2055_lang_20220706
+
+g2055_item_bottle=zepsuta butelka wina
+g2055_item_knuckles=Kostki
+g2055_item_machete=maczeta
+g2055_item_axe=topór
+g2055_item_baseballbat=kij baseball'owy
+g2055_item_hammer=młot
+g2055_item_Bricks=Cegły
+g2055_item_tigerpaw=łapa tygrysa
+g2055_item_razorhat=kapelusz brzytwy
+g2055_item_pistol=pistolet
+g2055_item_goldak=złoty karabin
+g2055_item_shotgun=strzelba
+g2055_item_minigun=złoty karabin maszynowy
+g2055_item_money=gotówka
+g2055_item_doorDecoder=Dekoder kontroli dostępu
+g2055_item_vehicleDecoder=dekoder pojazdu
+
+g2055_item_ammo=amunicja
+
+
+weapon.shop.buy.success =udany zakup
+bullet.shop.buy.success =Pomyślnie zakupiono naboje uzupełniające
+bullet.shop.buy.no.need =Obecnie nie ma potrzeby kupowania amunicji
+bullet.shop.buy.fail =Nie można kupić amunicji do aktualnej broni
+
+tattoo.tips.other.player.tattoo =Brak miejsca na tatuaż
+tattoo.tips.error.request =nielegalne żądanie
+tattoo.tips.empty.tattoo =Miej wszystkie tatuaże
+tattoo.tips.exist.tattoo =już mam ten tatuaż
+tips.no.money =brak złota
+tattoo.tips.interrupt =tatuaż jest przerwany
+tattoo.tips.success =zrobić tatuaż
+
+territory.map.tips1 =gracz
+territory.map.tips2 =członek gangu
+territory.map.tips3 =Obszar neutralny
+territory.map.tips4 =własny obszar
+territory.map.tips5 =obszar wroga
+territory.map.tips6 =punkt urodzenia
+territory.map.tips.bottom =Zarabiaj pieniądze okupując terytoria
+territory.tips.occupy.success =Pomyślnie przechwycono %s
+territory.tips.occupy.get.award =%s otrzymuje %d opłaty za ochronę!
+territory.tips.other.player.occupying =Inni gracze zajmują
+territory.tips.error.request =nielegalne żądanie
+territory.tips.same.camp =Ten sam gang, nie może powtórzyć okupacji
+territory.tips.need.add.gang =Zajmij terytorium, najpierw dołącz do gangu
+territory.tips.occupy.interrupt =Zawód przerwany
+territory.tips.occupied.by.gang =Twój %s został zajęty przez %s
+territory.ui.tips.occupied =zajęty
+territory.ui.tips.get.award =Opłata za ochronę ładunku %d
+territory.ui.tips.unOccupied =nie zajęty
+area.tips.get.award =idź odebrać
+area.tips.rob.award =iść porwać
+area.tips.now.award =Poniesiona opłata za ochronę
+area_tips_name1=Powierzchnia kwadratowa
+area_tips_name2=obszar sklepu z bronią
+area_tips_name3=Obszar zajezdni
+area_tips_name4=Powierzchnia sklepu odzieżowego
+area_tips_name5=obszar baru
+area_tips_name6=obszar czarnorynkowy
+area_tips_name7=obszar tatuażu
+
+
+gang.member.number =Liczba członków gangu: %d/%d
+gang.title.gang.list  =lista gangów
+gang.title.gang.apply =Wnioski o członkostwo
+gang.title.gang.apply.list =Lista aplikacji
+gang.title.gang.create.list =Utwórz gang
+gang.button.exit =opuścić gang
+gang.button.apply.list =Lista aplikacji
+gang.button.clear.apply.list =Wyczyść listę jednym kliknięciem
+gang.button.return =zwrócić
+gang.button.create.gang =Utwórz gang
+gang.position.chairman =Prezydent
+gang.position.member =członek
+gang.tips.access.apply.fail =Dołączyłeś do innych gildii, najpierw opuść gildię!
+gang.tips.already.apply =Już stosowane
+gang.tips.sensitive.word =wrażliwe słowa
+gang.tips.name.exist =Nazwa gangu już istnieje
+gang.tips.name.too.long =Nazwa gangu powinna mieć mniej niż %d znaków
+gang.tips.player.has.gang =Gracz dołączył do innego gangu
+gang.tips.max.member =Obecny gang jest pełny
+gang.tips.name.null =Proszę podać nazwę gangu
+gang.tips.has.gang =już w gangu
+gang.tips.replace.chairman =Prezydent rezygnuje i zostaje prezydentem
+gang.tips.apply.gang.success =Pomyślnie dołączył do %s
+gang.tips.create.gang.success =Gang został pomyślnie utworzony
+gang.tips.empty.gang =Nikt nie stworzył gildii, idź stwórz ją
+gang.tips.empty.apply.list =Nie ma graczy, którzy zgłosili się do gangu
+gang.edit.box.default.tips =Wpisz nazwę gangu
+
+bastion.doorplate.word ={.}swój dom
+
+bastion.vault.manner.deposit =depozyt
+bastion.vault.manner.fetch =Na wynos
+bastion.vault.manner.steal =ukraść
+
+bastion.vault.manner.deposit.error.overflow =Przekroczono limit
+bastion.vault.manner.deposit.error.no.money =Brak funduszy
+
+bastion.closet.no.select.item =bez ubrania
+
+bastion.door.current =obecny
+bastion.door.manner.buy =Kupić
+bastion.door.attack.tip=zaatakował twój dom
+bastion.door.damaged.tip =włamał się do twojego domu
+bastion.door.start.hacked.tip =spróbuj włamać się do twojego domu
+bastion.door.hacked.tip =włamał się do twojego domu
+bastion.door.hacked.succeed =1 erişim kontrol kod çözücüsü tüketir ve kilidi başarıyla açar
+bastion.door.hacked.failed =1 erişim kontrol kod çözücüsünü tüketir ve kilidi açamaz
+bastion.door.hacked.owner.update =Właściciel wymienił zamek w drzwiach
+bastion.door.unlocking =odblokowanie
+bastion.door.hacked.already.hacked =pęknięty
+bastion.door.hacked.already.damaged =uszkodzony
+
+bastion.closet.no.select.item = bez ubrania
+
+bastion.garage.buy.error.had.unlock =odblokowany
+bastion.garage.fetch.error.no.car =brak pojazdu
+bastion.garage.deposit.error.no.car =brak pojazdu
+bastion.garage.deposit.error.no.garage =Garaż nie odblokowany
+bastion.garage.buy.error.no.enough.money =Brak funduszy
+
+bastion.garage.deposit.dialog.title =przechowywać pojazd
+bastion.garage.deposit.dialog.detail =Czy zdeponować pojazd?
+bastion.garage.deposit.dialog.confirm =tak
+bastion.garage.deposit.dialog.cancel =nie
+
+bastion.door.sensor.no.hack.item =Wymagany klucz główny
+
+bastion.armory.deposit.exceed.maximum =Arsenał jest pełny
+bastion.armory.deposit.no.select.item =nie ma takiej broni
+bastion.armory.fetch.no.select.item =nie ma takiej broni
+bastion.armory.steal.no.select.item =nie ma takiej broni
+
+bastion.armory.button.text.deposit =depozyt
+bastion.armory.button.text.fetch =Na wynos
+bastion.armory.button.text.steal =ukraść
+bastion.armory.buy.error.had.unlock =odblokowany
+bastion.armory.buy.error.no.enough.money =Brak funduszy
+
+bastion.toolkit.tip.please.select.item =Proszę wybrać bramę
+bastion.toolkit.fetch.no.select.item =Wybierz drzwi do wymiany
+bastion.toolkit.fetch.no.enough.money =Brak funduszy
+bastion.toolkit.fetch.wrong.status =Obecny stan nie może zostać zastąpiony
+
+vehicle.icon.unlock.success =Zużyj 1 dekoder pojazdu i odblokuj pomyślnie
+vehicle.icon.unlock.fail=Zużywa 1 dekoder pojazdu i nie można go odblokować
+vehicle.icon.unlocking=odblokowanie
+vehicle.icon.noUnlockItem=Wymaga dekodera pojazdu
+vehicle.icon.beUnlock =spróbuj odblokować swój pojazd
+vehicle.icon.beAttack =zaatakował twój pojazd
+
+goods_shelf.tip.select.goods =Wybierz przedmiot
+goods_shelf.purchase.succeed=udany zakup
+goods_shelf.no.enough.currency=Brak funduszy
+goods_shelf.closet.already.possess=posiadane
+goods_shelf.closet.buy=Kupić
+goods_shelf.closet.purchase.succeed=udany zakup
+goods_shelf.black.market.purchase.succeed=udany zakup
+
+
+charter.killed.tips =%s cię zabił
+charter.relive.tips =Wskrzeszony po %s s
+
+
+tips.no.money =Brak funduszy
+
+bullet.shop.buy.success =udany zakup
+
+exchange.title =Kantor wymiany walut
+exchange.yes =Pewnie
+exchange.no =Anulować
+exchange.buy.success =udana wymiana pieniędzy
+exchange.buy.fail =Wymiana pieniędzy nie powiodła się
+
+player.motion.title=akcja komunikacyjna
+player.motion.name1=pod boki
+player.motion.name2=prowokacyjny
+player.motion.name3=kucać
+player.motion.name4=poddanie się
+player.motion.name5=Mobilizować
+player.motion.name6=przy ścianie 1
+player.motion.name7=przy ścianie 2
+player.motion.name8=kpiny
+player.motion.name9=myśleć
+player.motion.name10=Udawać martwego
+player.motion.name11=czołganie się
+player.motion.name12=taniec krok 1
+player.motion.name13=taniec krok 2
+player.motion.name14=taniec krok 3
+player.motion.name15=powitać
+player.motion.name16=drapiąc się po głowie
+player.motion.name17=płakać
+player.motion.name18=śmiać się głośno
+player.motion.name19=zły
+
+weapon.readyToBroken=Obecna broń zaraz się zepsuje! ! !
+weapon.isBroken=Obecna broń jest zepsuta! ! !
+
+passCard.title =przepustka blokowa
+passCard.use.cube.confirm =Potwierdź spożycie złotej kostki
+passCard.yes  =Pewnie
+passCard.no  =Anulować
+passCard.weaponTips =Miejsce na broń jest pełne, nastąpi wymiana broni, jesteś pewien?
+passCard.carGetOffTips =Masz zamiar wysiąść z samochodu i przenieść się do sklepu samochodowego, na pewno?
+passCard.clothTips =Ten kostium już istnieje i zostanie zastąpiony tą samą kwotą waluty gry. Czy na pewno?
+passCard.taskDetails =szczegóły misji
+passCard.taskRewards =nagroda
+passCard.taskDailyLimit =dzienny limit
+passCard.task01 =Zabij {.} graczy
+passCard.task02 =Zniszczone {.} drzwi graczy
+passCard.task03 =Sabotaż {.} bankomaty
+passCard.task04 =Zarób {.} pieniędzy (nieuwzględnione w Przepustkach)
+passCard.task05 =wydawać pieniądze
+passCard.task06 =Wydaj{.}złotą kostkę
+passCard.unlock =odblokować
+passCard.not.open =Wydarzenie się nie rozpoczęło
+passCard.buy.success =udany zakup
+passCard.buy.fail =Nieudany zakup
+passCard.cant.open.ui =Obecny stan nie może otworzyć interfejsu
+passCard.carTips =Niedługo zostanie wysłany do sklepu samochodowego, czy na pewno?
+weapon.carry.cant.use=Nie można zaatakować procesu przenoszenia ludzi!
+weapon.no.bullet=Nigdy więcej kul!
+
+passCard.buyLevel =Już wkrótce, aby zapłacić {.} Złotą Kostkę, aby odblokować następny poziom, czy na pewno?
+passCard.buyPassport =Już wkrótce, aby zapłacić {.} Złotą Kostkę, aby odblokować Przepustkę Premium, czy na pewno?
+
+name.guide.101 =pokonaj najeźdźców
+name.guide.102 =Odbierz upuszczone pieniądze
+name.guide.103 =Odblokuj stojak na broń
+name.guide.104 =wyjmij broń
+name.guide.105 =oszczędzać pieniądze
+name.guide.106 =Wyjść! Ciesz się z gry!
+name.guide.1 =1. Broń na ciele spadnie, gdy umrze\n2. Stojak na broń może chronić twoją broń
+name.guide.2 =1. Stojak na broń ma swobodny dostęp do broni\n2, możesz przejąć broń innych graczy\n3, chroń własną broń
+name.guide.3 =1. W skarbcu można przechowywać pieniądze\n2. Możesz obrabować skarbce innych graczy\n3. Chroń swój skarbiec
+name.guide.doortips =Dla własnego bezpieczeństwa wykonaj zadanie dla początkujących przed wyjściem
+
+name.house.1 =Odblokuj stojak na broń
+name.house.2 =odblokuj garaż
+name.house.3 =uaktualnić bramę
+name.house.4 =oszczędzać pieniądze
+name.house.5 =wypłacić pieniądze
+name.house.6 =stojak na broń
+name.house.7 =Szafa
+name.house.8 =garaż
+name.shop.1 =kup odzież
+name.shop.2 =kup odzież
+name.shop.3 =kup odzież
+name.shop.4 =kup odzież
+name.shop.5 =kup odzież
+name.shop.6 =kup pojazd
+name.shop.7 =kup pojazd
+name.shop.8 =kup pojazd
+name.shop.9 =kup pojazd
+name.shop.10 =kup pojazd
+name.shop.11 =kup pojazd
+name.shop.12 =kup broń
+name.shop.13 =kup broń
+name.shop.14 =kup broń
+name.shop.15 =kup broń
+name.shop.16 =kup broń
+name.shop.17 =kup broń
+name.shop.18 =kup kule
+name.shop.19 =kup kule
+name.shop.20 =kup kule
+name.shop.21 =kup kule
+name.shop.22 =zakupy na czarnym rynku
+name.shop.Tattoo=zrobić tatuaż
+
+g2055_item_dress_1_6=Kamizelka z kwiatowym ramieniem (góra)
+g2055_item_dress_2_1=Modna ulica (włosy)
+g2055_item_dress_2_2=Modna ulica (wyrażenie)
+g2055_item_dress_2_3=Modna ulica (u góry)
+g2055_item_dress_2_4=Modna ulica (dół)
+g2055_item_dress_2_5=Modna ulica (buty)
+g2055_item_dress_3_1=Styl bandyty (włosy)
+g2055_item_dress_3_2=Styl bandyty (wyrażenie)
+g2055_item_dress_3_3=Styl bandyty (góra)
+g2055_item_dress_3_4=Styl bandyty (dół)
+g2055_item_dress_3_5=Styl bandyty (buty)
+player.paidmotion.name1=uderzyłeś mnie
+player.paidmotion.name2=wyrzucać pieniądze
+player.paidmotion.name3=pomarańczowa sprawiedliwość
+player.paidmotion.name4=kopnięcie
+player.paidmotion.name5=machać tam iz powrotem
+player.paidmotion.name6=Kozak
+g2055_item_harley=motocykl
+g2055_item_pika=ulec poprawie
+g2055_item_benchi=samochód
+g2055_item_porsche=samochód sportowy premium
+g2055_item_lamborghini=supersamochód
+g2055_item_bugatti=niebieski duch
+
+pass_card_close_tips=Kliknij puste miejsce, aby zamknąć okno
+
+gang.guide.tips=1. Znajdź gang, do którego chcesz dołączyć\n2. Możesz walczyć ramię w ramię z członkami gangu\n3. Zajmij terytorium, aby szybko zdobyć pieniądze
+gang.auto.apply.all=Aplikacja jednym kliknięciem
+gang.auto.join =przechodzą automatycznie
+
+gang.circle.tips.green=ten sam gang
+gang.circle.tips.yellow=bez gangu
+gang.circle.tips.red=wróg
+gang.circle.tips.no.gang=Proszę najpierw dołączyć do gangu
+
+vehicle.icon.text.canDrive=prowadzić
+vehicle.icon.text.canUnlock=odblokować
+vehicle.icon.text.cannotUnlock=Brakujące elementy do odblokowania
+
+bastion.door.text.unlock=odblokować drzwi
+
+gang.rank.title.name=najsilniejszy gang
+gang.rank.title.area=Zajęty obszar
+gang.rank.title.time=Czas okupacji
+gang.rank.title.noGang=bez gangu
+
+language_end:g2055_lang_20220706

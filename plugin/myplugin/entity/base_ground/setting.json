@@ -1,0 +1,19 @@
+{
+  "brightnessScale": 1.3,
+  "disableShadow": true,
+  "checkBlockCollision": false,
+  "checkBlockTouchEvent": false,
+  "checkEnterEvent": false,
+  "checkEnterEventOnClient": false,
+  "checkEnterEventOnServer": false,
+  "checkEntityTouchEvent": false,
+  "checkTouchEvent": false,
+  "collision": false,
+  "collisionGroup": 2,
+  "collisionMask": 1,
+  "disableCheckTouch": true,
+  "isStatic": 1,
+  "name": "",
+  "stopChangeYaw": 1,
+  "useStaticCollider": true
+}

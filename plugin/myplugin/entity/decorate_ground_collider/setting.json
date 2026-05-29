@@ -1,0 +1,120 @@
+{
+    "base": "base_ground",
+    "actorName": "empty.actor",
+    "collision": true,
+    "viewDistance": 200,
+    "collider": {
+        "type": "Compound",
+        "offset": {
+            "x": -1,
+            "y": -10,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+        },
+        "child": [
+            {
+                "type": "Cylinder",
+                "radius": 113,
+                "height": 10,
+                "offset": {
+                    "x": -1,
+                    "y": 0,
+                    "z": 2
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "type": "Cylinder",
+                "radius": 94,
+                "height": 10,
+                "offset": {
+                    "x": -0.7,
+                    "y": 0,
+                    "z": 224
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "type": "Box",
+                "extent": {
+                    "x": 32,
+                    "y": 10,
+                    "z": 50
+                },
+                "offset": {
+                    "x": -0.7,
+                    "y": 0,
+                    "z": 116
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "type": "Box",
+                "extent": {
+                    "x": 10,
+                    "y": 10,
+                    "z": 20
+                },
+                "offset": {
+                    "x": 16 ,
+                    "y": 0,
+                    "z": 109
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                }
+            },
+            {
+                "type": "Box",
+                "extent": {
+                    "x": 10,
+                    "y": 10,
+                    "z": 20
+                },
+                "offset": {
+                    "x": -16 ,
+                    "y": 0,
+                    "z": 110
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 25,
+                    "z": 0
+                }
+            },
+            {
+                "type": "Cylinder",
+                "radius": 30,
+                "height": 10,
+                "offset": {
+                    "x": -1.5,
+                    "y": 0,
+                    "z": 307
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ]
+    }
+}

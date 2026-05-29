@@ -1,0 +1,322 @@
+
+
+language_start:g2055_lang_20220706
+
+g2055_item_bottle=ขวดไวน์ที่แตก
+g2055_item_knuckles=สนับมือทองเหลือง
+g2055_item_machete=มีดยาว
+g2055_item_axe=ขวาน
+g2055_item_baseballbat=ไม้เบสบอล
+g2055_item_hammer=ค้อนเหล็ก
+g2055_item_Bricks=อิฐ
+g2055_item_tigerpaw=กรงเล็บเสือ
+g2055_item_razorhat=หมวกใบมีดโกน
+g2055_item_pistol=ปืนพก
+g2055_item_goldak=ไรเฟิลทอง
+g2055_item_shotgun=ปืนลูกซอง
+g2055_item_minigun=ปืนกลสีทอง
+g2055_item_money=เงิน
+g2055_item_doorDecoder=เครื่องถอดรหัสประตู
+g2055_item_vehicleDecoder=เครื่องถอดรหัสรถยนต์
+
+g2055_item_ammo=กระสุน
+
+
+weapon.shop.buy.success =ซื้อสำเร็จ
+bullet.shop.buy.success =ซื้อสำเร็จ
+bullet.shop.buy.no.need =ไม่จำเป็นต้องซื้อกระสุนในตอนนี้
+bullet.shop.buy.fail =ไม่สามารถซื้อกระสุนสำหรับอาวุธนี้
+
+tattoo.tips.other.player.tattoo =ไม่มีพื้นที่สำหรับรอยสัก
+tattoo.tips.error.request =คำขอไม่ถูกต้อง
+tattoo.tips.empty.tattoo =มีรอยสักนี้แล้ว
+tattoo.tips.exist.tattoo =มีรอยสักแล้ว
+tips.no.money =คุณมีเงินไม่พอ
+tattoo.tips.interrupt =ขั้นตอนการสักถูกรบกวน
+tattoo.tips.success =ได้รับรอยสักสำเร็จ
+
+territory.map.tips1 =ผู้เล่น
+territory.map.tips2 =สมาชิกแก๊ง
+territory.map.tips3 =ตัวแทนจำหน่ายรถ
+territory.map.tips4 =ร้านเสื้อผ้า
+territory.map.tips5 =ร้านขายปืน
+territory.map.tips6 =จุดเกิด
+territory.map.tips.bottom =หาเงินจากการครอบครองดินแดน
+territory.tips.occupy.success =ครอบครองพื้นที่แล้ว
+territory.tips.occupy.get.award =%s ได้รับค่าคุ้มครอง %d!
+territory.tips.other.player.occupying =ผู้เล่นอื่นกำลังครอบครองอยู่
+territory.tips.error.request =คำขอไม่ถูกต้อง
+territory.tips.same.camp =คุณมาจากแก๊งเดียวกัน และไม่สามารถครอบครองพื้นที่ซ้ำได้
+territory.tips.need.add.gang =โปรดเข้าร่วมแก๊งก่อนยึดอาณาเขต
+territory.tips.occupy.interrupt =การยึดครองถูกขัดขวาง
+territory.tips.occupied.by.gang =%s ของคุณถูก %s ครอบครอง
+territory.ui.tips.occupied =ถูกยึดแล้ว
+territory.ui.tips.get.award =ค่าธรรมเนียมการป้องกัน %d
+territory.ui.tips.unOccupied =ไม่ว่าง
+area.tips.get.award =หยิบเลย
+area.tips.rob.award =ขโมยเลย
+area.tips.now.award =เก็บค่าคุ้มครองแล้ว
+area_tips_name1=พื้นที่คาสิโน
+area_tips_name2=พื้นที่เก็บอาวุธปืน
+area_tips_name3=พื้นที่ตัวแทนจำหน่ายรถ
+area_tips_name4=พื้นที่ร้านขายเสื้อผ้า
+area_tips_name5=พื้นที่บาร์
+area_tips_name6=พื้นที่ตัลาดมืด
+area_tips_name7=พื้นที่ร้านสัก
+
+
+gang.member.number =จำนวนสมาชิกแก๊ง: %d/%d
+gang.title.gang.list  =รายชื่อแก๊ง
+gang.title.gang.apply =ใช้
+gang.title.gang.apply.list =รายชื่อ
+gang.title.gang.create.list =สร้างแก๊ง
+gang.button.exit =ออก
+gang.button.apply.list =รายชื่อผู้สมัคร
+gang.button.clear.apply.list =ลบทั้งหมด
+gang.button.return =ย้อนกลับ
+gang.button.create.gang =สร้างแก๊ง
+gang.position.chairman =หัวหน้า
+gang.position.member =สมาชิก
+gang.tips.access.apply.fail =คุณเป็นสมาชิกแก๊งหนึ่งอยู่แล้ว ออกจากแก๊งเดิมก่อน
+gang.tips.already.apply =สมัคร
+gang.tips.sensitive.word =มีคำที่ละเอียดอ่อน
+gang.tips.name.exist =ชื่อแก๊งนี้มีอยู่แล้ว
+gang.tips.name.too.long =ชื่อแก๊งควรมีความยาวน้อยกว่า %d ตัวอักษร
+gang.tips.player.has.gang =ผู้เล่นอยู่ในแก๊งอื่นแล้ว
+gang.tips.max.member =แก๊งปัจจุบันเต็มแล้ว
+gang.tips.name.null =โปรดใส่ชื่อแก๊ง
+gang.tips.has.gang =อยู่ในแก๊งอยู่แล้ว
+gang.tips.replace.chairman =หัวหน้าแก๊งลาออก คุณกลายเป็นหัวหน้าคนใหม่
+gang.tips.apply.gang.success =เข้าร่วมสำเร็จ %s
+gang.tips.create.gang.success =คุณสร้างแก๊งสำเร็จแล้ว
+gang.tips.empty.gang =ไม่มีใครสร้างแก๊ง สร้างตอนนี้เลย!
+gang.tips.empty.apply.list =ไม่มีผู้เล่นสมัครเข้าแก๊ง
+gang.edit.box.default.tips =ใส่ชื่อแก๊ง
+
+bastion.doorplate.word =บ้านของ {.}
+
+bastion.vault.manner.deposit =เงินฝาก
+bastion.vault.manner.fetch =ได้รับ
+bastion.vault.manner.steal =ขโมย
+
+bastion.vault.manner.deposit.error.overflow =0.0
+bastion.vault.manner.deposit.error.no.money =คุณมีเงินไม่พอ
+
+bastion.closet.no.select.item =ไม่มีเสื้อผ้านี้
+
+bastion.door.current =ปัจจุบัน
+bastion.door.manner.buy =ซื้อ
+bastion.door.attack.tip=โจมตีบ้านของคุณ
+bastion.door.damaged.tip =บ้านของคุณถูกบุกรุก
+bastion.door.start.hacked.tip =พยายามบุกเข้าบ้านของคุณ
+bastion.door.hacked.tip =บ้านของคุณถูกบุกรุก
+bastion.door.hacked.succeed =Consume 1 decodificador de control de acceso y se desbloquea con éxito
+bastion.door.hacked.failed =Consume 1 decodificador de control de acceso y no se desbloquea
+bastion.door.hacked.owner.update =เจ้าของเปลี่ยนล็อกประตูแล้ว
+bastion.door.unlocking =กำลังปลดล็อก
+bastion.door.hacked.already.hacked =แตก
+bastion.door.hacked.already.damaged =เสียหาย
+
+bastion.closet.no.select.item = เสื้อผ้าไม่พร้อมใช้งาน
+
+bastion.garage.buy.error.had.unlock =ปลดล็อก
+bastion.garage.fetch.error.no.car =ไม่มีรถที่ใช้ได้
+bastion.garage.deposit.error.no.car =ไม่มีรถที่ใช้ได้
+bastion.garage.deposit.error.no.garage =คุณยังไม่ได้ปลดล็อกโรงรถ
+bastion.garage.buy.error.no.enough.money =คุณมีเงินไม่พอ
+
+bastion.garage.deposit.dialog.title =เก็บยานพาหนะ
+bastion.garage.deposit.dialog.detail =คุณต้องการเก็บรถนี้ไหม?
+bastion.garage.deposit.dialog.confirm =ใช่
+bastion.garage.deposit.dialog.cancel =ไม่
+
+bastion.door.sensor.no.hack.item =ต้องการมาสเตอร์คีย์
+
+bastion.armory.deposit.exceed.maximum =คลังแสงเต็ม
+bastion.armory.deposit.no.select.item =อาวุธไม่พร้อมใช้งาน
+bastion.armory.fetch.no.select.item =อาวุธไม่พร้อมใช้งาน
+bastion.armory.steal.no.select.item =อาวุธไม่พร้อมใช้งาน
+
+bastion.armory.button.text.deposit =เงินฝาก
+bastion.armory.button.text.fetch =ได้รับ
+bastion.armory.button.text.steal =ขโมย
+bastion.armory.buy.error.had.unlock =ปลดล็อก
+bastion.armory.buy.error.no.enough.money =คุณมีเงินไม่พอ
+
+bastion.toolkit.tip.please.select.item =โปรดเลือกประตู
+bastion.toolkit.fetch.no.select.item =โปรดเลือกประตูเพื่อเปลี่ยน
+bastion.toolkit.fetch.no.enough.money =คุณมีเงินไม่พอ
+bastion.toolkit.fetch.wrong.status =ไม่สามารถเปลี่ยนสถานะปัจจุบันได้
+
+vehicle.icon.unlock.success =ใช้ตัวถอดรหัสยานพาหนะ 1 คันและปลดล็อคสำเร็จ
+vehicle.icon.unlock.fail=ใช้ตัวถอดรหัสยานพาหนะ 1 คันและไม่สามารถปลดล็อกได้
+vehicle.icon.unlocking=กำลังปลดล็อก
+vehicle.icon.noUnlockItem=ต้องการตัวถอดรหัสยานพาหนะ
+vehicle.icon.beUnlock =พยายามปลดล็อกยานพาหนะของคุณ
+vehicle.icon.beAttack =โจมตียานพาหนะของคุณ
+
+goods_shelf.tip.select.goods =โปรดเลือกสินค้า
+goods_shelf.purchase.succeed=ซื้อสำเร็จ
+goods_shelf.no.enough.currency=คุณมีเงินไม่พอ
+goods_shelf.closet.already.possess=มีแล้ว
+goods_shelf.closet.buy=ซื้อ
+goods_shelf.closet.purchase.succeed=ซื้อสำเร็จ
+goods_shelf.black.market.purchase.succeed=ซื้อสำเร็จ
+
+
+charter.killed.tips =%s ฆ่าคุณ
+charter.relive.tips =จะเกิดใหม่หลังจาก %s วินาที
+
+
+tips.no.money =คุณมีเงินไม่พอ
+
+bullet.shop.buy.success =ซื้อสำเร็จ
+
+exchange.title =แลกเงิน
+exchange.yes =ยืนยัน
+exchange.no =ยกเลิก
+exchange.buy.success =แลกเงินสำเร็จ
+exchange.buy.fail =แลกเงินล้มเหลว
+
+player.motion.title=ท่าทาง
+player.motion.name1=เท้าสะเอว
+player.motion.name2=ยั่วยุ
+player.motion.name3=หมอบลง
+player.motion.name4=ยอมแพ้
+player.motion.name5=โทรหา
+player.motion.name6=พิงกำแพง 1
+player.motion.name7=พิงกำแพง2
+player.motion.name8=หัวเราะเยาะ
+player.motion.name9=คิด
+player.motion.name10=แกล้งตาย
+player.motion.name11=คลาน
+player.motion.name12=ท่าเต้น1
+player.motion.name13=ท่าเต้น2
+player.motion.name14=ท่าเต้น3
+player.motion.name15=ทักทาย
+player.motion.name16=เกาหัว
+player.motion.name17=ร้องไห้
+player.motion.name18=หัวเราะ
+player.motion.name19=โกรธ
+
+weapon.readyToBroken=อาวุธปัจจุบันกำลังจะพัง
+weapon.isBroken=อาวุธปัจจุบันพัง
+
+passCard.title =บัตรผ่านถนน
+passCard.use.cube.confirm =ยืนยันการใช้ Gcubes
+passCard.yes  =ยืนยัน
+passCard.no  =ยกเลิก
+passCard.weaponTips =ช่องอาวุธเต็ม จะมีการเปลี่ยนอาวุธ ยืนยันที่การดำเนินการหรือไม่
+passCard.carGetOffTips =ลงจากรถแล้วเทเลพอร์ตรถไปที่ร้านขายรถ ยืนยันการดำเนินการหรือไม่
+passCard.clothTips =คุณเป็นเจ้าของชุดนี้แล้ว เปลี่ยนชุดด้วยเหรียญเกมที่เท่ากัน ยืนยันการดำเนินการหรือไม่
+passCard.taskDetails =รายละเอียดภารกิจ
+passCard.taskRewards =รางวัล
+passCard.taskDailyLimit =ขีดจำกัดรายวัน
+passCard.task01 =ฆ่า {.} ผู้เล่น
+passCard.task02 =ทำลาย {.} ประตูผู้เล่น
+passCard.task03 =ทำลายตู้เอทีเอ็ม {.} ตู้
+passCard.task04 =รับเงิน {.} (ไม่รวมรางวัลบัตรผ่านถนน)
+passCard.task05 =ใช้เงิน
+passCard.task06 =จ่าย {.} Gcubes
+passCard.unlock =ปลดล็อก
+passCard.not.open =อีเวนท์ยังไม่เริ่ม
+passCard.buy.success =การซื้อสำเร็จ
+passCard.buy.fail =การซื้อล้มเหลว
+passCard.cant.open.ui =ไม่สามารถเปิดอินเทอร์เฟซในสถานะปัจจุบันได้
+passCard.carTips =กำลังเทเลพอร์ตไปที่ร้านขายรถ ยืนยันการดำเนินการหรือไม่
+weapon.carry.cant.use=กระบวนการขนคนไม่สามารถโจมตีได้!
+weapon.no.bullet=ไม่มีกระสุนอีกต่อไป!
+
+passCard.buyLevel =เร็วๆ นี้ จ่าย {.} Golden Cube เพื่อปลดล็อกด่านต่อไป แน่ใจนะ?
+passCard.buyPassport =เร็วๆ นี้เพื่อจ่าย {.} Golden Cube เพื่อปลดล็อก Premium Pass คุณแน่ใจหรือ?
+
+name.guide.101 =ปราบผู้บุกรุก
+name.guide.102 =รับเงินที่ลดลง
+name.guide.103 =ปลดล็อคชั้นวางอาวุธ
+name.guide.104 =เอาอาวุธออก
+name.guide.105 =ประหยัดเงิน
+name.guide.106 =ออกไป! สนุกกับเกม!
+name.guide.1 =1. อาวุธบนร่างกายจะดรอปเมื่อมันตาย\n2. ชั้นวางอาวุธสามารถปกป้องอาวุธของคุณได้
+name.guide.2 =1. ชั้นวางอาวุธสามารถเข้าถึงอาวุธได้อย่างอิสระ\n2 คุณสามารถคว้าอาวุธของผู้เล่นคนอื่นได้\n3 ปกป้องอาวุธของคุณเอง
+name.guide.3 =1. ห้องนิรภัยสามารถเก็บเงินได้\n2. คุณสามารถปล้นห้องนิรภัยของผู้เล่นคนอื่นได้\n3. ปกป้องห้องนิรภัยของคุณเอง
+name.guide.doortips =เพื่อความปลอดภัย โปรดทำภารกิจมือใหม่ให้เสร็จก่อนออกไปข้างนอก
+
+name.house.1 =ปลดล็อคชั้นวางอาวุธ
+name.house.2 =ปลดล็อคโรงรถ
+name.house.3 =อัพเกรดประตู
+name.house.4 =ประหยัดเงิน
+name.house.5 =เบิกเงิน
+name.house.6 =ชั้นวางอาวุธ
+name.house.7 =ตู้เสื้อผ้า
+name.house.8 =โรงรถ
+name.shop.1 =ซื้อเสื้อผ้า
+name.shop.2 =ซื้อเสื้อผ้า
+name.shop.3 =ซื้อเสื้อผ้า
+name.shop.4 =ซื้อเสื้อผ้า
+name.shop.5 =ซื้อเสื้อผ้า
+name.shop.6 =ซื้อรถ
+name.shop.7 =ซื้อรถ
+name.shop.8 =ซื้อรถ
+name.shop.9 =ซื้อรถ
+name.shop.10 =ซื้อรถ
+name.shop.11 =ซื้อรถ
+name.shop.12 =ซื้ออาวุธ
+name.shop.13 =ซื้ออาวุธ
+name.shop.14 =ซื้ออาวุธ
+name.shop.15 =ซื้ออาวุธ
+name.shop.16 =ซื้ออาวุธ
+name.shop.17 =ซื้ออาวุธ
+name.shop.18 =ซื้อกระสุน
+name.shop.19 =ซื้อกระสุน
+name.shop.20 =ซื้อกระสุน
+name.shop.21 =ซื้อกระสุน
+name.shop.22 =ช้อปปิ้งตลาดมืด
+name.shop.Tattoo=รับสัก
+
+g2055_item_dress_1_6=เสื้อแขนดอกไม้ (บน)
+g2055_item_dress_2_1=เทรนดี้ สตรีท (ผม)
+g2055_item_dress_2_2=ถนนอินเทรนด์ (นิพจน์)
+g2055_item_dress_2_3=ถนนอินเทรนด์ (บนสุด)
+g2055_item_dress_2_4=ถนนอินเทรนด์ (ล่าง)
+g2055_item_dress_2_5=เทรนดี้สตรีท (รองเท้า)
+g2055_item_dress_3_1=สไตล์โจร (ผม)
+g2055_item_dress_3_2=สไตล์โจร (นิพจน์)
+g2055_item_dress_3_3=สไตล์โจร (บน)
+g2055_item_dress_3_4=สไตล์โจร (ท่อนล่าง)
+g2055_item_dress_3_5=สไตล์โจร (รองเท้า)
+player.paidmotion.name1=คุณตีฉัน
+player.paidmotion.name2=โยนเงิน
+player.paidmotion.name3=ความยุติธรรมสีส้ม
+player.paidmotion.name4=เตะ
+player.paidmotion.name5=โบกมือไปมา
+player.paidmotion.name6=คอซแซค
+g2055_item_harley=รถจักรยานยนต์
+g2055_item_pika=ไปรับ
+g2055_item_benchi=รถยนต์
+g2055_item_porsche=รถสปอร์ตระดับพรีเมียม
+g2055_item_lamborghini=ซุปเปอร์คาร์
+g2055_item_bugatti=ผีสีฟ้า
+
+pass_card_close_tips=คลิกที่พื้นที่ว่างเพื่อปิดหน้าต่าง
+
+gang.guide.tips=1. ค้นหากลุ่มเพื่อเข้าร่วม\n2. คุณสามารถต่อสู้เคียงข้างสมาชิกแก๊งได้\n3. ยึดครองดินแดนเพื่อรับเงินอย่างรวดเร็ว
+gang.auto.apply.all=แอปพลิเคชั่นเพียงคลิกเดียว
+gang.auto.join =ผ่านโดยอัตโนมัติ
+
+gang.circle.tips.green=แก๊งเดียวกัน
+gang.circle.tips.yellow=ไม่ใช่แก๊ง
+gang.circle.tips.red=ศัตรู
+gang.circle.tips.no.gang=ขอเข้าแก๊งก่อน
+
+vehicle.icon.text.canDrive=ขับ
+vehicle.icon.text.canUnlock=ปลดล็อค
+vehicle.icon.text.cannotUnlock=รายการที่ปลดล็อคหายไป
+
+bastion.door.text.unlock=ปลดล็อคประตู
+
+gang.rank.title.name=แก๊งที่แข็งแกร่งที่สุด
+gang.rank.title.area=ครอบครองพื้นที่
+gang.rank.title.time=เวลาประกอบอาชีพ
+gang.rank.title.noGang=ไม่มีแก๊ง
+
+language_end:g2055_lang_20220706

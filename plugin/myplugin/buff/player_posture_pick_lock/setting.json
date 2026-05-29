@@ -1,0 +1,6 @@
+{
+  "actionMap": {
+    "idle": "g2055_steal_action",
+    "run": "g2055_steal_action"
+  }
+}

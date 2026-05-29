@@ -1,0 +1,47 @@
+{
+  "actorName": "2055_qizi_white.actor",
+  "base": "base_trigger",
+  "viewDistance": 200,  
+  "syncHeadName": true,
+  "territoryId": 6,
+  "collider": {
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radius": 1,
+    "height": 2,
+    "type": "Cylinder"
+  },
+  "operationConfig": {
+    "spawn": [
+    ],
+    "destroy": [
+    ],
+    "entityEnter": [
+      {
+        "stateMask": {},
+        "behaviorList": [
+          {
+            "type": "OperateTerritoryOccupy",
+            "operateType": "Enter"
+          }
+        ]
+      }
+    ],
+    "entityLeave": [
+      {
+        "stateMask": {},
+        "behaviorList": [
+          {
+            "type": "OperateTerritoryOccupy",
+            "operateType": "Exit"
+          }
+        ]
+      }
+    ],
+    "useItem": [
+    ]
+  }
+}

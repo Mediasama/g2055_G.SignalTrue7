@@ -1,0 +1,322 @@
+
+
+language_start:g2055_lang_20220706
+
+g2055_item_bottle=碎酒瓶
+g2055_item_knuckles=指虎
+g2055_item_machete=砍刀
+g2055_item_axe=斧头
+g2055_item_baseballbat=棒球棍
+g2055_item_hammer=铁锤
+g2055_item_Bricks=板砖
+g2055_item_tigerpaw=虎爪
+g2055_item_razorhat=剃刀帽
+g2055_item_pistol=手枪
+g2055_item_goldak=黄金步枪
+g2055_item_shotgun=霰弹枪
+g2055_item_minigun=黄金机枪
+g2055_item_money=现金
+g2055_item_doorDecoder=门禁解码器
+g2055_item_vehicleDecoder=车辆解码器
+
+g2055_item_ammo=弹药
+
+
+weapon.shop.buy.success =购买成功
+bullet.shop.buy.success =购买补充子弹成功
+bullet.shop.buy.no.need =当前无需购买子弹
+bullet.shop.buy.fail =当前武器无法购买子弹
+
+tattoo.tips.other.player.tattoo =没有纹身空位
+tattoo.tips.error.request =非法请求
+tattoo.tips.empty.tattoo =已拥有所有纹身
+tattoo.tips.exist.tattoo =已拥有此纹身
+tips.no.money =金币不足
+tattoo.tips.interrupt =纹身被打断
+tattoo.tips.success =获得纹身
+
+territory.map.tips1 =玩家
+territory.map.tips2 =帮派成员
+territory.map.tips3 =中立区域
+territory.map.tips4 =己方区域
+territory.map.tips5 =敌方区域
+territory.map.tips6 =出生点
+territory.map.tips.bottom =占领领地可以获得收益
+territory.tips.occupy.success =成功占领%s
+territory.tips.occupy.get.award =%s获得%d保护费！
+territory.tips.other.player.occupying =其他玩家占领中
+territory.tips.error.request =非法请求
+territory.tips.same.camp =同帮派，不能重复占领
+territory.tips.need.add.gang =占领领地请先加入帮派
+territory.tips.occupy.interrupt =占领中断
+territory.tips.occupied.by.gang =您的%s已被%s占领
+territory.ui.tips.occupied =已占领
+territory.ui.tips.get.award =收取保护费%d
+territory.ui.tips.unOccupied =未被占领
+area.tips.get.award =前往领取
+area.tips.rob.award =前往抢夺
+area.tips.now.award =已产生保护费
+area_tips_name1=赌场区域
+area_tips_name2=武器店区域
+area_tips_name3=载具店区域
+area_tips_name4=时装店区域
+area_tips_name5=酒吧区域
+area_tips_name6=黑市区域
+area_tips_name7=纹身店区域
+
+
+gang.member.number =帮会人数:%d/%d
+gang.title.gang.list  =帮会列表
+gang.title.gang.apply =申请加入
+gang.title.gang.apply.list =申请列表
+gang.title.gang.create.list =创建帮会
+gang.button.exit =退出帮会
+gang.button.apply.list =申请列表
+gang.button.clear.apply.list =一键清空列表
+gang.button.return =返回
+gang.button.create.gang =创建帮会
+gang.position.chairman =会长
+gang.position.member =会员
+gang.tips.access.apply.fail =您已加入其他帮会，请先退出帮会！
+gang.tips.already.apply =已申请
+gang.tips.sensitive.word =敏感字
+gang.tips.name.exist =帮派名字已存在
+gang.tips.name.too.long =帮派名字应小于%d个字符
+gang.tips.player.has.gang =玩家已加入其他帮派
+gang.tips.max.member =当前帮会人数已满
+gang.tips.name.null =请输入帮派名字
+gang.tips.has.gang =已经进帮会
+gang.tips.replace.chairman =会长退会,成为会长
+gang.tips.apply.gang.success =成功加入%s
+gang.tips.create.gang.success =帮会创建成功
+gang.tips.empty.gang =无人创建帮会，去创建一个吧
+gang.tips.empty.apply.list =暂无申请加入帮会玩家
+gang.edit.box.default.tips =输入帮派名称
+
+bastion.doorplate.word ={.}的房子
+
+bastion.vault.manner.deposit =存入
+bastion.vault.manner.fetch =取出
+bastion.vault.manner.steal =窃取
+
+bastion.vault.manner.deposit.error.overflow =超出上限
+bastion.vault.manner.deposit.error.no.money =金钱不足
+
+bastion.closet.no.select.item =没有此服装
+
+bastion.door.current =当前
+bastion.door.manner.buy =购买
+bastion.door.attack.tip=攻击了你的家
+bastion.door.damaged.tip =闯入了你的家
+bastion.door.start.hacked.tip =尝试闯入你的家
+bastion.door.hacked.tip =闯入了你的家
+bastion.door.hacked.succeed =消耗1个门禁解码器，解锁成功
+bastion.door.hacked.failed =消耗1个门禁解码器，解锁失败
+bastion.door.hacked.owner.update =主人更换了门锁
+bastion.door.unlocking =解锁中
+bastion.door.hacked.already.hacked =已经破解
+bastion.door.hacked.already.damaged =已经破损
+
+bastion.closet.no.select.item = 没有此服装
+
+bastion.garage.buy.error.had.unlock =已经解锁
+bastion.garage.fetch.error.no.car =没有车辆
+bastion.garage.deposit.error.no.car =没有车辆
+bastion.garage.deposit.error.no.garage =车库未解锁
+bastion.garage.buy.error.no.enough.money =金钱不足
+
+bastion.garage.deposit.dialog.title =存放车辆
+bastion.garage.deposit.dialog.detail =是否存入车辆
+bastion.garage.deposit.dialog.confirm =是
+bastion.garage.deposit.dialog.cancel =否
+
+bastion.door.sensor.no.hack.item =需要万能钥匙
+
+bastion.armory.deposit.exceed.maximum =武器库已满
+bastion.armory.deposit.no.select.item =没有此武器
+bastion.armory.fetch.no.select.item =没有此武器
+bastion.armory.steal.no.select.item =没有此武器
+
+bastion.armory.button.text.deposit =存入
+bastion.armory.button.text.fetch =取出
+bastion.armory.button.text.steal =偷取
+bastion.armory.buy.error.had.unlock =已经解锁
+bastion.armory.buy.error.no.enough.money =金钱不足
+
+bastion.toolkit.tip.please.select.item =请选择一个大门
+bastion.toolkit.fetch.no.select.item =请选择要更换的门
+bastion.toolkit.fetch.no.enough.money =金钱不足
+bastion.toolkit.fetch.wrong.status =当前状态不能更换
+
+vehicle.icon.unlock.success =消耗1个车辆解码器，解锁成功
+vehicle.icon.unlock.fail=消耗1个车辆解码器，解锁失败
+vehicle.icon.unlocking=解锁中
+vehicle.icon.noUnlockItem=需要车辆解码器
+vehicle.icon.beUnlock =尝试解锁你的载具
+vehicle.icon.beAttack =攻击了你的载具
+
+goods_shelf.tip.select.goods =请选择一个商品
+goods_shelf.purchase.succeed=购买成功
+goods_shelf.no.enough.currency=金钱不足
+goods_shelf.closet.already.possess=已拥有
+goods_shelf.closet.buy=购买
+goods_shelf.closet.purchase.succeed=购买成功
+goods_shelf.black.market.purchase.succeed=购买成功
+
+
+charter.killed.tips =%s 杀了你
+charter.relive.tips =%s s后复活
+
+
+tips.no.money =金钱不足
+
+bullet.shop.buy.success =购买成功
+
+exchange.title =金钱兑换
+exchange.yes =确定
+exchange.no =取消
+exchange.buy.success =金钱兑换成功
+exchange.buy.fail =金钱兑换失败
+
+player.motion.title=交流动作
+player.motion.name1=叉腰
+player.motion.name2=挑衅
+player.motion.name3=蹲下
+player.motion.name4=投降
+player.motion.name5=打电话
+player.motion.name6=靠墙1
+player.motion.name7=靠墙2
+player.motion.name8=嘲讽
+player.motion.name9=思考
+player.motion.name10=装死
+player.motion.name11=匍匐
+player.motion.name12=舞步1
+player.motion.name13=舞步2
+player.motion.name14=舞步3
+player.motion.name15=打招呼
+player.motion.name16=挠头
+player.motion.name17=哭泣
+player.motion.name18=大笑
+player.motion.name19=生气
+
+weapon.readyToBroken=当前武器即将损坏！！！
+weapon.isBroken=当前武器已损坏！！！
+
+passCard.title =街区通行证
+passCard.use.cube.confirm =确认消费金魔方
+passCard.yes  =确定
+passCard.no  =取消
+passCard.weaponTips =武器槽已满，将发生武器替换，是否确定？
+passCard.carGetOffTips =即将下车并且传送至车店，是否确定？
+passCard.clothTips =已有该服装，即将替换为等额游戏币，是否确定？
+passCard.taskDetails =任务描述
+passCard.taskRewards =奖励
+passCard.taskDailyLimit =每日上限
+passCard.task01 =击杀{.}名玩家
+passCard.task02 =破坏{.}名玩家的房门
+passCard.task03 =破坏{.}个自动取款机
+passCard.task04 =获取{.}金钱（通行证奖励不包含）
+passCard.task05 =消费{.}金钱
+passCard.task06 =消费{.}金魔方
+passCard.unlock =解锁
+passCard.not.open =活动尚未开启
+passCard.buy.success =购买成功
+passCard.buy.fail =购买失败
+passCard.cant.open.ui =当前状态无法打开界面
+passCard.carTips =即将传送至车店，是否确定？
+weapon.carry.cant.use=扛人过程不能进行攻击！
+weapon.no.bullet=没有子弹了！
+
+passCard.buyLevel =即将付费 {.} 金魔方解锁下一等级，是否确定？
+passCard.buyPassport =即将付费 {.} 金魔方解锁高级通行证，是否确定？
+
+name.guide.101 =击败入侵者
+name.guide.102 =拾取掉落的金钱
+name.guide.103 =解锁武器架
+name.guide.104 =取出武器
+name.guide.105 =把钱存起来
+name.guide.106 =出门！享受游戏吧！
+name.guide.1 =1、身上的武器死亡会掉落\n2、武器架可以保护你的武器
+name.guide.2 =1、武器架可以自由存取武器\n2、可以抢夺其他玩家的武器\n3、保护好自己的武器
+name.guide.3 =1、金库可以存放金钱\n2、可以抢夺其他玩家的金库\n3、保护好自己的金库
+name.guide.doortips =为了您的安全，请先完成新手任务再出门
+
+name.house.1 =解锁武器架
+name.house.2 =解锁车库
+name.house.3 =升级大门
+name.house.4 =存钱
+name.house.5 =取钱
+name.house.6 =武器架
+name.house.7 =衣柜
+name.house.8 =车库
+name.shop.1 =购买服装
+name.shop.2 =购买服装
+name.shop.3 =购买服装
+name.shop.4 =购买服装
+name.shop.5 =购买服装
+name.shop.6 =购买车辆
+name.shop.7 =购买车辆
+name.shop.8 =购买车辆
+name.shop.9 =购买车辆
+name.shop.10 =购买车辆
+name.shop.11 =购买车辆
+name.shop.12 =购买武器
+name.shop.13 =购买武器
+name.shop.14 =购买武器
+name.shop.15 =购买武器
+name.shop.16 =购买武器
+name.shop.17 =购买武器
+name.shop.18 =购买子弹
+name.shop.19 =购买子弹
+name.shop.20 =购买子弹
+name.shop.21 =购买子弹
+name.shop.22 =黑市购物
+name.shop.Tattoo=进行纹身
+
+g2055_item_dress_1_6=花臂背心(上衣)
+g2055_item_dress_2_1=潮流街头(头发)
+g2055_item_dress_2_2=潮流街头(表情)
+g2055_item_dress_2_3=潮流街头(上衣)
+g2055_item_dress_2_4=潮流街头(下装)
+g2055_item_dress_2_5=潮流街头(鞋子)
+g2055_item_dress_3_1=悍匪风格(头发)
+g2055_item_dress_3_2=悍匪风格(表情)
+g2055_item_dress_3_3=悍匪风格(上衣)
+g2055_item_dress_3_4=悍匪风格(下装)
+g2055_item_dress_3_5=悍匪风格(鞋子)
+player.paidmotion.name1=你打我呀
+player.paidmotion.name2=撒钱
+player.paidmotion.name3=橙色正义
+player.paidmotion.name4=踢腿
+player.paidmotion.name5=前后摆手
+player.paidmotion.name6=哥萨克
+g2055_item_harley=摩托
+g2055_item_pika=皮卡
+g2055_item_benchi=轿车
+g2055_item_porsche=高级跑车
+g2055_item_lamborghini=超级跑车
+g2055_item_bugatti=蓝幽灵
+
+pass_card_close_tips=点击空白区域关闭窗口
+
+gang.guide.tips=1、寻找一个帮会加入吧\n2、可以与帮会成员并肩作战\n3、占领领地可以快速获得金钱
+gang.auto.apply.all=一键申请
+gang.auto.join =自动通过
+
+gang.circle.tips.green=同帮会
+gang.circle.tips.yellow=非同帮会
+gang.circle.tips.red=仇人
+gang.circle.tips.no.gang=请先加入帮会
+
+vehicle.icon.text.canDrive=开车
+vehicle.icon.text.canUnlock=解锁
+vehicle.icon.text.cannotUnlock=缺少解锁道具
+
+bastion.door.text.unlock=解锁门
+
+gang.rank.title.name=最强帮会
+gang.rank.title.area=占领区域
+gang.rank.title.time=占领时长
+gang.rank.title.noGang=暂无帮会
+
+language_end:g2055_lang_20220706

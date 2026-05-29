@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" name="g2055_exchange" imagefile="g2055_exchange.png" version="2" nativeVertRes="317" nativeHorzRes="126">
+      <Image xPos="1" name="img_0_exchange" width="124" height="124" yPos="192"/>
+    <Image xPos="1" name="icon_0_cube" width="100" height="77" yPos="36"/>
+    <Image xPos="1" name="icon_0_money02" width="100" height="77" yPos="114"/>
+    <Image xPos="1" name="btn_0_add" width="34" height="34" yPos="1"/>
+    <Image xPos="36" name="btn_0_reduce" width="34" height="34" yPos="1"/>
+</Imageset>

@@ -1,0 +1,11 @@
+{
+    "actionMap": {
+        "base": "idle",
+        "run": "idle",
+        "idle": "idle",
+        "jump": "idle",
+        "jump2": "idle",
+        "jump3": "idle"
+    },
+    "sync": "all"
+}

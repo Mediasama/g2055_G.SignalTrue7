@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="248" nativeHorzRes="228" version="2" imagefile="g2055_button.png" name="g2055_button" autoScaled="false">
+      <Image yPos="120" xPos="1" height="63" name="btn_0_option3" width="221"/>
+    <Image yPos="1" xPos="1" height="25" name="btn_0_right02" width="16"/>
+    <Image yPos="1" xPos="69" height="54" name="btn_0_close" width="48"/>
+    <Image yPos="184" xPos="1" height="63" name="btn_0_option1" width="221"/>
+    <Image yPos="1" xPos="35" height="25" name="btn_0_left01" width="16"/>
+    <Image yPos="1" xPos="118" height="54" name="btn_0_yes" width="54"/>
+    <Image yPos="1" xPos="18" height="25" name="btn_0_left02" width="16"/>
+    <Image yPos="56" xPos="1" height="63" name="btn_0_option2" width="221"/>
+    <Image yPos="1" xPos="52" height="25" name="btn_0_right01" width="16"/>
+    <Image yPos="1" xPos="173" height="54" name="btn_0_no" width="54"/>
+</Imageset>

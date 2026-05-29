@@ -1,0 +1,51 @@
+goods_id		goods_name	goods_tips	first_type	second_type	icon_path	max_own	stack_num	if_die_drop	if_pic_actor	detail_pic	detail_actor	s_skin_data	detail_actor_anim	detail_actor_scale	detail_actor_rotateY
+唯一ID	名称（方便查看	名称（多语言	说明（多语言）	大类	子类	图标路径	最大拥有量	堆叠数量	死亡是否可掉落	详情展示图片/模型/人物装扮	详情展示图片源	详情展示actor	皮肤数据	actor播放的动作	actor缩放	actorYz轴旋转
+101001	酒瓶	g2055_item_bottle		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_bottle.actor			1	0
+101002	指虎	g2055_item_knuckles		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_knuckles.actor			1	0
+101003	砍刀	g2055_item_machete		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_machete.actor			1	0
+101004	斧头	g2055_item_axe		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_axe.actor			1	0
+101005	棒球棍	g2055_item_baseballbat		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_baseballbat.actor			1	0
+101006	铁锤	g2055_item_hammer		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_hammer.actor			1	0
+101007	板砖	g2055_item_bricks		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_bricks.actor			1	0
+101008	虎爪	g2055_item_tigerpaw		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_tigerpaw.actor			1	0
+101009	剃刀帽	g2055_item_razorhat		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_razorhat.actor			1	0
+101010	西瓜刀	g2055_item_watermelonknife		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_watermelonknife.actor			1	0
+101011	撬棍	g2055_item_crowbar		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_crowbar.actor			1	0
+101012	黄金大锤	g2055_item_constrctionhammer		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_constrctionhammer.actor			1	0
+101013	长铁管	g2055_item_steelpipe		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_steelpipe.actor			1	0
+101014	冰球棍	g2055_item_icehockeystick		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01				1	0
+101015	匕首	g2055_item_dagger		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01				1	0
+101016	三棱刺	g2055_item_triangularspine		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01				1	0
+101017	钢筋	g2055_item_ironrod		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01				1	0
+101018	尼泊尔	g2055_item_nepalesemachete		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01				1	0
+101019	铁链	g2055_item_ironchain		1	1		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01				1	0
+102001	手枪	g2055_item_pistol		1	2		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_pistol.actor			1	0
+102002	黄金AK	g2055_item_goldak		1	2		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_goldak.actor			1	0
+102003	霰弹枪	g2055_item_shotgun		1	2		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01				1	0
+102004	加特林	g2055_item_minigun		1	2		1	1	1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01				1	0
+901001	钱	g2055_item_money		9	1				1	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_item_money.actor			1	0
+80001	门禁解码器	g2055_item_doorDecoder		8	1		1	1	0	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01				1	0
+80002	车辆解码器	g2055_item_vehicleDecoder		8	1		1	1	0	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01				1	0
+1001	主动动作1-你打我呀	player.paidmotion.name1		15	1		1	1	0	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01			g2055_paidmotion_6	0.8	0
+1002	主动动作2-撒钱	player.paidmotion.name2		15	1		1	1	0	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01			g2055_paidmotion_1	0.8	0
+1003	主动动作3-橙色正义	player.paidmotion.name3		15	1		1	1	0	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01			g2055_paidmotion_2	0.8	0
+1004	主动动作4-踢腿	player.paidmotion.name4		15	1		1	1	0	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01			g2055_paidmotion_3	0.8	0
+1005	主动动作5-前后摆手	player.paidmotion.name5		15	1		1	1	0	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01			g2055_paidmotion_4	0.8	0
+1006	主动动作6-哥萨克	player.paidmotion.name6		15	1		1	1	0	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01			g2055_paidmotion_5	0.8	0
+60001	哈雷	g2055_item_harley		2	1				0	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_vehicle_halei.actor			1	-30
+60011	皮卡	g2055_item_pika		2	2				0	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_vehicle_pika.actor			0.5	-30
+60012	轿车	g2055_item_benchi		2	2				0	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_vehicle_benchi.actor			0.5	-30
+60021	保时捷	g2055_item_porsche		2	2				0	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_vehicle_baoshijie.actor			0.5	-30
+60031	兰博基尼	g2055_item_lamborghini		2	2				0	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_vehicle_lanbojini.actor			0.5	-30
+60032	布加迪	g2055_item_bugatti		2	2				0	1	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	g2055_vehicle_bugatti.actor			0.5	-30
+40006	初始装扮-1上半身纹身	g2055_item_dress_1_6		3	3				0	2			clothes_tops=g2055_costume_01_tattoo_01		1	0
+40011	街头装扮-2头	g2055_item_dress_2_1		3	1				0	2			custom_hair=g2055_costume_02		1	0
+40012	街头装扮-2脸	g2055_item_dress_2_2		3	2				0	2			custom_face=g2055_costume_02		1	0
+40013	街头装扮-2衣服	g2055_item_dress_2_3		3	3				0	2			clothes_tops=g2055_costume_02		1	0
+40014	街头装扮-2下装	g2055_item_dress_2_4		3	4				0	2			clothes_pants=g2055_costume_02_tattoo_01		1	0
+40015	街头装扮-2鞋子	g2055_item_dress_2_5		3	5				0	2			custom_shoes=g2055_costume_02		1	0
+40021	劫匪装扮-2头	g2055_item_dress_3_1		3	1				0	2			custom_hair=g2055_costume_03		1	0
+40022	劫匪装扮-2脸	g2055_item_dress_3_2		3	2				0	2			custom_face=g2055_costume_03		1	0
+40023	劫匪装扮-2衣服	g2055_item_dress_3_3		3	3				0	2			clothes_tops=g2055_costume_03		1	0
+40024	劫匪装扮-2下装	g2055_item_dress_3_4		3	4				0	2			clothes_pants=g2055_costume_03		1	0
+40025	劫匪装扮-2鞋子	g2055_item_dress_3_5		3	5				0	2			custom_shoes=g2055_costume_03		1	0

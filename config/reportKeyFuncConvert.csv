@@ -1,0 +1,122 @@
+key	type	ch_name	description
+上报key	数据类型(int、string、bool)	中文名	描述
+player_coins	int	当前身上的金币	
+arms_id	int	当前武器装备id	
+cloth_id_g2055	string	当前服装	
+car_id	int	当前载具id	
+bullet_num	int	当前剩余子弹数/枪械耐久	
+area_id	int	区域类型id	
+coordinate	string	当前坐标	
+server_id	string	对局服务器唯一id，应该是对应后台room_id	
+battle_id	int	每个玩家每次进入任意一场游戏，产生唯一bttale_id	
+player_game_time	int	该玩家的本局游戏时长	
+team_id_g2055	string	当前所在队伍id，可以为空	
+player_out_type	int	退出方式0=点mods 的退出. 1=玩家杀进程 2=长时间无响应 3。。。	
+area_type	int	区域类型1=武器店 2=皮肤店。。。	
+door_type	int	大门类型	
+stay_time	int	停留时间	
+gang_operation_name	int	0=帮会创建，创建时team id不能为空，且首次出现唯一。1=帮会加入2=帮会文字聊天；输入文本聊天，不记录聊天内容。3=帮会语音聊天；触发语音聊天，不记录内容。4=离开帮会5=转让帮主  6=解散帮会  7=更改帮会logo	
+team_stay_time	int	队伍停留时间，只有离开队伍时记录。其他情况为空	
+status	int	0=开始占领 1=被打断（占领者被杀）  2=占领成功 3=玩家掉线/离开	
+territory_id	int	领地id	
+team_player_num	int	领地id	
+team_member_id	string	队员id，逗号分隔。	
+team_territory_id	string	队伍占领的领地id，逗号分隔。	
+team_logo_id	int	队伍旗帜id	
+team_leader_id	int	当前帮主id	
+team_info_type	int	本次变动的触发原因：0=帮会建立 1=成员加入 2=成员退出 3=帮会logo更变 4=领地增加 5=领地减少 6=帮主转让 7=帮主解散帮会 8=所有成员退出导致解散	
+create_user_id	int	创建者id	
+create_time	int	创建时间，时间戳。举例：2022-01-01 12:00	
+game_time	int	触发变化的时间，处于游戏id中第几秒。举例：600(s)	
+total_game_time	int	该局游戏的总时长,单位秒。举例：服务器开启的总时长，1000(s)	
+access_type	int	0=自宅仓库提取1=商店购买2=捡取系统生成的道具6=捡取玩家死亡掉落品3=其他玩家住宅抢夺4=黑店5=解码器抢夺（针对载具）	
+item_type	int	物品类型，1=载具/2=武器/3=服装/4=纹身/5=弹药	
+item_id	int	物品具体id，需要与type联表查询	
+gain_amount	int	获取的物品数量	
+current_num	int	当前数量	
+access_type_drop	int	0=自身消耗（子弹，治疗药）1=存在自宅仓库2=死亡掉落3=系统回收4=被解码器破解（针对载具）5=自宅仓库被抢	
+drop_amount	int	消耗/使用的物品数量	
+currency_id	int	货币类型，从1001开始命名	
+change_type	int	0=增加 1=减少	
+amount	int	数量	
+currency_before	int	更变前数字	
+currency_after	int	更变后数字	
+exchange_source	int	更变原由	
+coins_type	int	金币类型 0=身上 1=仓库	
+currency_type	int	代表货币来源类型：0=系统产出 1=击杀玩家掉落 2=其他（从自家仓库拿等等）	
+target_type	int	0=玩家，1=住宅门，2=载具	
+target_owner_id	int	目标所有者的userid	
+target_car_id	int	如果破坏载具，则记录载具id，可以为空	
+target_door_id	int	如果破坏住宅门，则记录住宅门id，可以为空	
+damage_type	int	致死伤害类型，0=武器攻击 1=载具撞玩家 2=载具相撞	
+damage_means	int	击杀用的道具，武器则是武器id，载具则是载具id	
+all_bullet_list	string	所有武器的剩余弹药	
+bullet_list	string	消耗每种弹药总量，每个弹药id+消耗量	
+hitbox_list	string	对敌人各个部位命中次数的统计	
+arms_hit	string	按武器计算总命中次数	
+arms_damage	string	记录多个武器or载具id和伤害量；有多个就罗列，分号隔开	
+woundedbox_list	string	罗列对不同身体部位造成的伤害量	
+die_type	int	0=玩家，1=住宅门，2=载具	
+die_way	int	死亡所受伤害类型，0=武器攻击 1=载具撞玩家 2=载具相撞	
+die_mean	int	敌人击杀用的道具，武器则是武器id，载具则是载具id	
+kill_player_id	int	击杀玩家的id	
+kill_time	int	从非满血状态到死亡的时间	
+hurt_player_id_list	string	记录对自身造成伤害的玩家列表	
+means_damage	string	记录多个武器or载具id和伤害量；有多个就罗列，分号隔开	
+operation_name	int	 0=存储金币 1=提取金币 2=存储武器 3=升级大门。。。。 存储，提取金币/服装/载具也会触发关联事件, 武器/服装更换也会触发武器变动事件。	
+stored_coins	int	当前仓库金币储量	
+stored_cloth_info_g2055	string	罗列存储的服装id，逗号分隔。	
+stored_arms_info_g2055	string	罗列存储的武器id，逗号分隔。	
+stored_cars_info_g2055	string	罗列存储的载具id，逗号分隔。	
+door_id	int	大门类型，若是升级/更换大门，此处为升级/更换后的数据	
+door_hp	int	当前大门剩余血量；如果血量为0，就是大门被拆除状态。	
+status	int	0=开始解锁  1=被打断（被打死）2=解锁失败  3=解锁成功	
+house_owner	int	住宅主人的id	
+clothing_type	int	服装类型，衣服，帽子，鞋子等	
+clothing_id_after	int	更换后的服装id	
+clothing_id_before	int	更换前的服装id	
+skin_target_id	int	更换目标纹身id	
+skin_id_before	int	更换前的纹身id	
+car_owner_id	int	所属玩家id；和context.account_id对比可知是乘客还是车主。	
+car_hp	int	车辆当前剩余hp	
+drive_length	int	出发点和目的地距离	
+drive_time	int	开车时长	
+target_car_hp	int	目标载具当前剩余hp	
+bump_type	int	撞击目标的类型 0=玩家  1=静态载具（当前速度为0的载具）  2=行动中的载具  3=场景建筑	
+car_speed	int	碰撞时速度（这个可以和程序讨论记录多少时间内的平均速度）	
+bump_time	int	碰撞时的驾驶时长	
+type_g2055	int	1=私聊 2=队伍聊天 3=公共聊天	
+info_type	int	1-文本 2-语音 3-表情	
+friend_id	int	好友对象的userid	
+name	string	界面的名称	
+time	int	停留时间	
+target_team_id	string	当前所在队伍id，可以为空	
+fps	int	每分钟平均帧数	
+minute_jank	int	每分钟卡顿	
+player_active	int	玩家登陆天数	
+target_owner_team_id	string		
+entrance	int	录像-设置界面内进入录像模式按钮	
+filter	int	录像-特效按钮	
+hideUI	int	录像-隐藏UI	
+hideSetting	int	录像-展开隐藏设置	
+pull	int	录像-收起菜单	
+push	int	录像-展开菜单	
+exit	int	录像-退出录像模式	
+stayVideoTime	int	录像-在录像模式中停留的事件（秒）	
+videoSelectId	string	录像-滤镜/天气/特效的序号	
+videoRecordTime	int	录像-开始录制到结束录制经过的时间(秒)	
+passcard_class	int	玩家当前通行证等级	
+passcard_content	int	1=购买vip通行证 2=购买通行证等级 	
+passcard_award_type	int	奖励类型   0=免费，1=付费	
+passcard_award_id	int	每个奖励对应的ID	
+passcard_task_id	int	任务ID	
+passcard_task_Limit	int	达成任务上限	
+passcard_exp	int	玩家当前等级经验值	
+action_id	int	动作ID	
+action_time	int	动作时长	
+double_action_type	int	双人交互的类型，1=羞辱/2=扔人/3=放下玩家	
+atm_hp	int	ATM机余额	
+damage_means	int	攻击所用的道具ID	
+atm_id	int	ATM机对应的ID，能代表这个ATM机在什么地方	
+guide_id	int	指引id	
+online_time	int	游戏时长	

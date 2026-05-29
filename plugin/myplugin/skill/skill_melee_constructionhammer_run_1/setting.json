@@ -1,0 +1,39 @@
+{
+    "type": "MeleeRegionAttack",
+    "action": [
+        "g2055_constructorhammar_attack3"
+    ],
+    "castActionTime": 26,
+    "resetMoveSpeedTime": 1,
+    "preSwingTime": 10,
+    "backSwingTime": 9,
+    "cd": 26,
+    "isClick": true,
+    "priority": -2,
+    "hitPlayerSound":"g2055_blunt_hitPlayer",
+    "hitWallSound": "g2055_blunt_hitNonPlayer",
+    "damage":60,
+    "collider": {
+        "extent": {
+            "x": 5,
+            "y": 2,
+            "z": 7
+        },
+        "type": "Box"
+    },
+    "colliderOffset": {
+        "x": 0,
+        "y": -0.8,
+        "z": -1
+    },
+    "hitEffect": {
+        "effect": "g2055_hit_gray.effect",
+        "time": 500,
+        "scale": [0.8, 0.8, 0.8],
+        "offset": [0, 0, 0]
+    },
+    "hurtDistance":1.5,
+    "hurtTime":3,
+    "moveSpeed": 0.35,
+    "moveAcc": 5
+}

@@ -1,0 +1,103 @@
+{
+    "base": "trolley_base",
+    "actorName": "g2055_vehicle_bugatti.actor",
+    "moveSpeed": 1.2,
+    "bodyTurnSpeed": 30,
+    "jumpSpeed": 0.6,
+    "posSyncDelay": 1,
+    "ridePos": [
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": 0.2,
+                "z": -0.2
+            },
+            "out": {
+                "x": 1.2,
+                "y": 0.05,
+                "z": 0
+            },
+            "ctrl": true,
+            "view": false,
+            "rideAction": {
+                "base": "idle",
+                "run": "run",
+                "idle": "idle",
+                "jump": "run",
+                "jump2": "run",
+                "jump3": "run"
+            },
+            "passengerAction": {
+                "base": "g2055_drive_idle",
+                "run": "g2055_drive_idle",
+                "idle": "g2055_drive_idle",
+                "jump": "g2055_drive_idle",
+                "jump2": "g2055_drive_idle",
+                "jump3": "g2055_drive_idle"
+            },
+            "?attachPoint": "ride1"
+        }
+    ],
+    "attachPoints": [
+        {
+            "name": "ride1",
+            "bone": "s_1",
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "propagateScaling": true,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "ride2",
+            "bone": "s_2",
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "propagateScaling": true,
+            "matchActorOrientation": false
+        }
+    ],
+    "collider": {
+        "extent": {
+            "x": 2.5,
+            "y": 2,
+            "z": 7
+        },
+      "type": "Box"
+    },
+    "triggerCollider": {
+        "extent": {
+            "x": 5,
+            "y": 1,
+            "z": 9
+        },
+        "type": "Box"
+    },
+    "vehicleViewFovAngle": 6.5,
+    "vehicleExplodeScale": 1,
+    "exhaustPos": {
+        "x": 0,
+        "y": 0.5,
+        "z": -3
+    },
+    "statusBuff": {
+        "RUN": "myplugin/sportCar_run_buff",
+        "IDLE": "myplugin/sportCar_idle_buff"
+    }
+}

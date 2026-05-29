@@ -1,0 +1,26 @@
+{
+    "blend": {
+        "blendEnable": true,
+        "srcBlend": "SRC_ALPHA",
+        "dstBlend": "INV_SRC_ALPHA"
+    },
+    "sampler": {
+        "0": {
+            "addrUMode": "CLAMP",
+            "addrVMode": "CLAMP",
+            "mipFilter": "NONE"
+        }
+    },
+    "param": {
+        "texSampler": {
+            "type": "TEXTURE",
+            "value": 0
+        },
+        "matWVP": {
+            "type": "MAT4",
+            "value": "activeCamera"
+        }
+    },
+    "vs": "common.vs",
+    "ps": "common.ps"
+}

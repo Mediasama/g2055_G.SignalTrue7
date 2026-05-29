@@ -1,0 +1,17 @@
+{
+  "actorName": "blank.actor",
+  "base": "base_trigger",
+  "collider": {
+    "type": "Empty"
+  },
+  "skin": {
+    "body": "1"
+  },
+  "operationConfig": {
+    "spawn": [],
+    "destroy": [],
+    "entityEnter": [],
+    "entityLeave": [],
+    "useItem": []
+  }
+}

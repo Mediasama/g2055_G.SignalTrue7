@@ -1,0 +1,19 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/g2055_common_footstep.mp3",
+        "loop": true,
+        "volume": 0.5,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            50
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/player_run_buff"
+    ],
+    "removeBuff": [
+    ],
+    "sync": "other"
+}

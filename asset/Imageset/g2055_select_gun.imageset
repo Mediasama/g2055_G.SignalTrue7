@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" name="g2055_select_gun" imagefile="g2055_select_gun.png" version="2" nativeVertRes="193" nativeHorzRes="870">
+      <Image xPos="1" name="img_0_gun01" width="280" height="161" yPos="1"/>
+    <Image xPos="282" name="img_0_gun02" width="280" height="161" yPos="1"/>
+    <Image xPos="764" name="img_0_gun04" width="105" height="105" yPos="1"/>
+    <Image xPos="563" name="img_0_gun03" width="200" height="191" yPos="1"/>
+</Imageset>

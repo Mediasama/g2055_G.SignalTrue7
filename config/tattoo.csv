@@ -1,0 +1,4 @@
+n_id	s_pos	s_rotation	s_cfg_name	s_clothes_id	n_tattoo_time
+纹身椅	纹身椅坐标	纹身椅旋转	entity路径	纹身服装Id	纹身时间（帧）
+1	-104.24, 30.19, 43.82	0,19,0	myplugin/trigger_tattoo_chair	40006	120
+2	-95.96, 30.19, 47.18	0,19,0	myplugin/trigger_tattoo_chair	40016	120

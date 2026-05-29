@@ -1,0 +1,39 @@
+{
+    "type": "MeleeRegionAttack",
+    "action": [
+        "g2055_chopper_attack2_fast"
+    ],
+    "castActionTime": 11,
+    "resetMoveSpeedTime": 1,
+    "preSwingTime": 3,
+    "backSwingTime": 5,
+    "cd": 11,
+    "isClick": true,
+    "priority": -2,
+    "hitPlayerSound":"g2055_cut_hitPlayer",
+    "hitWallSound": "g2055_cut_hitNonPlayer",
+    "damage":35,
+    "collider": {
+        "extent": {
+            "x": 4,
+            "y": 2,
+            "z": 4.5
+        },
+        "type": "Box"
+    },
+    "colliderOffset": {
+        "x": 0,
+        "y": -0.8,
+        "z": -1
+    },
+    "hitEffect": {
+        "effect": "g2055_hit_gray.effect",
+        "time": 500,
+        "scale": [0.8, 0.8, 0.8],
+        "offset": [0, 0, 0]
+    },
+    "hurtDistance":0.6,
+    "hurtTime":3,
+    "moveSpeed": 0.35,
+    "moveAcc": 5
+}

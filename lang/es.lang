@@ -1,0 +1,322 @@
+
+
+language_start:g2055_lang_20220706
+
+g2055_item_bottle=Botella rota
+g2055_item_knuckles=Boxer de bronce
+g2055_item_machete=Machete
+g2055_item_axe=Hacha
+g2055_item_baseballbat=Bate
+g2055_item_hammer=Martillo
+g2055_item_Bricks=Ladrillo
+g2055_item_tigerpaw=Garra de tigre
+g2055_item_razorhat=Boina
+g2055_item_pistol=Pistola
+g2055_item_goldak=Rifle de oro
+g2055_item_shotgun=Escopeta
+g2055_item_minigun=Ametralladora dorada
+g2055_item_money=Dinero
+g2055_item_doorDecoder=Decodificador de puerta
+g2055_item_vehicleDecoder=Decodificador de coche
+
+g2055_item_ammo=Munición
+
+
+weapon.shop.buy.success =¡Compra exitosa!
+bullet.shop.buy.success =¡Compra exitosa!
+bullet.shop.buy.no.need =No necesitas municiones en este momento.
+bullet.shop.buy.fail =No se puede comprar munición para el arma actual.
+
+tattoo.tips.other.player.tattoo =No hay espacio para el tatuaje.
+tattoo.tips.error.request =Solicitud inválida.
+tattoo.tips.empty.tattoo =Ya tienes todos los tatuajes.
+tattoo.tips.exist.tattoo =Ya tienes este tatuaje.
+tips.no.money =Dinero insuficiente.
+tattoo.tips.interrupt =Se interrumpió el tatuaje.
+tattoo.tips.success =Hazte el tatuaje con éxito
+
+territory.map.tips1 =Jugador
+territory.map.tips2 =Pandillero
+territory.map.tips3 =Tienda de coches
+territory.map.tips4 =Tienda de ropa
+territory.map.tips5 =Tienda de armas
+territory.map.tips6 =Punto de aparición
+territory.map.tips.bottom =¡Gana dinero ocupando territorios!
+territory.tips.occupy.success =¡Se ocupó con éxito!
+territory.tips.occupy.get.award =¡%s recibe una tarifa de protección de %d!
+territory.tips.other.player.occupying =Otros jugadores están ocupando un área.
+territory.tips.error.request =Solicitud inválida.
+territory.tips.same.camp =Tu pandilla no puede tomar la misma área repetidamente.
+territory.tips.need.add.gang =¡Para comenzar, primero únete a una pandilla!
+territory.tips.occupy.interrupt =Se interrumpió la toma.
+territory.tips.occupied.by.gang =¡%s tomó %s!
+territory.ui.tips.occupied =Tomado
+territory.ui.tips.get.award =Cobrar tarifa de protección: %d
+territory.ui.tips.unOccupied =Desocupado
+area.tips.get.award =Tomar
+area.tips.rob.award =Robar
+area.tips.now.award =Tasa de protección cobrada
+area_tips_name1=Casinos
+area_tips_name2=Tienda de armas
+area_tips_name3=Venta de coches
+area_tips_name4=Tienda de ropa
+area_tips_name5=Bares
+area_tips_name6=Mercado negro
+area_tips_name7=Tatuajes
+
+
+gang.member.number =No. de pandilleros: %d/%d
+gang.title.gang.list  =Lista de pandillas
+gang.title.gang.apply =Unirse
+gang.title.gang.apply.list =Lista
+gang.title.gang.create.list =Crear pandilla
+gang.button.exit =Salir
+gang.button.apply.list =Lista de pedidos
+gang.button.clear.apply.list =Limpiar todo
+gang.button.return =Volver
+gang.button.create.gang =Crear pandilla
+gang.position.chairman =Líder
+gang.position.member =Miembro
+gang.tips.access.apply.fail =Ya estás en una pandilla. Tendrás que dejarla para continuar.
+gang.tips.already.apply =Tomado
+gang.tips.sensitive.word =Contiene palabras no válidas.
+gang.tips.name.exist =Este nombre ya existe.
+gang.tips.name.too.long =El nombre de la pandilla debe tener menos de %d caracteres.
+gang.tips.player.has.gang =El jugador ya se ha unido a otra pandilla.
+gang.tips.max.member =La pandilla actual está llena.
+gang.tips.name.null =Ingresa el nombre de la pandilla.
+gang.tips.has.gang =¡Ya tienes pandilla!
+gang.tips.replace.chairman =El líder ha renunciado. ¡Conviértete en el nuevo líder!
+gang.tips.apply.gang.success =¡Se unió con éxito a %s!
+gang.tips.create.gang.success =Has creado una pandilla con éxito.
+gang.tips.empty.gang =Aún no se ha creado ninguna pandilla. ¡Comienza una ya!
+gang.tips.empty.apply.list =Sin solicitudes.
+gang.edit.box.default.tips =Ingresa el nombre de la pandilla.
+
+bastion.doorplate.word =Casa de {.}
+
+bastion.vault.manner.deposit =Depositar
+bastion.vault.manner.fetch =Retirar
+bastion.vault.manner.steal =Robar
+
+bastion.vault.manner.deposit.error.overflow =Límite excedido
+bastion.vault.manner.deposit.error.no.money =Dinero insuficiente.
+
+bastion.closet.no.select.item =Este artículo no existe.
+
+bastion.door.current =Actual
+bastion.door.manner.buy =Comprar
+bastion.door.attack.tip=¡Ataca!
+bastion.door.damaged.tip =¡Entraron a tu casa!
+bastion.door.start.hacked.tip =¡Trataron de entrar a tu casa!
+bastion.door.hacked.tip =¡Entraron a tu casa!
+bastion.door.hacked.succeed =Mengkonsumsi 1 decoder kontrol akses dan berhasil dibuka
+bastion.door.hacked.failed =Menggunakan 1 dekoder kontrol akses dan gagal membuka kunci
+bastion.door.hacked.owner.update =El dueño ha reemplazado la cerradura de la puerta.
+bastion.door.unlocking =Desbloqueando
+bastion.door.hacked.already.hacked =Agrietada
+bastion.door.hacked.already.damaged =Dañada
+
+bastion.closet.no.select.item = Ropa no disponible.
+
+bastion.garage.buy.error.had.unlock =Desbloqueado
+bastion.garage.fetch.error.no.car =No hay ningún coche disponible.
+bastion.garage.deposit.error.no.car =No hay ningún coche disponible.
+bastion.garage.deposit.error.no.garage =No has desbloqueado el garaje.
+bastion.garage.buy.error.no.enough.money =Dinero insuficiente.
+
+bastion.garage.deposit.dialog.title =Guardar vehículo.
+bastion.garage.deposit.dialog.detail =¿Quieres guardar el coche?
+bastion.garage.deposit.dialog.confirm =Sí
+bastion.garage.deposit.dialog.cancel =No
+
+bastion.door.sensor.no.hack.item =Se requiere una contraseña.
+
+bastion.armory.deposit.exceed.maximum =¡Arsenal lleno!
+bastion.armory.deposit.no.select.item =Arma no disponible.
+bastion.armory.fetch.no.select.item =Arma no disponible.
+bastion.armory.steal.no.select.item =Arma no disponible.
+
+bastion.armory.button.text.deposit =Depositar
+bastion.armory.button.text.fetch =Retirar
+bastion.armory.button.text.steal =Robar
+bastion.armory.buy.error.had.unlock =Desbloqueado
+bastion.armory.buy.error.no.enough.money =Dinero insuficiente.
+
+bastion.toolkit.tip.please.select.item =¡Elige una puerta!
+bastion.toolkit.fetch.no.select.item =¡Selecciona una puerta para reemplazar!
+bastion.toolkit.fetch.no.enough.money =Dinero insuficiente.
+bastion.toolkit.fetch.wrong.status =No se puede reemplazar en el estado actual.
+
+vehicle.icon.unlock.success =Consume 1 decodificador de vehículo y desbloquea con éxito
+vehicle.icon.unlock.fail=Consume 1 decodificador de vehículo y no se desbloquea
+vehicle.icon.unlocking=Desbloqueando
+vehicle.icon.noUnlockItem=Se necesita una ganzúa para vehículos.
+vehicle.icon.beUnlock =¡Trataron de entrar a tu casa!
+vehicle.icon.beAttack =¡Atacaron tu auto!
+
+goods_shelf.tip.select.goods =¡Elige una!
+goods_shelf.purchase.succeed=¡Compra exitosa!
+goods_shelf.no.enough.currency=Dinero insuficiente.
+goods_shelf.closet.already.possess=Obtenido
+goods_shelf.closet.buy=Comprar
+goods_shelf.closet.purchase.succeed=¡Compra exitosa!
+goods_shelf.black.market.purchase.succeed=¡Compra exitosa!
+
+
+charter.killed.tips =¡%s te eliminó!
+charter.relive.tips =¡Resucitarás en %s segundo(s)!
+
+
+tips.no.money =Dinero insuficiente.
+
+bullet.shop.buy.success =¡Compra exitosa!
+
+exchange.title =Casa de cambio
+exchange.yes =Confirmar
+exchange.no =Cancelar
+exchange.buy.success =¡Compra exitosa!
+exchange.buy.fail =Error al comprar.
+
+player.motion.title=Gestos
+player.motion.name1=Manos en la cintura
+player.motion.name2=Provocar
+player.motion.name3=Agacharse
+player.motion.name4=Rendirse
+player.motion.name5=Llamada telefónica
+player.motion.name6=Apoyarse en la pared 1
+player.motion.name7=Apoyarse en la pared 2
+player.motion.name8=Burlarse
+player.motion.name9=Pensar
+player.motion.name10=Hacerse el muerto
+player.motion.name11=Gatear
+player.motion.name12=Baile 1
+player.motion.name13=Baile 2
+player.motion.name14=Baile 3
+player.motion.name15=Saludar
+player.motion.name16=Rascarse la cabeza
+player.motion.name17=Llorar
+player.motion.name18=Reír
+player.motion.name19=Enfadarse
+
+weapon.readyToBroken=¡El arma actual está a punto de descomponerse!
+weapon.isBroken=¡El arma actual está descompuesta!
+
+passCard.title =Pase Callejero
+passCard.use.cube.confirm =¿Usar GCubes?
+passCard.yes  =Confirmar
+passCard.no  =Cancelar
+passCard.weaponTips =Las ranuras de armas están llenas, ¿deseas reemplazar un arma?
+passCard.carGetOffTips =Bajarse del auto y viajar a la tienda de autos, ¿deseas continuar?
+passCard.clothTips =Ya tienes este traje, ¿deseas que se reemplace por oro?
+passCard.taskDetails =Info de misión
+passCard.taskRewards =Premios
+passCard.taskDailyLimit =Límite diario
+passCard.task01 =Elimina a {.} jugador(es)
+passCard.task02 =Destruye las puerta de {.} jugador(es)
+passCard.task03 =Destruye {.} cajero(s) automático(s)
+passCard.task04 =Obtén {.} de dinero (excluyendo premios del Pase Callejero)
+passCard.task05 =Haz una compra
+passCard.task06 =Usa {.} GCube(s)
+passCard.unlock =Comprar
+passCard.not.open =El evento no ha comenzado.
+passCard.buy.success =¡Compra exitosa!
+passCard.buy.fail =Error de compra.
+passCard.cant.open.ui =No se puede abrir la interfaz en el estado actual.
+passCard.carTips =¿Deseas viajar a la tienda de autos?
+weapon.carry.cant.use=¡El proceso de transporte de personas no puede ser atacado!
+weapon.no.bullet=¡No más balas!
+
+passCard.buyLevel =Próximamente pagará {.} Golden Cube para desbloquear el siguiente nivel, ¿está seguro?
+passCard.buyPassport =Próximamente para pagar {.} Golden Cube para desbloquear el Pase Premium, ¿estás seguro?
+
+name.guide.101 =derrotar a los invasores
+name.guide.102 =Recoger dinero caído
+name.guide.103 =Desbloquea el estante de armas
+name.guide.104 =sacar el arma
+name.guide.105 =ahorrar dinero
+name.guide.106 =¡Salir! ¡Disfruta el juego!
+name.guide.1 =1. El arma en el cuerpo caerá cuando muera\n 2. El soporte para armas puede proteger tu arma
+name.guide.2 =1. El bastidor de armas puede acceder libremente a las armas\n2, puedes arrebatar las armas de otros jugadores\n3, proteger tus propias armas
+name.guide.3 =1. La bóveda puede almacenar dinero\n2. Puedes robar las bóvedas de otros jugadores\n3. Protege tu propia bóveda
+name.guide.doortips =Para su seguridad, complete la tarea de principiante antes de salir.
+
+name.house.1 =Desbloquea el estante de armas
+name.house.2 =desbloquear garaje
+name.house.3 =puerta de actualización
+name.house.4 =ahorrar dinero
+name.house.5 =retirar dinero
+name.house.6 =bastidor de armas
+name.house.7 =Armario
+name.house.8 =garaje
+name.shop.1 =comprar ropa
+name.shop.2 =comprar ropa
+name.shop.3 =comprar ropa
+name.shop.4 =comprar ropa
+name.shop.5 =comprar ropa
+name.shop.6 =comprar un vehiculo
+name.shop.7 =comprar un vehiculo
+name.shop.8 =comprar un vehiculo
+name.shop.9 =comprar un vehiculo
+name.shop.10 =comprar un vehiculo
+name.shop.11 =comprar un vehiculo
+name.shop.12 =comprar armas
+name.shop.13 =comprar armas
+name.shop.14 =comprar armas
+name.shop.15 =comprar armas
+name.shop.16 =comprar armas
+name.shop.17 =comprar armas
+name.shop.18 =comprar balas
+name.shop.19 =comprar balas
+name.shop.20 =comprar balas
+name.shop.21 =comprar balas
+name.shop.22 =compras en el mercado negro
+name.shop.Tattoo=Hazte un tatuaje
+
+g2055_item_dress_1_6=Chaleco de brazo de flores (arriba)
+g2055_item_dress_2_1=Calle de moda (pelo)
+g2055_item_dress_2_2=Calle de moda (expresión)
+g2055_item_dress_2_3=Calle de moda (arriba)
+g2055_item_dress_2_4=Calle de moda (fondos)
+g2055_item_dress_2_5=Calle de moda (zapatos)
+g2055_item_dress_3_1=Estilo bandido (pelo)
+g2055_item_dress_3_2=Estilo bandido (expresión)
+g2055_item_dress_3_3=Estilo bandido (arriba)
+g2055_item_dress_3_4=Estilo bandido (fondos)
+g2055_item_dress_3_5=Estilo bandido (zapatos)
+player.paidmotion.name1=me pegaste
+player.paidmotion.name2=tirar dinero
+player.paidmotion.name3=justicia naranja
+player.paidmotion.name4=patada
+player.paidmotion.name5=agitar de un lado a otro
+player.paidmotion.name6=cosaco
+g2055_item_harley=motocicleta
+g2055_item_pika=levantar
+g2055_item_benchi=coche
+g2055_item_porsche=coche deportivo de primera
+g2055_item_lamborghini=superdeportivo
+g2055_item_bugatti=fantasma azul
+
+pass_card_close_tips=Haga clic en un espacio vacío para cerrar la ventana
+
+gang.guide.tips=1. Encuentra una pandilla a la que unirte\n2. Puedes luchar codo a codo con los pandilleros\n3. Ocupa el territorio para obtener dinero rápidamente
+gang.auto.apply.all=Aplicación de un clic
+gang.auto.join =pasar automáticamente
+
+gang.circle.tips.green=misma pandilla
+gang.circle.tips.yellow=no pandillero
+gang.circle.tips.red=enemigo
+gang.circle.tips.no.gang=Por favor únete a la pandilla primero
+
+vehicle.icon.text.canDrive=conducir
+vehicle.icon.text.canUnlock=desbloquear
+vehicle.icon.text.cannotUnlock=Elementos de desbloqueo faltantes
+
+bastion.door.text.unlock=desbloquear puerta
+
+gang.rank.title.name=pandilla más fuerte
+gang.rank.title.area=área ocupada
+gang.rank.title.time=tiempo de ocupación
+gang.rank.title.noGang=sin pandillas
+
+language_end:g2055_lang_20220706

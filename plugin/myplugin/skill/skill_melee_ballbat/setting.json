@@ -1,0 +1,40 @@
+{
+    "type": "MeleeRegionAttack",
+    "action": [
+        "g2055_ballbat_attack2_fast"
+    ],    
+    "resetMoveSpeedTime": 1,
+    "castActionTime": 16,
+    "preSwingTime": 5,
+    "backSwingTime": 6,
+    "cd": 16,
+    "isClick": true,
+    "priority": -2,
+    "hitPlayerSound":"g2055_blunt_hitPlayer",
+    "hitWallSound": "g2055_blunt_hitNonPlayer",
+    "damage":30,
+    "collider": {
+        "extent": {
+            "x": 3,
+            "y": 2,
+            "z": 5
+        },
+        "type": "Box"
+    },
+    "colliderOffset": {
+        "x": -0.3,
+        "y": -0.8,
+        "z": -1
+    },
+
+    "hitEffect": {
+        "effect": "g2055_hit_gray.effect",
+        "time": 500,
+        "scale": [0.8, 0.8, 0.8],
+        "offset": [0, 0, 0]
+    },
+    "hurtDistance":3,
+    "hurtTime":3,
+    "moveSpeed": 0.35,
+    "moveAcc": 5
+}

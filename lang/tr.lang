@@ -1,0 +1,322 @@
+
+
+language_start:g2055_lang_20220706
+
+g2055_item_bottle=kırık şarap şişesi
+g2055_item_knuckles=eklemler
+g2055_item_machete=pala
+g2055_item_axe=balta
+g2055_item_baseballbat=beysbol sopası
+g2055_item_hammer=çekiç
+g2055_item_Bricks=Tuğla
+g2055_item_tigerpaw=kaplan pençesi
+g2055_item_razorhat=jilet şapka
+g2055_item_pistol=tabanca
+g2055_item_goldak=altın tüfek
+g2055_item_shotgun=pompalı tüfek
+g2055_item_minigun=altın makineli tüfek
+g2055_item_money=peşin
+g2055_item_doorDecoder=Erişim Kontrolü Şifre Çözücü
+g2055_item_vehicleDecoder=araç kod çözücü
+
+g2055_item_ammo=mühimmat
+
+
+weapon.shop.buy.success =başarılı satın alma
+bullet.shop.buy.success =Yeniden doldurma mermileri başarıyla satın alındı
+bullet.shop.buy.no.need =Şu anda cephane satın almaya gerek yok
+bullet.shop.buy.fail =Mevcut silah için cephane satın alınamaz
+
+tattoo.tips.other.player.tattoo =Dövme alanı yok
+tattoo.tips.error.request =yasa dışı istek
+tattoo.tips.empty.tattoo =tüm dövmeler var
+tattoo.tips.exist.tattoo =zaten bu dövmeye sahipsin
+tips.no.money =altın kıtlığı
+tattoo.tips.interrupt =dövme kesintiye uğradı
+tattoo.tips.success =dövme yaptırmak
+
+territory.map.tips1 =oyuncu
+territory.map.tips2 =çete üyesi
+territory.map.tips3 =nötr alan
+territory.map.tips4 =kendi alanı
+territory.map.tips5 =düşman bölgesi
+territory.map.tips6 =doğum noktası
+territory.map.tips.bottom =Bölgeleri işgal ederek para kazanın
+territory.tips.occupy.success =%s başarıyla yakalandı
+territory.tips.occupy.get.award =%s, %d koruma ücreti alıyor!
+territory.tips.other.player.occupying =Diğer oyuncular işgal ediyor
+territory.tips.error.request =yasa dışı istek
+territory.tips.same.camp =Aynı çete, işgali tekrar edemez
+territory.tips.need.add.gang =Bölgeyi işgal edin, lütfen önce çeteye katılın
+territory.tips.occupy.interrupt =İş kesintiye uğradı
+territory.tips.occupied.by.gang =%s adresiniz %s tarafından işgal edildi
+territory.ui.tips.occupied =meşgul
+territory.ui.tips.get.award =Şarj koruma ücreti%d
+territory.ui.tips.unOccupied =işgal edilmemiş
+area.tips.get.award =almaya git
+area.tips.rob.award =kapmak için git
+area.tips.now.award =Alınan koruma ücreti
+area_tips_name1=Kare alan
+area_tips_name2=silah dükkanı alanı
+area_tips_name3=Depo alanı
+area_tips_name4=Giyim mağazası alanı
+area_tips_name5=bar alanı
+area_tips_name6=kara borsa alanı
+area_tips_name7=dövme alanı
+
+
+gang.member.number =Çete üyelerinin sayısı: %d/%d
+gang.title.gang.list  =çete listesi
+gang.title.gang.apply =Üyelik Başvuruları
+gang.title.gang.apply.list =Uygulama listesi
+gang.title.gang.create.list =çete oluştur
+gang.button.exit =çeteyi bırak
+gang.button.apply.list =Uygulama listesi
+gang.button.clear.apply.list =Listeyi tek tıklamayla temizleyin
+gang.button.return =dönüş
+gang.button.create.gang =çete oluştur
+gang.position.chairman =Başkan
+gang.position.member =üye
+gang.tips.access.apply.fail =Başka loncalara katıldınız, lütfen önce loncadan ayrılın!
+gang.tips.already.apply =Zaten uygulandı
+gang.tips.sensitive.word =hassas kelimeler
+gang.tips.name.exist =Çete adı zaten var
+gang.tips.name.too.long =Çete adı %d karakterden az olmalıdır
+gang.tips.player.has.gang =Oyuncu başka bir çeteye katıldı
+gang.tips.max.member =Mevcut çete dolu
+gang.tips.name.null =Lütfen çete adını girin
+gang.tips.has.gang =zaten çetede
+gang.tips.replace.chairman =Başkan istifa eder ve başkan olur
+gang.tips.apply.gang.success =%s başarıyla katıldı
+gang.tips.create.gang.success =Çete başarıyla oluşturuldu
+gang.tips.empty.gang =Kimse bir lonca kurmadı, git bir tane oluştur
+gang.tips.empty.apply.list =Çeteye katılmak için başvuran oyuncu bulunmamaktadır.
+gang.edit.box.default.tips =çete adını girin
+
+bastion.doorplate.word ={.}birinin evi
+
+bastion.vault.manner.deposit =Depozito
+bastion.vault.manner.fetch =Çıkarmak
+bastion.vault.manner.steal =hırsızlık yapmak
+
+bastion.vault.manner.deposit.error.overflow =Limit aşıldı
+bastion.vault.manner.deposit.error.no.money =fon eksikliği
+
+bastion.closet.no.select.item =kıyafet yok
+
+bastion.door.current =akım
+bastion.door.manner.buy =Satın almak
+bastion.door.attack.tip=evinize saldırdı
+bastion.door.damaged.tip =evinize girdi
+bastion.door.start.hacked.tip =evine girmeye çalış
+bastion.door.hacked.tip =evinize girdi
+bastion.door.hacked.succeed =Consomme 1 décodeur de contrôle d'accès et se déverrouille avec succès
+bastion.door.hacked.failed =Consomme 1 décodeur de contrôle d'accès et ne se déverrouille pas
+bastion.door.hacked.owner.update =Sahibi kapı kilidini değiştirdi
+bastion.door.unlocking =kilit açma
+bastion.door.hacked.already.hacked =çatlamış
+bastion.door.hacked.already.damaged =hasarlı
+
+bastion.closet.no.select.item = kıyafet yok
+
+bastion.garage.buy.error.had.unlock =kilidi açıldı
+bastion.garage.fetch.error.no.car =araç yok
+bastion.garage.deposit.error.no.car =araç yok
+bastion.garage.deposit.error.no.garage =Garaj kilidi açılmadı
+bastion.garage.buy.error.no.enough.money =fon eksikliği
+
+bastion.garage.deposit.dialog.title =aracı saklamak
+bastion.garage.deposit.dialog.detail =Aracın yatırılıp yatırılmayacağı
+bastion.garage.deposit.dialog.confirm =Evet
+bastion.garage.deposit.dialog.cancel =hayır
+
+bastion.door.sensor.no.hack.item =Ana anahtar gerekli
+
+bastion.armory.deposit.exceed.maximum =cephanelik dolu
+bastion.armory.deposit.no.select.item =öyle bir silah yok
+bastion.armory.fetch.no.select.item =öyle bir silah yok
+bastion.armory.steal.no.select.item =öyle bir silah yok
+
+bastion.armory.button.text.deposit =Depozito
+bastion.armory.button.text.fetch =Çıkarmak
+bastion.armory.button.text.steal =hırsızlık yapmak
+bastion.armory.buy.error.had.unlock =kilidi açıldı
+bastion.armory.buy.error.no.enough.money =fon eksikliği
+
+bastion.toolkit.tip.please.select.item =Lütfen bir kapı seçin
+bastion.toolkit.fetch.no.select.item =Lütfen değiştirilecek kapıyı seçin
+bastion.toolkit.fetch.no.enough.money =fon eksikliği
+bastion.toolkit.fetch.wrong.status =Mevcut durum değiştirilemez
+
+vehicle.icon.unlock.success =1 araç kod çözücüyü tüketin ve başarıyla kilidini açın
+vehicle.icon.unlock.fail=1 araç kod çözücü tüketir ve kilidi açamaz
+vehicle.icon.unlocking=kilit açma
+vehicle.icon.noUnlockItem=Araç kod çözücü gerektirir
+vehicle.icon.beUnlock =aracınızın kilidini açmayı deneyin
+vehicle.icon.beAttack =aracınıza saldırdı
+
+goods_shelf.tip.select.goods =Lütfen bir öğe seçin
+goods_shelf.purchase.succeed=başarılı satın alma
+goods_shelf.no.enough.currency=fon eksikliği
+goods_shelf.closet.already.possess=sahip olunan
+goods_shelf.closet.buy=Satın almak
+goods_shelf.closet.purchase.succeed=başarılı satın alma
+goods_shelf.black.market.purchase.succeed=başarılı satın alma
+
+
+charter.killed.tips =%s seni öldürdü
+charter.relive.tips =%s s sonra dirildi
+
+
+tips.no.money =fon eksikliği
+
+bullet.shop.buy.success =başarılı satın alma
+
+exchange.title =Para değişimi
+exchange.yes =Elbette
+exchange.no =İptal etmek
+exchange.buy.success =başarılı para değişimi
+exchange.buy.fail =Para değişimi başarısız oldu
+
+player.motion.title=iletişim eylemi
+player.motion.name1=akimbo
+player.motion.name2=kışkırtıcı
+player.motion.name3=çömelme
+player.motion.name4=teslim
+player.motion.name5=Çağırmak
+player.motion.name6=duvara karşı 1
+player.motion.name7=duvara karşı 2
+player.motion.name8=alay
+player.motion.name9=düşünmek
+player.motion.name10=ölüyü oyna
+player.motion.name11=emekleme
+player.motion.name12=dans adım 1
+player.motion.name13=dans adım 2
+player.motion.name14=dans adım 3
+player.motion.name15=selamlamak
+player.motion.name16=kafasını kaşımak
+player.motion.name17=Ağla
+player.motion.name18=yüksek sesle gülüyor
+player.motion.name19=sinirli
+
+weapon.readyToBroken=Mevcut silah kırılmak üzere! ! !
+weapon.isBroken=Mevcut silah bozuldu! ! !
+
+passCard.title =blok geçişi
+passCard.use.cube.confirm =Altın küp tüketimini onaylayın
+passCard.yes  =Elbette
+passCard.no  =İptal etmek
+passCard.weaponTips =Silah yuvası dolu, silah değişimi olacağından emin misiniz?
+passCard.carGetOffTips =Arabadan inip araba dükkanına geçmek üzere, emin misin?
+passCard.clothTips =Bu kostüm zaten var ve aynı miktarda oyun parasıyla değiştirilecek.Emin misin?
+passCard.taskDetails =görev detayları
+passCard.taskRewards =ödül
+passCard.taskDailyLimit =günlük sınır
+passCard.task01 ={.} oyuncu öldür
+passCard.task02 ={.} oyuncunun kapısını yok etti
+passCard.task03 ={.} ATM'leri sabote etme
+passCard.task04 ={.} para kazanın (Pass Ödüllerine dahil değildir)
+passCard.task05 =para harcamak
+passCard.task06 ={.}Altın küp harcayın
+passCard.unlock =Kilidini aç
+passCard.not.open =Etkinlik başlamadı
+passCard.buy.success =başarılı satın alma
+passCard.buy.fail =Başarısız satın alma
+passCard.cant.open.ui =Mevcut durum arayüzü açamıyor
+passCard.carTips =Yakında araba dükkanına gönderilecek, emin misin?
+weapon.carry.cant.use=İnsanları taşıma sürecine saldırılamaz!
+weapon.no.bullet=Artık mermi yok!
+
+passCard.buyLevel =Bir sonraki seviyenin kilidini açmak için {.} Altın Küp ödemek için yakında geliyor, emin misin?
+passCard.buyPassport =Premium Pass'in kilidini açmak için {.} Altın Küp ödemeye çok yakında geliyor, emin misiniz?
+
+name.guide.101 =işgalcileri yenmek
+name.guide.102 =Düşen parayı al
+name.guide.103 =Silah rafının kilidini aç
+name.guide.104 =silahı çıkar
+name.guide.105 =para biriktir
+name.guide.106 =Çıkmak! Oyunun tadını Çıkar!
+name.guide.1 =1. Vücuttaki silah öldüğünde düşecek\n2. Silah rafı silahınızı koruyabilir
+name.guide.2 =1. Silah rafı silahlara serbestçe erişebilir\n2, diğer oyuncuların silahlarını kapabilir\n3, kendi silahlarınızı koruyabilirsiniz
+name.guide.3 =1. Kasa para depolayabilir\n2. Diğer oyuncuların kasalarını çalabilirsiniz\n3. Kendi kasanızı koruyun
+name.guide.doortips =Güvenliğiniz için lütfen dışarı çıkmadan önce acemi görevini tamamlayın.
+
+name.house.1 =Silah rafının kilidini aç
+name.house.2 =garajın kilidini aç
+name.house.3 =yükseltme kapısı
+name.house.4 =para biriktir
+name.house.5 =para çekmek
+name.house.6 =silah rafı
+name.house.7 =Giysi dolabı
+name.house.8 =garaj
+name.shop.1 =kıyafet satın al
+name.shop.2 =kıyafet satın al
+name.shop.3 =kıyafet satın al
+name.shop.4 =kıyafet satın al
+name.shop.5 =kıyafet satın al
+name.shop.6 =araç satın al
+name.shop.7 =araç satın al
+name.shop.8 =araç satın al
+name.shop.9 =araç satın al
+name.shop.10 =araç satın al
+name.shop.11 =araç satın al
+name.shop.12 =silah satın al
+name.shop.13 =silah satın al
+name.shop.14 =silah satın al
+name.shop.15 =silah satın al
+name.shop.16 =silah satın al
+name.shop.17 =silah satın al
+name.shop.18 =mermi satın al
+name.shop.19 =mermi satın al
+name.shop.20 =mermi satın al
+name.shop.21 =mermi satın al
+name.shop.22 =karaborsa alışverişi
+name.shop.Tattoo=dövme yaptırmak
+
+g2055_item_dress_1_6=Çiçekli Kol Yelek (Üst)
+g2055_item_dress_2_1=Trendy Sokak (Saç)
+g2055_item_dress_2_2=Trendy sokak (ifade)
+g2055_item_dress_2_3=Son moda cadde (üstte)
+g2055_item_dress_2_4=Son moda cadde (altta)
+g2055_item_dress_2_5=Trendy sokak (ayakkabı)
+g2055_item_dress_3_1=Haydut stili (saç)
+g2055_item_dress_3_2=Haydut stili (ifade)
+g2055_item_dress_3_3=Haydut stili (üstte)
+g2055_item_dress_3_4=Haydut stili (altlar)
+g2055_item_dress_3_5=Haydut stili (ayakkabılar)
+player.paidmotion.name1=sen bana vurdun
+player.paidmotion.name2=para atmak
+player.paidmotion.name3=turuncu adalet
+player.paidmotion.name4=tekme atmak
+player.paidmotion.name5=ileri geri sallamak
+player.paidmotion.name6=Kazak
+g2055_item_harley=motosiklet
+g2055_item_pika=almak
+g2055_item_benchi=araba
+g2055_item_porsche=birinci sınıf spor araba
+g2055_item_lamborghini=süper araba
+g2055_item_bugatti=mavi hayalet
+
+pass_card_close_tips=Pencereyi kapatmak için boş bir alana tıklayın
+
+gang.guide.tips=1. Katılmak için bir çete bulun\n2. Çete üyeleriyle yan yana savaşabilirsiniz\n3. Bölgeyi işgal ederek hızla para kazanın
+gang.auto.apply.all=Tek tıkla uygulama
+gang.auto.join =otomatik olarak geçmek
+
+gang.circle.tips.green=aynı çete
+gang.circle.tips.yellow=çete dışı
+gang.circle.tips.red=düşman
+gang.circle.tips.no.gang=Lütfen önce çeteye katıl
+
+vehicle.icon.text.canDrive=sürmek
+vehicle.icon.text.canUnlock=Kilidini aç
+vehicle.icon.text.cannotUnlock=Eksik kilit açma öğeleri
+
+bastion.door.text.unlock=kapıyı aç
+
+gang.rank.title.name=en güçlü çete
+gang.rank.title.area=işgal edilen alan
+gang.rank.title.time=Meslek zamanı
+gang.rank.title.noGang=çete yok
+
+language_end:g2055_lang_20220706

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="518" nativeHorzRes="734" version="2" imagefile="g2055_illustrate.png" name="g2055_illustrate" autoScaled="false">
+      <Image yPos="1" xPos="1" height="192" name="img_0_illustrate01" width="732"/>
+    <Image yPos="194" xPos="1" height="323" name="img_0_illustrate02" width="510"/>
+</Imageset>

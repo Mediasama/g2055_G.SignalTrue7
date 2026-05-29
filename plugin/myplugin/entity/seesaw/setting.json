@@ -1,0 +1,182 @@
+{
+  "_clientScript": [],
+  "_serverScript": [],
+  "actorGirlName": "asset/Actor/charactor/charactor_girl/character_girl.actor",
+  "actorName": "g2052_seesaw.actor",
+  "attachPoints": [
+    {
+      "alignWorldYAxis": false,
+      "bone": "s_zuo",
+      "matchActorOrientation": false,
+      "name": "seat1",
+      "position": {
+        "x": 0,
+        "y": -0.5,
+        "z": 0
+      },
+      "propagateScaling": false,
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "scale": 1
+    },
+    {
+      "alignWorldYAxis": false,
+      "bone": "s_you",
+      "matchActorOrientation": false,
+      "name": "seat2",
+      "position": {
+        "x": 0,
+        "y": -0.5,
+        "z": 0
+      },
+      "propagateScaling": false,
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "scale": 1
+    }
+  ],
+  "attackNpc": false,
+  "autoAttack": false,
+  "autoMove": false,
+  "autoRotateColliderBox": true,
+  "avoidCliff": true,
+  "avoidCliffHight": 5,
+  "brightnessScale": 1.3,
+  "canClick": true,
+  "canHurtMove": true,
+  "canJump": true,
+  "canMove": true,
+  "canPickOnDie": false,
+  "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 10,
+  "chaseInterval": 10,
+  "clickDistance": 4,
+  "clickProps": [
+    {
+      "func": "clickPublicSeesaw"
+    }
+  ],
+  "collider": {
+    "extent": {
+      "x": 4,
+      "y": 1,
+      "z": 1
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "collision": true,
+  "damage": 0,
+  "deathHideTime": 20,
+  "destroyTime": 0,
+  "disableShadow": true,
+  "disableShadowAtFirstPRV": true,
+  "dropDamageRatio": 5,
+  "dropDamageStart": 1.5,
+  "enableAI": false,
+  "equipTrays": [],
+  "eyeHeight": 1.62,
+  "followEntityDistanceWhenHasTarget": 10,
+  "followEntityDistanceWhenNotTarget": 5,
+  "gravity": 0.08,
+  "headPic": "",
+  "hideHolder": false,
+  "hideHp": 1,
+  "hideName": true,
+  "homeSize": 10,
+  "hpBarColor": 4294967551.0,
+  "hpBarHeight": 0.2,
+  "hpBarWidth": 1,
+  "hurtResistantTime": 0,
+  "idleProb": 0,
+  "idleTime": [
+    10,
+    30
+  ],
+  "isAIGoHomePos": true,
+  "jumpHeight": 0.6,
+  "jumpSpeed": 0.5,
+  "maxHp": 20,
+  "maxVisualAngle": 360,
+  "meetCliffBackRun": true,
+  "moveAcc": 0.2,
+  "moveFactor": 1,
+  "moveSpeed": 0.2,
+  "name": "dc7e313a-5d02-4442-b145-c73920789f37",
+  "needCheckTouch": true,
+  "patrolDistance": 5,
+  "randomPlayDeadActions": [
+    ""
+  ],
+  "reachDistance": 6.5,
+  "ridePos": [
+    {
+      "attachPoint": "seat1",
+      "ctrl": false,
+      "out": {
+        "x": -1.5,
+        "y": 0,
+        "z": 0
+      },
+      "passengerAction": {
+        "base": "g2052_ride_seesaw"
+      },
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rideAction": {
+        "idle": "run"
+      },
+      "view": false,
+      "yaw": 0
+    },
+    {
+      "attachPoint": "seat2",
+      "ctrl": false,
+      "out": {
+        "x": 1.5,
+        "y": 0,
+        "z": 0
+      },
+      "passengerAction": {
+        "base": "g2052_ride_seesaw"
+      },
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rideAction": {
+        "idle": "run"
+      },
+      "view": false,
+      "yaw": 0
+    }
+  ],
+  "setFollowWhenCreate": true,
+  "skills": [],
+  "stepHeight": 0.6,
+  "textHeight": 2.3,
+  "touchdownTimeToDie": true,
+  "touchdownTimeToDieTick": 5,
+  "unassailable": 0,
+  "undamageable": 0,
+  "updateActorFun": "updateSeesawAction"
+}

@@ -1,0 +1,29 @@
+{
+    "base": "atm_base",
+    "ATMType": 2,
+    "actorName": "g2055_boy.actor",
+    "posSyncDelay": 1,
+    "collider": {
+    "extent": {
+      "x": 1,
+      "y": 2,
+      "z": 1
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "action":{
+    "idle":"idle",
+    "dead":"g2055_dead_1",
+    "hurt":"g2055_steal_action"
+  }
+}

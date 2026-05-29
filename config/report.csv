@@ -1,0 +1,45 @@
+event	event_ch_name	event_description	key1	key2	key3	key4	key5	key6	key7	key8	key9	key10	key11	key12	key13	key14	key15	key16	key17	key18	key19	key20	key21	key22	key23	key24	key25	key26	key27	key28	key29	key30	key31
+上报时机	中文名	描述	属性1	属性2	属性3	属性4	属性5	属性6	属性7	属性8	属性9	属性10	属性11	属性12	属性13	属性14	属性15	属性16	属性17	属性18	属性19	属性20	属性21	属性22	属性23	属性24	属性25	属性26	属性27	属性28	属性29	属性30	属性31
+player_in	游戏_进入	玩家进入游戏时	player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active																			
+player_out	游戏_退出	玩家退出游戏时	player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	player_out_type																		
+enter_area	玩家进入任意互动区域		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	area_type	house_owner	door_type	door_hp															
+area_leave	离开任意区域		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	area_type	stay_time																	
+player_team_operation	玩家在队伍功能上的使用		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	operation_name		team_stay_time																
+territory_occupied	领地占有过程及结果记录		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	status	territory_id																	
+team_info	以team_id为视角，当以下情况发生时记录1、帮会创建2、信息变化：成员人数3、领地变化：记录领地id4、帮主转让5、帮会解散		team_id_g2055	team_player_num	team_member_id	team_territory_id	team_logo_id	team_leader_id	team_info_type	server_id	create_user_id	create_time	game_time	total_game_time																			
+item_gain	记录玩家获取各种道具的方式		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	access_type	item_type	item_id	gain_amount	current_num														
+item_drop	记录玩家道具使用，消耗，遗落，失去。		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	access_type_drop	item_type	item_id	drop_amount	current_num														
+app_sc_exchange	金币变化时记录		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	currency_id	change_type	amount	currency_before	currency_after	exchange_source	coins_type	currency_type											
+player_kill	玩家产生击杀/毁坏时记录		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	target_type	target_owner_id	target_team_id	target_car_id	target_door_id	damage_type	all_bullet_list	bullet_list	hitbox_list	arms_hit	arms_damage	woundedbox_list							
+player_die	玩家死亡或重要物件被破坏的时候记录		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	die_type	die_way	die_mean	kill_player_id	kill_time	hurt_player_id_list	means_damage												
+player_house_set	玩家在自宅中的操作内容		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	operation_name	stored_coins	stored_cloth_info_g2055	stored_arms_info_g2055	stored_cars_info_g2055	door_id	door_hp												
+house_door_unlock	玩家尝试解锁大门到解锁成功之间的动作		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	status	house_owner	door_hp	door_id															
+clothing_set	玩家更换服装		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	clothing_type	clothing_id_after	clothing_id_before																
+skin_set	玩家更换纹身		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	skin_target_id	skin_id_before																	
+cars_drive	载具启动时记录		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	car_owner_id	car_hp																	
+cars_arrive	载具下车时记录		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	car_owner_id	drive_length	drive_time	car_hp															
+car_unlock	玩家解码载具从开始到结束之间的记录		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	status	target_car_id	target_owner_id	target_owner_team_id	target_car_hp														
+drive_bump	载具碰撞时，由开车玩家的id记录(car_speed乘以1000)		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	bump_type	car_hp	car_speed	bump_time	target_car_id	target_owner_id	target_owner_team_id	target_car_hp											
+cheat_info	聊天时记录(emj_type去掉了，info_type=3表示发送表情)		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	type_g2055	info_type																	
+add_friend	添加好友信息		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	status	friend_id																	
+uiOpen	界面打开时		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	name																		
+uiClose	关闭任意界面时		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	time	name																	
+engine_fps	帧数_上报	帧数上报	fps	minute_jank																													
+video_press	录像_按钮点击	每次按下录像模式相关按钮时	entrance	filter	hideUI	pull	push	exit	hideSetting																								
+video_time	录像_时长	点击退出录像模式按钮时	stayVideoTime																														
+video_select	录像_特效选择	点击选择滤镜/天气/特效时	videoSelectId																														
+video_start	录像_录制按钮点击事件	每次按下录制视频按钮时上报1次																															
+video_end	录像_结束录制事件	结束录制时上报																															
+error_not_available	录像_手机不支持录屏	每次进入录像模式时上报																															
+error_storage	录像_内存空间不足	中断录制时上报																															
+error_time	录像_录屏时间到达上限	中断录制时上报																															
+video_start_time	录像_录制时长	结束录制时上报，包括非正常结束	videoRecordTime																														
+passcard_buy	购买通行证		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	passcard_class	passcard_content																	
+passcard_award_get	领取奖励		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	passcard_award_type	passcard_award_id																	
+passcard_task_finish	完成任务		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	passcard_task_id	passcard_task_Limit	passcard_exp																
+use_action	玩家使用动作时		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	action_id	action_time																	
+use_double_action	玩家使用双人交互动作时		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	double_action_type	action_time																	
+atm_set	ATM机交互时		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	atm_hp	damage_means	atm_id																
+guide_complete	新手埋点	新手埋点	player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	guide_id																		
+Login	引擎_游戏进入		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active																			
+Logout	引擎_游戏退出		player_coins	arms_id	cloth_id_g2055	car_id	bullet_num	area_id	coordinate	server_id	battle_id	player_game_time	team_id_g2055	player_active	online_time																		

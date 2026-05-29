@@ -1,0 +1,35 @@
+{
+    "driverJumpShiled": true,
+    "isTrolley": true,
+    "canClick": true,
+    "canMove": true,
+    "collision": true,
+    "collisionGroup": 64,
+    "instanceTouchTestOnServer": true,
+    "autoDebusFromRide": true,
+    "attachBuff": "myplugin/trolley_buff",
+    "bodyTurnMax": 361,
+    "bodyTurnMin": 361,
+    "rotateCheckCollide": true,
+    "autoRotateColliderBox": true,
+    "needCheckTouch": true,
+    "name": "",
+    "rideOnCombineCollision": true,
+    "disableShadow": true,
+    "moveSpeed": 0.5,
+    "autoJump":false,
+    "isClick": true,
+    "jumpToRideOff": false,
+    "rideOnImmediately": true,
+    "updateActorFun": "updateTrolleyAction",
+    "nearProps": {
+        "1.2": [
+            "ride_on_index"
+        ]
+    },
+    "checkEnterEventOnClient": false,
+    "checkEnterEventOnServer": false,
+    "canAttack": true,
+    "viewDistance": 200,
+    "rotateFree": true
+}

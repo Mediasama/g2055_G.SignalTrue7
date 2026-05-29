@@ -1,0 +1,92 @@
+{
+    "launcher": {
+        "//fullAuto": "半自动/全自动开关",
+        "fullAuto":false,
+        "//fireRate": "子弹射速，次/没秒",
+        "fireRate":0.1,
+        "//burstNum":"连发数量",
+        "burstNum":3,
+        "//burstCd":"连发时间间隔",
+        "burstCd":0.12,
+        "reloadType":1,
+        "reloadTime":1,
+        "switchTime":1,
+        "//pellets": "每发弹片数量",
+        "pellets":1,
+        "//pelletSpread": "单片散射值",
+        "pelletSpread":1,
+        "clipSize":1,
+        "carryAmmo":1,
+        "openAim": 45,
+        "autoAim": true,
+        "autoFire": false,
+        "autoFireDistance": 200,
+        "autoFireDelay":0,
+        "camera": {
+            "cameraDistance": 5,
+            "cameraXOffset": 1.1,
+            "cameraYOffset": 0.2,
+            "cameraFovAngle": 50
+        }
+    },
+    "bullet": {
+        
+        "spreadXY":    [0.8, 2, 999],
+        "spreadValues":[0,  0.3,0.5],
+
+        "//recoilInterval": "抖动间隔",
+        "recoilInterval":0.35,
+
+        "//recoilPitchS": "俯仰距离",
+        "recoilPitchS":[2.2,2.2],
+        "//recoilPitchSMax": "俯仰距离",
+        "recoilPitchSMax":8,
+        "//recoilPitchBalanceS": "俯仰平衡距离",
+        "recoilPitchBalanceS":[0.6,0.6],
+        "//recoilPitchBalanceT": "俯仰平衡上跳时间",
+        "recoilPitchBalanceT":0.3,
+
+        "//recoilYawS": "偏航距离",
+        "recoilYawS":[0.2,0.2],
+        "//recoilYawSMax": "偏航平衡距离",
+        "recoilYawSMax":0.3,
+        "//recoilYawBalanceS": "偏航平衡距离",
+        "recoilYawBalanceS":[0.2,0.2],
+        "//recoilYawBalanceT": "偏航平衡上跳时间",
+        "recoilYawBalanceT":0.1,
+
+        "//damage":"子弹伤害",
+        "damage":18,
+        "//minDamage":"最小伤害",
+        "minDamage":5,
+        "//damageDecayStartDis": "伤害衰减起始距离",
+        "damageDecayStartDis":100,
+        "//damageDecayFactor1":"伤害衰减系数1",
+        "damageDecayFactor1":0.4,
+
+        "//damageDecayMaxDis": "伤害衰减最大距离",
+        "damageDecayMaxDis":300,
+        "//damageDecayFactor2":"伤害衰减系数2",
+        "damageDecayFactor2":0.6,
+
+        "//recoilT": "上跳时间",
+        "recoilT":0.1,
+        "//recoilBackT": "回落时间",
+        "recoilBackT": 0.45,
+        "bornSound": "machinegun_born",
+
+        "length": 30,
+        "width": 10,
+        "material" : "jiguang.json",
+        "imgTexture": ["plugin/myplugin/launcher/hjg03.png","plugin/myplugin/launcher/hjg04.png"],
+        "segmentLength": 2,
+        "frameSpeed": 0.05,
+        "lineTime": 0.1,
+        "offset": [-0.2, 1.2, 0.65],
+        "hitEffect": {
+            "effect": "g2050_cover_hurt_2.effect",
+            "time": 500,
+            "scale": [0.8, 0.8, 0.8]
+        }
+    }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" name="g2055_gang" imagefile="g2055_gang.png" version="2" nativeVertRes="148" nativeHorzRes="490">
+      <Image xPos="1" name="btn_0_click1" width="84" height="31" yPos="1"/>
+    <Image xPos="196" name="img_0_select01" width="146" height="146" yPos="1"/>
+    <Image xPos="171" name="icon_0_tick" width="24" height="24" yPos="1"/>
+    <Image xPos="343" name="img_0_select02" width="146" height="146" yPos="1"/>
+    <Image xPos="86" name="btn_0_click2" width="84" height="31" yPos="1"/>
+</Imageset>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="800" nativeHorzRes="442" version="2" imagefile="g2055_territory.png" name="g2055_territory" autoScaled="false">
+      <Image yPos="1" xPos="249" height="52" name="icon_0_territory_index_03" width="52"/>
+    <Image yPos="1" xPos="112" height="36" name="icon_0_occupy" width="42"/>
+    <Image yPos="1" xPos="355" height="52" name="icon_0_territory_index_05" width="52"/>
+    <Image yPos="278" xPos="1" height="111" name="img_0_weapons01" width="146"/>
+    <Image yPos="54" xPos="148" height="111" name="img_0_tattoos01" width="146"/>
+    <Image yPos="166" xPos="1" height="111" name="img_0_clothing01" width="146"/>
+    <Image yPos="166" xPos="295" height="111" name="img_0_car01" width="146"/>
+    <Image yPos="1" xPos="1" height="22" name="icon_0_our_side" width="22"/>
+    <Image yPos="1" xPos="201" height="49" name="img_0_location01" width="47"/>
+    <Image yPos="1" xPos="302" height="52" name="icon_0_territory_index_04" width="52"/>
+    <Image yPos="1" xPos="24" height="22" name="icon_0_neutral" width="22"/>
+    <Image yPos="390" xPos="1" height="409" name="img_0_territory_index" width="402"/>
+    <Image yPos="166" xPos="148" height="111" name="img_0_bar01" width="146"/>
+    <Image yPos="54" xPos="295" height="111" name="img_0_black_market01" width="146"/>
+    <Image yPos="1" xPos="155" height="45" name="img_0_partner" width="45"/>
+    <Image yPos="54" xPos="1" height="111" name="img_0_piazza01" width="146"/>
+    <Image yPos="1" xPos="47" height="22" name="icon_0_enemy" width="22"/>
+    <Image yPos="1" xPos="70" height="42" name="icon_0_house" width="41"/>
+</Imageset>

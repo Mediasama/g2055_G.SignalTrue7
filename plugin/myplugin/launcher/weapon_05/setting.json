@@ -1,0 +1,101 @@
+{
+    "launcher": {
+        "//fullAuto": "半自动/全自动开关",
+        "fullAuto":true,
+        "//fireRate": "子弹射速，次/没秒",
+        "fireRate":0.3,
+        "//burstNum":"连发数量",
+        "burstNum":1,
+        "//burstCd":"连发时间间隔",
+        "burstCd":0.2,
+        "reloadType":1,
+        "reloadTime":1,
+        "switchTime":1,
+        "//pellets": "每发弹片数量",
+        "pellets":1,
+        "//pelletSpread": "单片散射值",
+        "pelletSpread":0,
+        "clipSize":100,
+        "carryAmmo":1,
+        "openAim": 45,
+        "autoFireDistance": 150,
+        "autoFireDelay":0,
+        "autoAim": true,
+        "autoFire": false,
+        "action":{
+            "run":"g2055_gun_pistol_run",
+            "attack":[
+                "g2055_gun_pistol_attack"
+            ],
+            "idle":"g2055_gun_pistol_idle"
+        },
+        "weaponPlayerYaw": 20,
+        "moveSpeed": 1,
+        "moveAcc": 1,
+        "camera": {
+            "cameraDistance": 5.5,
+            "cameraXOffset": 1.1,
+            "cameraYOffset": 0.4,
+            "cameraFovAngle": 60
+        }
+    },
+    "bullet": {
+        "damageLevel":2,
+        "spreadXY":    [0.8, 2, 999],
+        "spreadValues":[0,  0.3,0.5],
+
+        "//recoilInterval": "抖动间隔",
+        "recoilInterval":0.3,
+
+        "//recoilPitchS": "俯仰距离",
+        "recoilPitchS":[2,2],
+        "//recoilPitchSMax": "俯仰距离",
+        "recoilPitchSMax":3,
+        "//recoilPitchBalanceS": "俯仰平衡距离",
+        "recoilPitchBalanceS":[1.5,1.5],
+        "//recoilPitchBalanceT": "俯仰平衡上跳时间",
+        "recoilPitchBalanceT":0.15,
+
+        "//recoilYawS": "偏航距离",
+        "recoilYawS":[0.3,0.3],
+        "//recoilYawSMax": "偏航平衡距离",
+        "recoilYawSMax":0.2,
+        "//recoilYawBalanceS": "偏航平衡距离",
+        "recoilYawBalanceS":[0.2,0.2],
+        "//recoilYawBalanceT": "偏航平衡上跳时间",
+        "recoilYawBalanceT":0.1,
+
+        "//recoilT": "上跳时间",
+        "recoilT":0.1,
+        "//recoilBackT": "回落时间",
+        "recoilBackT": 0.17,
+        "bornSound": "pistol_shoot",
+
+
+        "//damage":"子弹伤害",
+        "damage":7,
+        "//minDamage":"最小伤害",
+        "minDamage":3,
+        "//damageDecayStartDis": "伤害衰减起始距离",
+        "damageDecayStartDis":100,
+        "//damageDecayFactor1":"伤害衰减系数1",
+        "damageDecayFactor1":0.4,
+
+        "//damageDecayMaxDis": "伤害衰减最大距离",
+        "damageDecayMaxDis":300,
+        "//damageDecayFactor2":"伤害衰减系数2",
+        "damageDecayFactor2":0.6,
+
+        "hitEffect": {
+            "effect": "g2050_cover_hurt_2.effect",
+            "time": 500,
+            "scale": [0.8, 0.8, 0.8]
+        },
+
+
+        "lineTime":0.25,
+        "offset": [0.08, 1.53, 0.8],
+        "effectName":"g2055_bullettrail.effect"
+    }
+    
+}

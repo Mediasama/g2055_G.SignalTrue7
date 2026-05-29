@@ -1,0 +1,11 @@
+n_id	Unnamed	type	s_desc	effect_pos	ui_pos	n_isSave	n_goldCount	n_parent
+指引id	备注	1-场景；2-UI按钮	多语言描述	特效坐标	ui的位置	是否保存	掉落金币数量	父指引id
+101	击败入侵者	1	name.guide.101	4,2.2,-9		0	100000	
+102	拾取掉落金钱	1	name.guide.102	6.5,2.2,-8.5		1	0	
+103	解锁武器架	1	name.guide.103	9.5,2,-8		1	0	
+104	取出武器	1	name.guide.104	10,2,-3.6		1	0	
+105	把钱存起来	1	name.guide.105	8.5,2,-0.5		1	0	
+106	出门	1	name.guide.106	1.5,2.3,-0.5		1	0	
+1	解锁武器架UI提示	2	name.guide.1		-400,-200	0	0	103
+2	取出武器UI	2	name.guide.2		100,20	0	0	104
+3	存钱UI	2	name.guide.3		-400,-200	0	0	105

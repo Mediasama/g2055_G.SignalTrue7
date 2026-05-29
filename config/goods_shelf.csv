@@ -1,0 +1,29 @@
+n_id	s_description	n_type	s_button_icon	s_button_text	s_position	s_rotation	s_goods	s_carposition	n_reload_time	s_goods_rule
+堡垒id	备注	商品类型 1.服装 2.汽车 3.武器 4.黑市 5.子弹	按钮图片	按钮文本	位置	旋转	商品ID	汽车生成点		
+1	街头装	1	gameres|asset/Imageset/g2055_scenes:icon_0_clothes_01	name.shop.1	-90.46, 32.5, -8.71	0,0,0	40011,40012,40013,40014,40015			
+2	匪徒装	1	gameres|asset/Imageset/g2055_scenes:icon_0_clothes_01	name.shop.2	-92.97, 32.5, -3.43	0,0,0	40021,40022,40023,40024,40025			
+3	黑手党	1	gameres|asset/Imageset/g2055_scenes:icon_0_clothes_01	name.shop.3	-97.91, 32.5, -1.71	0,0,0	40031,40032,40033,40034,40035			
+4	风衣大佬	1	gameres|asset/Imageset/g2055_scenes:icon_0_clothes_01	name.shop.4	-95.80, 32.5, -10.83	0,0,0	40041,40042,40043,40044,40045			
+5	白色老大	1	gameres|asset/Imageset/g2055_scenes:icon_0_clothes_01	name.shop.5	-97.42, 32.5, -4.53	0,0,0	40051,40052,40053,40054,40055			
+6	哈雷	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	name.shop.6	60.52,29.5,-26.56	0,0,0	60001	65.33, 30.2, -4.47		
+7	皮卡	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	name.shop.7	67.42,30,-28.17	0,0,0	60012	65.33, 30.2, -4.47		
+8	轿车	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	name.shop.8	74.17,30,-28.01	0,0,0	60011	65.33, 30.2, -4.47		
+9	保时捷	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	name.shop.9	66.37,30,-21.08	0,0,0	60021	65.33, 30.2, -4.47		
+10	兰博基尼	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	name.shop.10	60.9,30,-21.81	0,0,0	60031	65.33, 30.2, -4.47		
+11	布加迪	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	name.shop.11	73.26,30,-20.92	0,0,0	60032	65.33, 30.2, -4.47		
+12	指虎；虎爪；剃刀帽	3	gameres|asset/Imageset/g2055_scenes:icon_0_gun_09	name.shop.12	17.5, 30.5, 49.5	0,0,0	101002,101008,101009			
+13	砍刀；西瓜刀；铁锤；斧头	3	gameres|asset/Imageset/g2055_scenes:icon_0_gun_10	name.shop.13	0.68, 30.5, 49.5	0,0,0	101003,101010,101006,101004			
+14	手枪	3	gameres|asset/Imageset/g2055_scenes:icon_0_gun_01	name.shop.14	9.6, 30.5, 49.75	0,0,0	102001			
+15	黄金AK；散弹枪	3	gameres|asset/Imageset/g2055_scenes:icon_0_gun_08	name.shop.15	17.5, 30.5, 43.2	0,0,0	102003,102002			
+16	长水管；撬棍；棒球棍；冰球棍；工地大锤	3	gameres|asset/Imageset/g2055_scenes:icon_0_gun_06	name.shop.16	0.75, 30.5, 42.9	0,0,0	101013,101011,101005,101014,101012			
+17	加特林	3	gameres|asset/Imageset/g2055_scenes:icon_0_gun_07	name.shop.17	9.76, 30.5, 43.07	0,0,0	102004			
+18	子弹1	5	gameres|asset/Imageset/g2055_scenes:icon_0_buybullets	name.shop.18	6, 30, 36.8	0,0,0				
+19	子弹2	5	gameres|asset/Imageset/g2055_scenes:icon_0_buybullets	name.shop.19	11, 30, 36.8	0,0,0				
+20	子弹3	5	gameres|asset/Imageset/g2055_scenes:icon_0_buybullets	name.shop.20	17.6, 30, 36.8	0,0,0				
+21	子弹4	5	gameres|asset/Imageset/g2055_scenes:icon_0_buybullets	name.shop.21	21.44, 30, 37	0,0,0				
+22	子弹5	5	gameres|asset/Imageset/g2055_scenes:icon_0_buybullets	name.shop.21	-5, 30, 40.36	0,0,0				
+23	子弹6	5	gameres|asset/Imageset/g2055_scenes:icon_0_buybullets	name.shop.21	-3.86, 30, 36.6	0,0,0				
+24	黑市	4	gameres|asset/Imageset/g2055_scenes:icon_0_blackshop_01	name.shop.22	-72, 30, -46.5	0,0,0		130.71,30.2,94.49	1440	1-1,2-1,3-2,4-2,5-1
+25	川崎	2	gameres|asset/Imageset/g2055_scenes:icon_0_car_01	name.shop.6	59.77, 29.5, -29.11	0,0,0	60002	65.33, 30.2, -4.47		
+26	赛车服	1	gameres|asset/Imageset/g2055_scenes:icon_0_clothes_01	name.shop.1	-100.74, 32.5, -8.93	0,0,0	40071,40073,40074,40075			
+27	DJ服	1	gameres|asset/Imageset/g2055_scenes:icon_0_clothes_01	name.shop.1	-97.27, 32.5, -13.48	0,0,0	40091,40092,40093,40094,40095			

@@ -1,0 +1,43 @@
+{
+  "name": "",
+  "nameBorder": true,
+  "autoRotateColliderBox": true,
+  "checkBlockCollision": false,
+  "checkBlockTouchEvent": false,
+  "checkEnterEvent": true,
+  "checkEnterEventOnClient": false,
+  "checkEnterEventOnServer": false,
+  "checkEntityTouchEvent": false,
+  "checkTouchEvent": false,
+  "disableCheckTouch": true,
+  "canClick": true,
+  "collision": true,
+  "collisionGroup": 8,
+  "useStaticCollider": true,
+  "viewDistance": 200,
+  "disableShadow": true,
+  "disableClientTick": true,
+  "stopChangeYaw": 1,
+  "calcYawBySpeedDir": 0,
+  "entityType": "Door",
+  "canAttack": true,
+  "hitbox": [
+    {
+      "__bone": "s_hand_l",
+      "collider": {
+        "extent": {
+          "x": 2.56,
+          "y": 3.26,
+          "z": 0.14
+        },
+        "type": "Box"
+      },
+      "colliderOffset": {
+        "x": 1.28,
+        "y": 1.65,
+        "z": 0
+      },
+      "type": 5
+    }
+  ]
+}

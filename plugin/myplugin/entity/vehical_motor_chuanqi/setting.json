@@ -1,0 +1,113 @@
+{
+    "base": "trolley_base",
+    "actorName": "g2055_vehicle_chuanqi.actor",
+    "moveSpeed": 1,
+    "bodyTurnSpeed": 30,
+    "jumpSpeed":0.6,
+    "posSyncDelay": 1,
+    "ridePos": [
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": 0.4,
+                "z": -0.4
+            },
+            "out": {
+                "x": 1,
+                "y": 0.05,
+                "z": 0
+            },
+            "ctrl": true,
+            "view": false,
+            "rideAction": {
+                "base": "idle",
+                "run": "run",
+                "idle": "idle",
+                "jump": "run",
+                "jump2": "run",
+                "jump3": "run"
+            },
+            "passengerAction": {
+                "base": "g2055_car_motuo_idle",
+                "run": "g2055_car_motuo_idle",
+                "idle": "g2055_car_motuo_idle",
+                "jump": "g2055_car_motuo_idle",
+                "jump2": "g2055_car_motuo_idle",
+                "jump3": "g2055_car_motuo_idle"
+            },
+            "?attachPoint": "ride1"
+        }
+    ],
+    "attachPwoints": [
+        {
+            "name": "ride1",
+            "bone": "s_1",
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "propagateScaling": true,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "ride2",
+            "bone": "s_2",
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "propagateScaling": true,
+            "matchActorOrientation": false
+        }
+    ],
+    "collider": {
+    "extent": {
+      "x": 1,
+      "y": 2,
+      "z": 3
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+    "triggerCollider": {
+      "extent": {
+        "x": 3.5,
+        "y": 1,
+        "z": 5
+      },
+      "type": "Box"
+    },
+    "vehicleViewFovAngle": 4.5,
+    "vehicleExplodeScale": 0.5,
+    "exhaustPos": {
+        "x": 0,
+        "y": 0.5,
+        "z": -1.5
+    },
+  "statusBuff": {
+    "RUN": "myplugin/motuo_run_buff",
+    "IDLE": "myplugin/motuo_idle_buff"
+  }
+}

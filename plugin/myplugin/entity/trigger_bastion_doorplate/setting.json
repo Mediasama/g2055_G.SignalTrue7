@@ -1,0 +1,20 @@
+{
+  "actorName": "blank.actor",
+  "base": "base_trigger",
+  "viewDistance": 100,
+  "collider": {
+    "type": "Empty"
+  },
+  "operationConfig": {
+    "spawn": [
+    ],
+    "destroy": [
+    ],
+    "entityEnter": [
+    ],
+    "entityLeave": [
+    ],
+    "useItem": [
+    ]
+  }
+}

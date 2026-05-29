@@ -1,0 +1,4 @@
+if World.isClient then
+  Event.EVENT_GOODS_SHELF_UPDATE_WEAPON_SWITCH = Event.register("EVENT_GOODS_SHELF_UPDATE_WEAPON_SWITCH")
+else
+end

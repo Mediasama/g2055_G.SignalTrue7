@@ -1,0 +1,950 @@
+{
+  "automatch": false,
+  "bagCap": 999,
+   "cameraCfg": {
+    "viewModeConfig": [
+      {
+        "enable": false
+      },
+      {
+        "enable": false
+      },
+      {
+        "enable": false
+      },
+      {
+        "enable": true,
+        "distance": 3.5,
+        "minPitch": -60,
+        "maxPitch": 60,
+        "lockBodyRotation": false,
+        "horizontalFollow": false,
+        "viewFovAngle": 90
+      },
+      {
+        "enable": false,
+        "enableCollisionDetect": false,
+        "distance": 3.5,
+        "viewFovAngle": 90,
+        "lockBodyRotation": false,
+        "lockViewPos": true,
+        "lockSlideScreen": true
+      }
+    ],
+    "defaultView": 3
+  },
+  "?cameraCfg": {
+    "canSwitchView": true,
+    "defaultPitch": 0,
+    "defaultView": 0,
+    "defaultYaw": 0,
+    "viewModeConfig": [
+      {
+        "enable": true,
+        "lockSlideScreen": false,
+        "viewFovAngle": 75
+      },
+      {
+        "distance": 4,
+        "enable": true,
+        "enableCollisionDetect": true,
+        "lockSlideScreen": false,
+        "viewFovAngle": 75
+      },
+      {
+        "distance": 4,
+        "enable": false,
+        "enableCollisionDetect": true,
+        "lockSlideScreen": false,
+        "viewFovAngle": 75
+      },
+      {
+        "distance": 4,
+        "enable": false,
+        "enableCollisionDetect": true,
+        "lockBodyRotation": false,
+        "lockSlideScreen": false,
+        "viewFovAngle": 75
+      },
+      {
+        "enable": false,
+        "lockBodyRotation": false,
+        "lockSlideScreen": false,
+        "lockViewPos": true,
+        "pos": {
+          "__OBJ_TYPE": "Vector3i",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "viewFovAngle": 75
+      }
+    ]
+  },
+  "defaultMap": "map001",
+  "defaultQualityLevel": 0,
+  "dragControlConfig": {
+    "useDragControl": true
+  },
+
+  "forcePickBlock": true,
+  "hideCloud": false,
+  "hideTeamStatusBar": false,
+  "ignoreEmptyStartPos": true,
+  "initPos": {
+    "map": "map001",
+    "x": 17.5,
+    "y": 100.346333,
+    "z": -13
+  },
+  "isTimeStopped": true,
+  "jumpControlConfig": {
+    "area": [
+      [
+        0,
+        100
+      ],
+      [
+        0,
+        60
+      ],
+      [
+        0,
+        200
+      ],
+      [
+        0,
+        200
+      ]
+    ],
+    "jumpImage": {
+      "name": "jump_imagesets/icon_jump_nor.png"
+    },
+    "jumpPushImage": {
+      "name": "jump_imagesets/icon_jump_act.png"
+    },
+    "useGroup": "_imagesets_"
+  },
+  "maxPlayers": 999,
+  "minPlayers": 1,
+  "moveStateConfig": {
+    "isShow": false
+  },
+  "needSave": true,
+  "noLoadHp": true,
+  "nowTime": 18001.666666667,
+  "oneDayTime": 600.0,
+  "personalSettingUI": {
+    "controlMode": true,
+    "guiSize": false,
+    "horizon": false,
+    "imageQuality": true,
+    "jumpSneakState": false,
+    "luminance": false,
+    "sensitive": true,
+    "volume": true,
+    "operationSetting": false
+  },
+  "personalShop": false,
+  "playerCfg": "myplugin/player1",
+  "playTime": -1,
+  "qualityLevelData": {
+    "maxLevel": [
+      2,
+      0,
+      0.6,
+      0.68,
+      0.00132,
+      3,
+      1.4,
+      1,
+      1,
+      0.22,
+      -0.00132,
+      0.43,
+      1,
+      0,
+      0.1,
+      0,
+      0,
+      2,
+      2,
+      1,
+      0,
+      2,
+      1.8
+    ]
+  },
+  "replay": false,
+  "reportTime": 1200,
+  "skillJack": {
+    "AJackArea": [
+      [
+        0,
+        -40
+      ],
+      [
+        0,
+        -40
+      ],
+      [
+        0,
+        120
+      ],
+      [
+        0,
+        120
+      ]
+    ],
+    "hideBJack": true,
+    "lineSkills": [
+      {
+        "hAlign": 2,
+        "itemSpace": 30,
+        "jackNum": 2,
+        "jackSize": 80,
+        "vAlign": 1,
+        "xOffset": -50,
+        "yOffset": 0
+      },
+      {
+        "hAlign": 1,
+        "itemSpace": 30,
+        "jackNum": 4,
+        "jackSize": 80,
+        "vAlign": 0,
+        "xOffset": 0,
+        "yOffset": 50
+      }
+    ],
+    "sectorSkills": [
+      {
+        "deltaAngle": 45,
+        "jackNum": 3,
+        "jackSize": 88,
+        "radius": 170,
+        "startAngle": 270
+      }
+    ]
+  },
+  "?startPos": [
+    {
+      "map": "map001",
+      "x": 7,
+      "y": 1.04,
+      "z": 37
+    }
+  ],
+  "team": [],
+  "teammateHurt": false,
+  "topTeamInfo": {
+    "teamDieIcon": "flag_textures/flag_die",
+    "teamDieIconArea": [
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        -7
+      ],
+      [
+        0,
+        20
+      ],
+      [
+        0,
+        20
+      ]
+    ],
+    "teamInfoArea": [
+      [
+        0,
+        -5
+      ],
+      [
+        0,
+        -3
+      ],
+      [
+        0,
+        53.45
+      ],
+      [
+        0,
+        17
+      ]
+    ]
+  },
+  "useNewFirstViewer": true,
+  "useNewQuadConfig": true,
+  "vars": {
+    "__OBJ_TYPE": [],
+    "entity": [],
+    "global": []
+  },
+  "waitAtInitPos": true,
+  "waitGoTime": 0,
+  "waitPlayerTime": 0,
+  "waitStartTime": 0,
+  "editorFovAngle": 65,
+  "notReadUserSettingCfgAtEditor": true,
+  "glesMinorVersion": 0,
+  "glesVersion": 3,
+  "enableNewLighting":true,
+  "imguiLighting": false,
+  "depthCameraOrthographicSize": 52.0,
+
+
+  "realtimeShadowCameraHighestLevel": 40,
+  "realtimeShadowCameraLowestLevel": -40,
+  "useSimpleMeshPartShader": true,
+  "meshPartBatchAlphaTest": false,
+  "meshPartBatchTransparent": false,
+  "meshPartBatchStartupImage": 3,
+
+"canJoinMidway": true,
+"useNewUIPool": false,
+"enableBakeLight": true,
+"deferredRendering":false,
+  "meshPartBatch": true,
+  "meshPartStaticMergeRender": false,
+  "meshPartAsyncLoad": true,
+  "meshPartMergeVerts": true,
+  "mergeCmpNormal": true,
+  "useHalfImageSize": true,
+  "screenSpaceCull": true,
+  "screenSpaceCullStartDis_Low": 26.0,
+  "screenSpaceCullStartDis_High": 40.0,
+  "screenSpaceCullRatioSQ_Low": 110.0,
+  "screenSpaceCullRatioSQ_High": 800.0,
+  "skipFrustumCullFrame": 0,
+  "enableLazyUpdate": true,
+  "meshPartSubTexHalfSize": 512,
+  "meshPartSubTexRegionSize": 256,
+  "physicsTickRate": 20,
+  "partEffectShowDis": 50,
+  "collisionObjectInitActive": false,
+  "enableClientEntity": true,
+  "disableDrawSelectionBox": true,
+  "disableStaticEntityTick": true,
+  "?disableKeyPack": "屏蔽快捷键E打开某个界面卡住",
+  "disableKeyPack": true,
+  "enablePhysicsSimulation": false,
+
+"plugins": [
+    "event_tracking",
+    "helper_common",
+    "connector",
+    "new_chat",
+    "engine_overwrite",
+    "battle",
+    "weapon",
+    "role",
+    "game_common",
+    "character",
+    "gangs",
+    "behavior",
+    "fly_text",
+    "vehicle",
+    "currency",
+    "territory",
+    "model_clothes",
+    "bastion",
+    "fly_tips",
+    "entity_head_ui",
+    "tattoo",
+    "item",
+    "goods_shelf",
+    "black_market",
+  "new_video",
+    "scene_triggers",
+    "npc_door",
+    "character_state_on_ground",
+    "atm",
+    "player_motion",
+    "pass_card",
+    "guide",
+    "timelight",
+    "ui_tool",
+    "vf_app_activity"
+],
+  "openShop": true,
+  "customProp": {},
+  "interaction": {
+    "calmDownTick": 20
+  },
+  "fightCameraCfg": {
+    "viewMode": 3,
+    "cameraDistance": 6,
+    "cameraView": {
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "yaw": -12,
+      "pitch": 15
+    }
+  },
+  "defaultWeaponID": 101000,
+  "subWeaponID": 101000,
+  "maxHP": 100,
+  "useNewUI": true,
+  "engineDefUIEnable": {
+    "actionControl": false,
+    "appMainRole": false,
+    "chat": false,
+    "playerinfo": false,
+    "shortcutBar": false,
+    "toolbar": false,
+    "playerList": true,
+    "main": false,
+    "interactionContainer": false,
+    "skills": false,
+    "topteamInfo": false,
+    "reload": false
+  },
+  "baseMainWndListNormal": {},
+  "baseCustomMainWndList": {},
+  "match": {
+    "beginPos": [
+      {
+        "x": -174.604935,
+        "y": 30.512753,
+        "z": -24.165066
+      },
+      {
+        "x": -212.475723,
+        "y": 30.509424,
+        "z": -1.389643
+      },
+      {
+        "x": -114.127274,
+        "y": 30.506071,
+        "z": -1.125763
+      },
+      {
+        "x": -184.43956,
+        "y": 30.504837,
+        "z": 155.279144
+      },
+      {
+        "x": -184.43956,
+        "y": 30.504837,
+        "z": 155.279144
+      },
+      {
+        "x": -60.207531,
+        "y": 30.501928,
+        "z": 168.090927
+      },
+      {
+        "x": 62.132919,
+        "y": 30.513571,
+        "z": 167.002899
+      },
+      {
+        "x": 151.952164,
+        "y": 30.51181,
+        "z": 128.883789
+      },
+      {
+        "x": 196.385406,
+        "y": 30.517727,
+        "z": 12.322943
+      },
+      {
+        "x": 215.994064,
+        "y": 30.501089,
+        "z": -28.003336
+      }
+    ],
+    "waitTime": 0,
+    "battleTime": 60000,
+    "maxHP": 100,
+    "killCount": 20
+  },
+  "battleDropCD": 180,
+  "battleDrop": [
+{"pos": [-112.02, 30.16, 127.63],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [-99.59, 30.16, 116.52],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [-81.51, 30.16, 112.82],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [-66.64, 30.16, 110.74],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [-35.42, 30.15, 110.17],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [-24.55, 30.15, 120.08],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [-1.12, 30.16, 121.10],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [18.04, 30.16, 118.07],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [11.86, 30.16, 95.63],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [60.31, 30.16, 125.88],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [48.48, 30.16, 95.37],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [75.24, 30.16, 72.39],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [105.40, 30.18, 45.88],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [122.63, 30.18, 83.47],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [141.63, 30.18, 67.18],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [54.52, 31.06, 50.13],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [20.88, 30.19, 69.40],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [-28.87, 30.19, 70.13],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [-41.79, 30.19, 41.31],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [-5.40, 30.23, 20.66],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [29.88, 30.23, 23.43],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [31.99, 30.00, -6.04],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [-17.57, 30.00, -8.88],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [-62.20, 30.16, 20.47],"id": 101001,"pickCount": 1,"cd":30},
+{"pos": [-93.48, 30.16, 70.27],"id": 101007,"pickCount": 1,"cd":30},
+{"pos": [-42.63, 30.88, -22.70],"id": 80001,"pickCount": 1,"cd":300},
+{"pos": [-45.02, 30.88, -59.70],"id": 80002,"pickCount": 1,"cd":300},
+{"pos": [10.19, 21.22, -18.58],"id": 80001,"pickCount": 1,"cd":300},
+{"pos": [11.65, 21.23, -39.64],"id": 80002,"pickCount": 1,"cd":300},
+{"pos": [-19.79, 30.25, 105.71],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [-39.58, 30.19, 127.97],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [-20.57, 30.22, 133.63],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [22.61, 30.24, 101.23],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [-6.72, 30.22, 103.69],"id": 101011,"pickCount": 1,"cd":300},
+{"pos": [-6.13, 30.21, 139.08],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [21.09, 30.23, 135.65],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [39.74, 30.22, 135.72],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [58.99, 30.22, 135.71],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [43.60, 30.21, 111.97],"id": 101005,"pickCount": 1,"cd":300},
+{"pos": [64.38, 30.21, 108.45],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [75.36, 30.21, 126.79],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [76.56, 30.21, 94.73],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [89.29, 30.67, 50.49],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [97.50, 30.67, 82.73],"id": 101006,"pickCount": 1,"cd":300},
+{"pos": [90.49, 30.67, 28.25],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [114.69, 30.71, 28.95],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [141.75, 30.68, 28.40],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [147.40, 30.67, 50.85],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [147.17, 30.67, 74.83],"id": 101011,"pickCount": 1,"cd":300},
+{"pos": [117.16, 30.67, 76.89],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [119.82, 30.67, 97.91],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [143.09, 30.67, 97.56],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [-87.01, 30.21, 111.94],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [-48.88, 30.22, 101.36],"id": 101005,"pickCount": 1,"cd":300},
+{"pos": [-73.42, 30.21, 134.33],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [-116.38, 30.21, 118.18],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [-118.22, 30.21, 140.60],"id": 101003,"pickCount": 1,"cd":300},
+{"pos": [-99.95, 30.23, 126.79],"id": 101013,"pickCount": 1,"cd":300},
+{"pos": [-59.90, 30.21, 139.19],"id": 101006,"pickCount": 1,"cd":300}
+
+],
+  "initViewFovAngle": 65,
+  "weaponViewFovAngle": 50,
+  "//autoAimMoveSpeed": "每个逻辑帧移动距离",
+  "autoAimMoveSpeed": 100,
+  "useNewCollisionFiltering": true,
+  "collisionFilteringVersion": 2,
+  "showBulletLine": false,
+  "DCorrectedLen": 5,
+  "autoAim": false,
+  "autoFire": true,
+  "collisionMatrix": [
+    "1",
+    "11",
+    "000",
+    "0110",
+    "00000",
+    "000000",
+    "1101001",
+    "00000000",
+    "110100101"
+  ],
+  "enableBlockColiders": false,
+  "noBlockGame": true,
+  "disLoadAssetImage": true,
+  "hitboxRate": [
+    2,
+    1,
+    0.8,
+    1
+  ],
+  "bastionSetting": {
+    "reborn": {
+      "effectName": "g2055_reborn_effect.effect",
+      "offset": {
+        "x": 4.8,
+        "y": 6.55,
+        "z": 0
+      }
+    },
+    "vault": {
+      "bornBalance": 100000,
+      "maxBalance": 99999999
+    },
+    "closet": {
+      "bornClothes": [
+        40001,40002,40003,40004,40005
+      ],
+      "loginGetClothes": [
+        40001,40002,40003,40004,40005
+      ]
+    },
+    "defense": {
+      "bornDefense": {
+        "Door": 50001
+      },
+      "exploredEffect": {
+        "effectName": "g2055_vehical_blast_effect.effect",
+        "timeScale": 1,
+        "bodyScale": 1,
+        "yaw": 0,
+        "duration": 10000
+      },
+      "offset": {
+        "x": 1.28,
+        "y": 4,
+        "z": 0.5
+      },
+      "attackedTipInterval": 30
+    },
+    "garage": {
+      "bornCars": [],
+      "maxCars": 1,
+      "unlockPrice": 20000,
+      "actorName": "g2055_door_vehicle.actor"
+    },
+    "armory": {
+      "bornWeapons": [
+        102001,102002,102004,101003,101013,101005
+      ],
+      "maxWeapons": 10,
+      "unlockPrice": 100,
+      "actorName": "g2055_house_weapon.actor"
+    },
+    "park": {
+      "effectName": "g2055_parking_effect.effect",
+      "offset": {
+        "x": 0,
+        "y": 0.2,
+        "z": 0
+      }
+    }
+  },
+  "tattoo": {
+    "headUI": {
+      "position": {
+        "x": -1.3,
+        "y": 2.5,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "width": 2.5,
+      "height": 1,
+      "flags": 4
+    }
+  },
+  "gangCfg": {
+    "profitsTime": 100,
+    "gangNameMaxLen": 20,
+    "gangMaxMember": 10,
+    "headUI": {
+      "position": {
+        "x": 0,
+        "y": 2.4,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "width": 5,
+      "height": 5,
+      "flags": 4
+    }
+  },
+  "territoryCfg": {
+    "mapEdge": {
+      "leftTop": {
+        "x": 152.03,
+        "z": 148.86
+      },
+      "rightBottom": {
+        "x": -120.88,
+        "z": -60.45
+      }
+    },
+    "headUI": {
+      "position": {
+        "x": 0,
+        "y": 3,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "width": 7,
+      "height": 4,
+      "flags": 4
+    },
+    "occupySuccessEffect": {
+      "effect": "g2055_occupy_uieffect.effect",
+      "duration": 5000,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "posOffset": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    }
+  },
+  "playerAttrs": {
+    "roleHp": 100,
+    "roleDefense": 0,
+    "lifeBarHideTime": 5,
+    "healthCfg":
+    {
+      "onGround":
+      {
+        "healthRegenTime": 2,
+        "//healthRegenRate": "参数1：每隔多少秒回一次（单位：秒） 参数2：回复的类型（0-百分比；1-数值） 参数3：回复的数值（若参数2为0，则0-1代表0%-100%，精度为0.01；若参数2位1，则填int,精度为1）",
+        "healthRegenRate": [
+          2,
+          1,
+          10
+        ]
+      },
+      "normal":
+      {
+        "healthRegenTime": 3,
+        "//healthRegenRate": "参数1：每隔多少秒回一次（单位：秒） 参数2：回复的类型（0-百分比；1-数值） 参数3：回复的数值（若参数2为0，则0-1代表0%-100%，精度为0.01；若参数2位1，则填int,精度为1）",
+        "healthRegenRate": [
+          1,
+          1,
+          10
+        ]
+      }
+    },
+    "rebornTime": 5,
+    "pickupDistanse": 1
+  },
+  "timeSpeedRate": 1,
+  "vehicle": {
+    "vehicleDestroyTime": 1800,
+    "vehicleExplodeTimeScale": 2.5
+  },
+  "shootDistance": 300,
+  "inventory": {
+    "handBag": 3,
+    "weaponBag": 5,
+    "clothesBag": 5,
+    "vehicleBag": 1
+  },
+  "battleTipsSetting": {
+    "?maxCount": "同时出现的提示数量",
+    "maxCount": 2,
+    "?posYList": "每条消息的y坐标",
+    "posYList": [200,230],
+    "?oneShowTime": "息的时间，总刷新单位",
+    "oneShowTime": 30
+  },
+  "flyTipsSetting": {
+    "?initPosY": "提示起始位置posY",
+    "initPosY": 190,
+    "?minPosY": "提示最高位置posY,指距离顶部top的距离",
+    "minPosY": 70,
+    "?maxCount": "同时出现的提示数量",
+    "maxCount": 3,
+    "?minDistance": "两条消息之间的最小距离",
+    "minDistance": 34,
+    "?tipsFresh": "tips的刷新单位，多少帧，刷新一次，20是一秒",
+    "tipsFresh": 1,
+    "?oneTimeDistance": "一次刷新单位，移动的距离",
+    "oneTimeDistance": 8,
+    "?oneShowTime": "1条消息开始动画后正常亮度的时间，总刷新单位",
+    "oneShowTime": 30,
+    "?oneHideTime": "1条消息开始动画后逐渐透明的时间，总刷新单位",
+    "oneHideTime": 15
+  },
+ "laserCfg":
+  {
+    "bulletCfg":
+    {
+      "imgTexture":["12332.png"],
+      "segmentLength":5,
+      "scrollingSpeed": 5,
+      "frameSpeed":5,
+      "width":30
+     },
+    "laserPos":
+    [
+       [
+        {
+          "x":-132,
+          "y":30.3,
+          "z":97.9
+        },
+        {
+          "x":-132,
+          "y":30.3,
+          "z":147.1
+        }
+      ],
+      [
+        {
+          "x":-132.1,
+          "y":30.3,
+          "z":147
+        },
+        {
+          "x":-50.9,
+          "y":30.3,
+          "z":147
+        }
+      ],
+      [
+        {
+          "x":-51,
+          "y":30.3,
+          "z":147
+        },
+        {
+          "x":-51,
+          "y":30.3,
+          "z":91
+        }
+      ],
+      [
+        {
+          "x":-51,
+          "y":30.3,
+          "z":91
+        },
+        {
+          "x":-78,
+          "y":30.3,
+          "z":91
+        }
+      ],
+      [
+        {
+          "x":-78,
+          "y":30.3,
+          "z":91
+        },
+        {
+          "x":-78,
+          "y":30.3,
+          "z":98
+        }
+      ],
+      [
+        {
+          "x":-78,
+          "y":30.3,
+          "z":98
+        },
+        {
+          "x":-132,
+          "y":30.3,
+          "z":98
+        }
+      ]
+    ]
+  },
+  "BloodTipsSetting": {
+    "?tipsTime": "飘字合并，逻辑帧",
+    "tipsTime": 2,
+    "?time": "飘血持续渲染帧",
+    "time": 13,
+    "?beginScale": "初始缩放",
+    "beginScale": 0.8,
+    "?endScale": "最大缩放",
+    "endScale": 1.3,
+    "?scaleTime": "放大渲染帧",
+    "scaleTime": 8,
+    "?offsetX":"?移动距离x",
+    "offsetX": 80,
+    "?offsetY":"?移动距离y",
+    "offsetY": -140
+  },
+  "weaponPlayerYaw": 22,
+  "isShowBulletPos": false,
+  "deathCameraCfg":
+  {
+    "time": 1.5,
+    "reliveTime": 3
+  },
+  "reportArea": [
+{"id":1,"x":[128, 259],"y":[25, 35], "z":[-89,68]},
+{"id":2,"x":[-231, -147],"y":[25, 35], "z":[46,197]},
+{"id":3,"x":[-74, 57],"y":[25, 35], "z":[12,73]},
+{"id":4,"x":[-70, -21],"y":[25, 35], "z":[-60,-23]},
+{"id":5,"x":[36, 126],"y":[25, 35], "z":[-85,-3]},
+{"id":6,"x":[-146, -77],"y":[25, 35], "z":[88,150]},
+{"id":7,"x":[-132, -93],"y":[25, 35], "z":[-39,-7]},
+{"id":8,"x":[134, 167],"y":[25, 35], "z":[91,134]},
+{"id":9,"x":[-76, -45],"y":[25, 35], "z":[88,150]},
+{"id":10,"x":[-231, 259],"y":[40, 100], "z":[-120,236]}
+
+  ],
+  "?hitVehicleReportCD": "车被攻击的通知时间间隔(秒)",
+  "hitVehicleReportCD": 600,
+  "?goldAddEffectTime": "金币增加，逻辑帧",
+  "goldAddEffectTime": 20,
+  "isShowMeleeBox": false,
+  "kickATMSkill": "skill_melee_hitatm",
+  "?passCardBeginDate": "通行证起始日期",
+  "passCardBeginDate": "2022.6.15",
+  "passCardEndDate": "2022.7.31",
+  "?goldPassCardPrice": "付费通行证价格",
+  "goldPassCardPrice": 288,
+  "?passCardCarPos": "领取通行证载具后车出现的坐标",
+  "passCardCarPos": {
+    "x": 65.33,
+    "y": 30.2,
+    "z": -4.47
+  },
+  "useVoxelTerrain": false,
+  "dieDropRate":[75, 100, 200, 300],
+  "dieDropGoldPercent": 10,
+  "dieKeepGold": 3000,
+  "needReport":true,
+  "guildEnemy": {
+    "name" : "",
+    "offset": {"x": 4, "y": 0, "z": -9, "yaw": 90},
+    "goldOffset": {"x": -0.5, "y": 0, "z": -2.5},
+    "maxHp": 60,
+    "normalAttack": 20,
+    "rechargeAttack": 40,
+    "HeadHuggingHp": 40,
+    "lockDoorTips": "name.guide.doortips",
+    "?lockDoorTime": "不能出门的秒数",
+    "lockDoorTime": 60
+  },
+  "openGuide": true,
+  "cameraSensitive": 0.35,
+  "moveSpeed":{
+    "angleValue": 0.87,
+    "upMoveSpeed": 0.35,
+    "upMoveAcc": 5,
+    "downMoveSpeed": 0.3,
+    "downMoveAcc": 5
+  },
+  "hurtCutSpeed":{
+    "rate":0.8,
+    "?time": "逻辑帧",
+    "time": 10
+  },
+  "playerHeadTextHeight": 0.38,
+  "playerHeadTextHeightNoGang": -0.3,
+  "gangAutoJoin": true,
+  "playerCircleViewDistance": 40,
+  "reportSetting": {
+    "ignoreEvent": {
+      "kol_voice_gain": true,
+      "kol_voice_play": true
+    }
+  },
+  "useVoicePack":false
+}

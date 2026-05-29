@@ -1,0 +1,27 @@
+n_id	s_description	s_name	s_icon	s_action_key	s_skin_data	n_if_paid_motion
+动作id	备注	名称	图标	动作名	皮肤名 key=value#key=value	表情类型0免费 1付费
+1		player.motion.name1	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_01	g2055_movement_akinmbo		0
+2		player.motion.name2	gameres|asset/Imageset/g2055_clothing:custom_face_g2055_costume_01_boy	g2055_movement_backforward		0
+3		player.motion.name3	gameres|asset/Imageset/g2055_clothing:clothes_tops_g2055_costume_01	g2055_movement_squat		0
+4		player.motion.name4	gameres|asset/Imageset/g2055_clothing:clothes_pants_g2055_costume_01	g2055_movement_surrender		0
+5		player.motion.name5	gameres|asset/Imageset/g2055_clothing:custom_shoes_g2055_costume_01	g2055_movement_telephone	g2055_item_telephone	0
+6		player.motion.name6	gameres|asset/Imageset/g2055_clothing:clothes_tops_g2055_costume_01_tattoo_01	g2055_movement_wallstand_1		0
+7		player.motion.name7	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_movement_wallstand_2		0
+8		player.motion.name8	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_teabag	g2055_teabag	0
+9		player.motion.name9	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_arrested		0
+10		player.motion.name10	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_fall		0
+11		player.motion.name11	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_idle_creeping		0
+12		player.motion.name12	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_dance_372		0
+13		player.motion.name13	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_395_boneless		0
+14		player.motion.name14	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_403_snoop		0
+15		player.motion.name15	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_boy_wave		0
+16		player.motion.name16	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_christmas_scratchhead_boy		0
+17		player.motion.name17	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_415_cry		0
+18		player.motion.name18	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_422_laugh		0
+19		player.motion.name19	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_rage		0
+1001		player.paidmotion.name1	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_paidmotion_6		1
+1002		player.paidmotion.name2	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_paidmotion_1		1
+1003		player.paidmotion.name3	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_paidmotion_2		1
+1004		player.paidmotion.name4	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_paidmotion_3		1
+1005		player.paidmotion.name5	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_paidmotion_4		1
+1006		player.paidmotion.name6	gameres|asset/Imageset/g2055_clothing:custom_hair_g2055_costume_02	g2055_paidmotion_5		1

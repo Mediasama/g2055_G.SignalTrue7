@@ -1,0 +1,37 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "disableClientTick": true,
+  "canEquipPlural": false,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Texture/Item/icon_gun.png",
+  "itemintroduction": "46edf25a-b474-4908-aea3-c0358af9b762",
+  "itemname": "item_5232da59-0194-4543-920a-6d072b593e76",
+  "mesh": "asset/weapon/g2055_weapon_hammer_01.mesh",
+  "needSave": false,
+  "skill": [
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "noAddBag": true,
+  "dropSpeed":0,
+  "dropMatItem":{
+    "rotateX": 45.0,
+    "rotateY": 45.0,
+    "rotateZ": 45.0
+  },
+  "dropEffect": {
+    "path": "g2055_dropEffect.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}

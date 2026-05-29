@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="166" nativeHorzRes="991" version="2" imagefile="g2055_action.png" name="g2055_action" autoScaled="false">
+      <Image yPos="1" xPos="826" height="164" name="g2055_paidmotion_6" width="164"/>
+    <Image yPos="1" xPos="166" height="164" name="g2055_paidmotion_2" width="164"/>
+    <Image yPos="1" xPos="496" height="164" name="g2055_paidmotion_4" width="164"/>
+    <Image yPos="1" xPos="661" height="164" name="g2055_paidmotion_5" width="164"/>
+    <Image yPos="1" xPos="331" height="164" name="g2055_paidmotion_3" width="164"/>
+    <Image yPos="1" xPos="1" height="164" name="g2055_paidmotion_1" width="164"/>
+</Imageset>

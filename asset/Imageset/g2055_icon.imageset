@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="2048" nativeHorzRes="155" version="2" imagefile="g2055_icon.png" name="g2055_icon" autoScaled="false">
+      <Image yPos="1" xPos="81" height="40" name="icon_0_money" width="40"/>
+    <Image yPos="42" xPos="1" height="48" name="icon_0_cube" width="42"/>
+    <Image yPos="1790" xPos="1" height="128" name="icon_0_gang01" width="128"/>
+    <Image yPos="1177" xPos="1" height="112" name="icon_0_stealmoney" width="118"/>
+    <Image yPos="1919" xPos="1" height="128" name="icon_0_gang05" width="128"/>
+    <Image yPos="666" xPos="1" height="198" name="icon_0_door_02" width="117"/>
+    <Image yPos="1064" xPos="1" height="112" name="icon_0_savemoney" width="118"/>
+    <Image yPos="111" xPos="78" height="77" name="icon_0_action" width="76"/>
+    <Image yPos="111" xPos="1" height="77" name="icon_0_stronghold" width="76"/>
+    <Image yPos="1" xPos="47" height="32" name="icon_0_fill_in" width="33"/>
+    <Image yPos="42" xPos="44" height="68" name="icon_0_money01" width="72"/>
+    <Image yPos="467" xPos="1" height="198" name="icon_0_door_01" width="117"/>
+    <Image yPos="268" xPos="1" height="198" name="icon_0_door_03" width="117"/>
+    <Image yPos="1" xPos="16" height="37" name="icon_0_lock" width="30"/>
+    <Image yPos="1532" xPos="1" height="128" name="icon_0_gang02" width="128"/>
+    <Image yPos="189" xPos="1" height="78" name="icon_0_pass03" width="86"/>
+    <Image yPos="1" xPos="1" height="19" name="icon_0_bullets" width="14"/>
+    <Image yPos="1661" xPos="1" height="128" name="icon_0_gang04" width="128"/>
+    <Image yPos="865" xPos="1" height="198" name="icon_0_door_04" width="117"/>
+    <Image yPos="1290" xPos="1" height="112" name="icon_0_cashbox" width="118"/>
+    <Image yPos="1403" xPos="1" height="128" name="icon_0_gang03" width="128"/>
+</Imageset>

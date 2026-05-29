@@ -1,0 +1,4 @@
+n_id	s_description	n_type	n_weight	s_icon	s_goods	n_price
+商品id	备注	商品类型 	权重	商品图标	商品内容 类型-ID 1.服装 2.汽车 3.武器 5.子弹 8.道具	商品价格
+30011		1	1	gameres|asset/Imageset/g2055_clothing:icon_0_key	8-80001	20000
+30021		2	1	gameres|asset/Imageset/g2055_clothing:icon_0_door_decoders	8-80002	20000

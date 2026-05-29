@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="418" nativeHorzRes="915" version="2" imagefile="g2055_common.png" name="g2055_common" autoScaled="false">
+      <Image yPos="1" xPos="675" height="64" name="img_0_center_of_accuracy03" width="64"/>
+    <Image yPos="1" xPos="253" height="34" name="btn_0_add" width="34"/>
+    <Image yPos="1" xPos="168" height="31" name="btn_0_click2" width="84"/>
+    <Image yPos="1" xPos="83" height="31" name="btn_0_click1" width="84"/>
+    <Image yPos="1" xPos="545" height="64" name="img_0_center_of_accuracy01" width="64"/>
+    <Image yPos="79" xPos="506" height="124" name="img_0_exchange" width="124"/>
+    <Image yPos="1" xPos="439" height="49" name="img_0_choose02" width="105"/>
+    <Image yPos="226" xPos="148" height="161" name="img_0_gun02" width="280"/>
+    <Image yPos="1" xPos="1" height="24" name="icon_0_tick" width="24"/>
+    <Image yPos="79" xPos="1" height="77" name="icon_0_money02" width="100"/>
+    <Image yPos="79" xPos="631" height="128" name="gang_green_arrow" width="136"/>
+    <Image yPos="226" xPos="1" height="146" name="img_0_select02" width="146"/>
+    <Image yPos="79" xPos="198" height="96" name="img_9_choose" width="96"/>
+    <Image yPos="226" xPos="429" height="161" name="img_0_gun01" width="280"/>
+    <Image yPos="79" xPos="102" height="95" name="img_0_plane" width="95"/>
+    <Image yPos="79" xPos="400" height="105" name="img_0_gun04" width="105"/>
+    <Image yPos="79" xPos="295" height="104" name="img_0_choose" width="104"/>
+    <Image yPos="1" xPos="288" height="34" name="btn_0_reduce" width="34"/>
+    <Image yPos="226" xPos="710" height="191" name="img_0_gun03" width="200"/>
+    <Image yPos="1" xPos="323" height="45" name="icon_0_hattips_01" width="115"/>
+    <Image yPos="79" xPos="768" height="146" name="img_0_select01" width="146"/>
+    <Image yPos="1" xPos="26" height="25" name="img_0_choose03" width="25"/>
+    <Image yPos="1" xPos="740" height="77" name="icon_0_cube" width="100"/>
+    <Image yPos="1" xPos="52" height="25" name="img_0_choose01" width="30"/>
+    <Image yPos="1" xPos="610" height="64" name="img_0_center_of_accuracy02" width="64"/>
+</Imageset>

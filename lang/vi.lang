@@ -1,0 +1,322 @@
+
+
+language_start:g2055_lang_20220706
+
+g2055_item_bottle=Vỏ Chai
+g2055_item_knuckles=Tay Gấu
+g2055_item_machete=Dao Phay
+g2055_item_axe=Rìu
+g2055_item_baseballbat=Gậy bóng chày
+g2055_item_hammer=Búa sắt
+g2055_item_Bricks=Gạch viên
+g2055_item_tigerpaw=Tay gấu
+g2055_item_razorhat=Mũ bánh tiêu
+g2055_item_pistol=Súng Lục
+g2055_item_goldak=Súng Trường Vàng
+g2055_item_shotgun=Shotgun
+g2055_item_minigun=Súng Máy Vàng
+g2055_item_money=Tiền
+g2055_item_doorDecoder=Bộ mở khóa cửa
+g2055_item_vehicleDecoder=Bộ mở khóa xe
+
+g2055_item_ammo=Đạn
+
+
+weapon.shop.buy.success =Mua thành công
+bullet.shop.buy.success =Mua thành công
+bullet.shop.buy.no.need =Hiện chưa thể mua đạn
+bullet.shop.buy.fail =Vũ khí không thể mua đạn
+
+tattoo.tips.other.player.tattoo =Không có chỗ trống
+tattoo.tips.error.request =Yêu cầu không hợp lệ
+tattoo.tips.empty.tattoo =Đã có đủ hình xăm
+tattoo.tips.exist.tattoo =Đã có hình này
+tips.no.money =Tiền chưa đủ
+tattoo.tips.interrupt =Xăm bị gián đoạn
+tattoo.tips.success =Nhận hình xăm
+
+territory.map.tips1 =Người chơi
+territory.map.tips2 =Thành viên Hội
+territory.map.tips3 =Cửa hàng xe
+territory.map.tips4 =Cừa hàng quần áo
+territory.map.tips5 =Cửa hàng súng
+territory.map.tips6 =Điểm xuất hiện
+territory.map.tips.bottom =Chiếm lãnh địa sẽ nhận được lợi ích
+territory.tips.occupy.success =Chiếm thành công
+territory.tips.occupy.get.award =%s nhận %d phí bảo kê!
+territory.tips.other.player.occupying =Người chơi khác đang chiếm
+territory.tips.error.request =Yêu cầu không hợp lệ
+territory.tips.same.camp =Cùng Hội, không thể chiếm lại
+territory.tips.need.add.gang =Hãy tham gia Hội trước khi chiếm
+territory.tips.occupy.interrupt =Bị gián đoạn
+territory.tips.occupied.by.gang =%s của bạn đã bị %s chiếm
+territory.ui.tips.occupied =Đã chiếm
+territory.ui.tips.get.award =Thu phí bảo kê %d
+territory.ui.tips.unOccupied =Chưa bị chiếm
+area.tips.get.award =Vào nhận
+area.tips.rob.award =Vào cướp
+area.tips.now.award =Đã có phí bảo kê
+area_tips_name1=Khu Casino
+area_tips_name2=Tiệm Súng
+area_tips_name3=Tiệm Xe
+area_tips_name4=Tiệm Trang Phục
+area_tips_name5=Quán Bar
+area_tips_name6=Chợ Đen
+area_tips_name7=Tiệm Xăm
+
+
+gang.member.number =Số người trong Hội: %d/%d
+gang.title.gang.list  =Danh sách Hội
+gang.title.gang.apply =Xin vào
+gang.title.gang.apply.list =Danh sách
+gang.title.gang.create.list =Tạo Hội
+gang.button.exit =Rời Hội
+gang.button.apply.list =Danh sách xin
+gang.button.clear.apply.list =Xóa hết
+gang.button.return =Quay về
+gang.button.create.gang =Tạo Hội
+gang.position.chairman =Hội trưởng
+gang.position.member =Hội viên
+gang.tips.access.apply.fail =Bạn đã vào Hội khác, hãy rời Hội trước!
+gang.tips.already.apply =Đã yêu cầu
+gang.tips.sensitive.word =Từ nhạy cảm
+gang.tips.name.exist =Tên Hội đã tồn tại
+gang.tips.name.too.long =Tên Hội phải ngắn hơn %d ký tự
+gang.tips.player.has.gang =Người chơi đã vào Hội khác
+gang.tips.max.member =Số người Hội đã đầy
+gang.tips.name.null =Hãy nhập tên Hội
+gang.tips.has.gang =Đã vào Hội
+gang.tips.replace.chairman =Hội Trưởng rời Hội, trở thành Hội Trưởng
+gang.tips.apply.gang.success =Tham gia %s thành công
+gang.tips.create.gang.success =Tạo Hội thành công
+gang.tips.empty.gang =Chưa ai tạo Hội, hãy tạo 1 Hội nào
+gang.tips.empty.apply.list =Chưa có yêu cầu xin vào Hội
+gang.edit.box.default.tips =Nhập tên Hội
+
+bastion.doorplate.word =Phòng của {.}
+
+bastion.vault.manner.deposit =Cất vào
+bastion.vault.manner.fetch =Lấy ra
+bastion.vault.manner.steal =Lấy trộm
+
+bastion.vault.manner.deposit.error.overflow =Đã vượt mức
+bastion.vault.manner.deposit.error.no.money =Tiền chưa đủ
+
+bastion.closet.no.select.item =Đồ không tồn tại
+
+bastion.door.current =Hiện tại
+bastion.door.manner.buy =Mua
+bastion.door.attack.tip=Tấn công nhà bạn
+bastion.door.damaged.tip =Xông vào nhà bạn
+bastion.door.start.hacked.tip =Thử xông vào nhà bạn
+bastion.door.hacked.tip =Xông vào nhà bạn
+bastion.door.hacked.succeed =Verbraucht 1 Zugangskontrolldecoder und entsperrt erfolgreich
+bastion.door.hacked.failed =Verbraucht 1 Zugangskontrolldecoder und kann nicht entriegelt werden
+bastion.door.hacked.owner.update =Chủ nhân đã đổi khóa
+bastion.door.unlocking =Đang mở khóa
+bastion.door.hacked.already.hacked =Đã bẻ khóa
+bastion.door.hacked.already.damaged =Đã hư hại
+
+bastion.closet.no.select.item = Chưa có trang phục này
+
+bastion.garage.buy.error.had.unlock =Đã mở khóa
+bastion.garage.fetch.error.no.car =Chưa có xe
+bastion.garage.deposit.error.no.car =Chưa có xe
+bastion.garage.deposit.error.no.garage =Chưa mở khóa nhà xe
+bastion.garage.buy.error.no.enough.money =Tiền chưa đủ
+
+bastion.garage.deposit.dialog.title =Cất xe
+bastion.garage.deposit.dialog.detail =Xác nhận cất xe?
+bastion.garage.deposit.dialog.confirm =Có
+bastion.garage.deposit.dialog.cancel =Không
+
+bastion.door.sensor.no.hack.item =Cần chìa vạn năng
+
+bastion.armory.deposit.exceed.maximum =Kho vũ khí đầy
+bastion.armory.deposit.no.select.item =Chưa có vũ khí này
+bastion.armory.fetch.no.select.item =Chưa có vũ khí này
+bastion.armory.steal.no.select.item =Chưa có vũ khí này
+
+bastion.armory.button.text.deposit =Cất vào
+bastion.armory.button.text.fetch =Lấy ra
+bastion.armory.button.text.steal =Lấy trộm
+bastion.armory.buy.error.had.unlock =Đã mở khóa
+bastion.armory.buy.error.no.enough.money =Tiền chưa đủ
+
+bastion.toolkit.tip.please.select.item =Hãy chọn 1 cánh cửa
+bastion.toolkit.fetch.no.select.item =Hãy chọn cửa muốn đổi
+bastion.toolkit.fetch.no.enough.money =Tiền chưa đủ
+bastion.toolkit.fetch.wrong.status =Hiện chưa thể đổi
+
+vehicle.icon.unlock.success =Tiêu thụ 1 bộ giải mã xe và mở khóa thành công
+vehicle.icon.unlock.fail=Tiêu thụ 1 bộ giải mã xe và không mở khóa được
+vehicle.icon.unlocking=Đang mở khóa
+vehicle.icon.noUnlockItem=Cần vật phẩm mở khóa
+vehicle.icon.beUnlock =Thử bẻ khóa xe bạn
+vehicle.icon.beAttack =Tấn công xe của bạn
+
+goods_shelf.tip.select.goods =Hãy chọn 1 vật phẩm
+goods_shelf.purchase.succeed=Mua thành công
+goods_shelf.no.enough.currency=Tiền chưa đủ
+goods_shelf.closet.already.possess=Đã có
+goods_shelf.closet.buy=Mua
+goods_shelf.closet.purchase.succeed=Mua thành công
+goods_shelf.black.market.purchase.succeed=Mua thành công
+
+
+charter.killed.tips =%s đã hạ gục bạn
+charter.relive.tips =Hồi sinh sau %s s
+
+
+tips.no.money =Tiền chưa đủ
+
+bullet.shop.buy.success =Mua thành công
+
+exchange.title =Đổi tiền
+exchange.yes =Xác nhận
+exchange.no =Hủy
+exchange.buy.success =Đổi tiền thành công
+exchange.buy.fail =Đổi tiền thất bại
+
+player.motion.title=Tương tác
+player.motion.name1=Chống hông
+player.motion.name2=Khiêu khích
+player.motion.name3=Ngồi xổm
+player.motion.name4=Đầu hàng
+player.motion.name5=Gọi điện
+player.motion.name6=Dựa tường 1
+player.motion.name7=Dựa tường 2
+player.motion.name8=Cười nhạo
+player.motion.name9=Suy nghĩ
+player.motion.name10=Giả chết
+player.motion.name11=Trườn
+player.motion.name12=Nhảy múa 1
+player.motion.name13=Nhảy múa 2
+player.motion.name14=Nhảy múa 3
+player.motion.name15=Vẫy chào
+player.motion.name16=Gãi đầu
+player.motion.name17=Khóc
+player.motion.name18=Cười to
+player.motion.name19=Giận dữ
+
+weapon.readyToBroken=Vũ khí sắp hư hại!!!
+weapon.isBroken=Vũ khí đã bị hư hại!!!
+
+passCard.title =Thẻ thông hành
+passCard.use.cube.confirm =Xác nhận dùng Khối Vàng
+passCard.yes  =Xác nhận
+passCard.no  =Hủy
+passCard.weaponTips =Ô vũ khí đã đầy, sẽ có sự thay đổi vũ khí, xác nhận?
+passCard.carGetOffTips =Sắp xuống xe và dịch chuyển đến cửa hàng xe, xác nhận?
+passCard.clothTips =Đã có trang phục này, sẽ quy đổi sang số tiền tương đương, xác nhận?
+passCard.taskDetails =Mô tả nhiệm vụ
+passCard.taskRewards =Phần thưởng
+passCard.taskDailyLimit =Giới hạn mỗi ngày
+passCard.task01 =Hạ gục {.} người chơi
+passCard.task02 =Phá hủy nhà của {.} người chơi
+passCard.task03 =Phá hủy {.} máy rút tiền
+passCard.task04 =Nhận {.} Xu (không tính thưởng Thẻ thông hành)
+passCard.task05 =Tiêu {.} Xu
+passCard.task06 =Tiêu {.} Khối Vàng
+passCard.unlock =Mở khóa
+passCard.not.open =Sự kiện chưa mở
+passCard.buy.success =Mua thành công
+passCard.buy.fail =Mua thất bại
+passCard.cant.open.ui =Trạng thái hiện tại không thể mở giao diện
+passCard.carTips =Sắp chuyển đến cửa hàng xe, xác nhận?
+weapon.carry.cant.use=Quá trình mang người không thể bị tấn công!
+weapon.no.bullet=Không còn đạn!
+
+passCard.buyLevel =Sắp trả {.} Golden Cube để mở khóa cấp độ tiếp theo, bạn có chắc không?
+passCard.buyPassport =Sắp có trả {.} Golden Cube để mở khóa Premium Pass, bạn có chắc không?
+
+name.guide.101 =đánh bại những kẻ xâm lược
+name.guide.102 =Nhặt tiền bị đánh rơi
+name.guide.103 =Mở khóa giá vũ khí
+name.guide.104 =lấy vũ khí ra
+name.guide.105 =tiết kiệm tiền
+name.guide.106 =Ra khỏi! Thưởng thức các trò chơi!
+name.guide.1 =1. Vũ khí trên người sẽ rơi ra khi chết \ n2. Giá vũ khí có thể bảo vệ vũ khí của bạn
+name.guide.2 =1. Giá vũ khí có thể tự do tiếp cận vũ khí \ n2, bạn có thể giật vũ khí của người chơi khác \ n3, bảo vệ vũ khí của chính mình
+name.guide.3 =1. Kho tiền có thể lưu trữ tiền \ n2. Bạn có thể cướp kho tiền của người chơi khác \ n3. Hãy bảo vệ kho tiền của riêng bạn
+name.guide.doortips =Vì sự an toàn của bạn, vui lòng hoàn thành nhiệm vụ mới bắt đầu trước khi ra ngoài
+
+name.house.1 =Mở khóa giá vũ khí
+name.house.2 =mở khóa ga ra
+name.house.3 =nâng cấp cổng
+name.house.4 =tiết kiệm tiền
+name.house.5 =rút tiền
+name.house.6 =giá đựng vũ khí
+name.house.7 =Tủ quần áo
+name.house.8 =ga-ra
+name.shop.1 =mua quần áo
+name.shop.2 =mua quần áo
+name.shop.3 =mua quần áo
+name.shop.4 =mua quần áo
+name.shop.5 =mua quần áo
+name.shop.6 =mua một chiếc xe
+name.shop.7 =mua một chiếc xe
+name.shop.8 =mua một chiếc xe
+name.shop.9 =mua một chiếc xe
+name.shop.10 =mua một chiếc xe
+name.shop.11 =mua một chiếc xe
+name.shop.12 =mua vũ khí
+name.shop.13 =mua vũ khí
+name.shop.14 =mua vũ khí
+name.shop.15 =mua vũ khí
+name.shop.16 =mua vũ khí
+name.shop.17 =mua vũ khí
+name.shop.18 =mua đạn
+name.shop.19 =mua đạn
+name.shop.20 =mua đạn
+name.shop.21 =mua đạn
+name.shop.22 =chợ đen mua sắm
+name.shop.Tattoo=có được một hình xăm
+
+g2055_item_dress_1_6=Hoa tay Vest (Trên cùng)
+g2055_item_dress_2_1=Đường thời thượng (Tóc)
+g2055_item_dress_2_2=Đường phố thời thượng (biểu hiện)
+g2055_item_dress_2_3=Đường phố thời thượng (trên cùng)
+g2055_item_dress_2_4=Đường phố thời thượng (dưới cùng)
+g2055_item_dress_2_5=Đường phố thời thượng (giày)
+g2055_item_dress_3_1=Phong cách tên cướp (tóc)
+g2055_item_dress_3_2=Phong cách tên cướp (biểu hiện)
+g2055_item_dress_3_3=Phong cách tên cướp (trên cùng)
+g2055_item_dress_3_4=Phong cách kẻ cướp (đáy)
+g2055_item_dress_3_5=Phong cách tên cướp (giày)
+player.paidmotion.name1=bạn đánh tôi
+player.paidmotion.name2=ném tiền
+player.paidmotion.name3=công lý màu da cam
+player.paidmotion.name4=đá
+player.paidmotion.name5=vẫy tay qua lại
+player.paidmotion.name6=Cossack
+g2055_item_harley=xe máy
+g2055_item_pika=đón
+g2055_item_benchi=xe hơi
+g2055_item_porsche=xe thể thao cao cấp
+g2055_item_lamborghini=siêu xe
+g2055_item_bugatti=ma xanh
+
+pass_card_close_tips=Nhấp vào một không gian trống để đóng cửa sổ
+
+gang.guide.tips=1. Tìm một băng đảng để tham gia \ n2. Bạn có thể sát cánh chiến đấu với các thành viên trong băng đảng \ n3. Chiếm lãnh thổ để nhận tiền một cách nhanh chóng
+gang.auto.apply.all=Ứng dụng một cú nhấp chuột
+gang.auto.join =tự động vượt qua
+
+gang.circle.tips.green=cùng một băng đảng
+gang.circle.tips.yellow=không băng đảng
+gang.circle.tips.red=kẻ thù
+gang.circle.tips.no.gang=Hãy tham gia băng nhóm trước
+
+vehicle.icon.text.canDrive=lái xe
+vehicle.icon.text.canUnlock=mở khóa
+vehicle.icon.text.cannotUnlock=Thiếu các mục mở khóa
+
+bastion.door.text.unlock=mở khóa cửa
+
+gang.rank.title.name=băng đảng mạnh nhất
+gang.rank.title.area=Khu vực chiếm đóng
+gang.rank.title.time=Thời gian nghề nghiệp
+gang.rank.title.noGang=không có băng đảng
+
+language_end:g2055_lang_20220706

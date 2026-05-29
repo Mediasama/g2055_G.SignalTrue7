@@ -1,0 +1,20 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/g2055_standardCarRunSound.mp3",
+        "loop": true,
+        "volume": 0.5,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            50
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/standardCar_run_buff"
+    ],
+    "removeBuff": [
+        "myplugin/standardCar_idle_buff"
+    ],
+    "sync": "other"
+}

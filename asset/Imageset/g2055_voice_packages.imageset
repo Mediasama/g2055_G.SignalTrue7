@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="607" nativeHorzRes="389" version="2" imagefile="g2055_voice_packages.png" name="g2055_voice_packages" autoScaled="false">
+      <Image yPos="1" xPos="155" height="116" name="icon_0_voice02" width="116"/>
+    <Image yPos="1" xPos="272" height="116" name="icon_0_voice03" width="116"/>
+    <Image yPos="514" xPos="1" height="92" name="img_0_voice_packages" width="387"/>
+    <Image yPos="118" xPos="1" height="395" name="img_0_card" width="280"/>
+    <Image yPos="1" xPos="38" height="116" name="icon_0_voice01" width="116"/>
+    <Image yPos="1" xPos="1" height="40" name="icon_0_gcube" width="36"/>
+</Imageset>

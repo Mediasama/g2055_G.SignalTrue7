@@ -1,0 +1,65 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2055_vehicle_chuanqi.actor" Originalscale="1 1 1" Skeleton="g2055_vehicle_chuanqi.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_vehicle_chuanqi.skin" ChangeColor = "1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_vehicle_chuanqi_idle.anim" BeginTime = "0" Times = "-1" Length = "0.333" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_vehicle_chuanqi.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.05" Channel = "" TimeScale = "3">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_vehicle_chuanqi.effect"/>
+					<SocketName value="s_paokou2"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="-0.27"/>
+					<Position_Y value="0.015"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="-10"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2055_vehicle_chuanqi.effect"/>
+					<SocketName value="s_paokou1"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="-0.27"/>
+					<Position_Y value="0.015"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="-10"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2055_vehicle_chuanqi.anim"/>
+				<Anim Name="g2055_vehicle_chuanqi_idle.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

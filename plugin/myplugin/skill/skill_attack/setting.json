@@ -1,0 +1,34 @@
+{
+    "type": "MeleeRegionAttack",
+    "preSwingTime": 30,
+    "backSwingTime": 120,
+    "isClick": true,
+    "cdTime": 10,
+    "priority": -2,
+    "hitPlayerSound":"g2055_punch_hitPlayer",
+    "hitWallSound": "g2055_punch_hitNonPlayer",
+    "damage":10,
+    "lifeTime": 5,
+    "collider": {
+        "extent": {
+            "x": 2,
+            "y": 2,
+            "z": 2
+        },
+        "type": "Box"
+    },
+    "colliderOffset": {
+        "x": 0,
+        "y": 0,
+        "z": -1.5
+    },
+
+    "hitEffect": {
+        "effect": "g2055_hit_gray.effect",
+        "time": 500,
+        "scale": [0.8, 0.8, 0.8],
+        "offset": [0, 0, 0]
+    },
+    "hurtDistance":0.6,
+    "hurtTime":1
+}

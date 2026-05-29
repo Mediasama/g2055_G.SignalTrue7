@@ -1,0 +1,322 @@
+
+
+language_start:g2055_lang_20220706
+
+g2055_item_bottle=壊れたワインボトル
+g2055_item_knuckles=ナックルズ
+g2055_item_machete=マチェーテ
+g2055_item_axe=斧
+g2055_item_baseballbat=野球用バット
+g2055_item_hammer=ハンマー
+g2055_item_Bricks=レンガ
+g2055_item_tigerpaw=タイガーポー
+g2055_item_razorhat=かみそりの帽子
+g2055_item_pistol=ピストル
+g2055_item_goldak=ゴールデンライフル
+g2055_item_shotgun=ショットガン
+g2055_item_minigun=ゴールデンマシンガン
+g2055_item_money=現金
+g2055_item_doorDecoder=アクセス制御デコーダー
+g2055_item_vehicleDecoder=車両デコーダー
+
+g2055_item_ammo=弾薬
+
+
+weapon.shop.buy.success =購入成功
+bullet.shop.buy.success =補充弾の購入に成功
+bullet.shop.buy.no.need =現在弾薬を購入する必要はありません
+bullet.shop.buy.fail =現在の武器の弾薬は購入できません
+
+tattoo.tips.other.player.tattoo =タトゥースペースなし
+tattoo.tips.error.request =違法な要求
+tattoo.tips.empty.tattoo =すべての入れ墨を持っている
+tattoo.tips.exist.tattoo =すでにこのタトゥーを持っています
+tips.no.money =金不足
+tattoo.tips.interrupt =入れ墨が中断されます
+tattoo.tips.success =入れ墨を取得します
+
+territory.map.tips1 =プレーヤー
+territory.map.tips2 =ギャングメンバー
+territory.map.tips3 =ニュートラルエリア
+territory.map.tips4 =自分のエリア
+territory.map.tips5 =敵エリア
+territory.map.tips6 =誕生ポイント
+territory.map.tips.bottom =領土を占領してお金を稼ぐ
+territory.tips.occupy.success =%sを正常にキャプチャしました
+territory.tips.occupy.get.award =%sは%dの保護料金を受け取ります！
+territory.tips.other.player.occupying =他のプレイヤーが占領している
+territory.tips.error.request =違法な要求
+territory.tips.same.camp =同じギャング、職業を繰り返すことはできません
+territory.tips.need.add.gang =領土を占領し、最初にギャングに参加してください
+territory.tips.occupy.interrupt =職業が中断された
+territory.tips.occupied.by.gang =あなたの%sは%sによって占められています
+territory.ui.tips.occupied =占領
+territory.ui.tips.get.award =チャージプロテクション料金%d
+territory.ui.tips.unOccupied =占有されていません
+area.tips.get.award =ピックアップに行きます
+area.tips.rob.award =ひったくりに行く
+area.tips.now.award =発生した保護料
+area_tips_name1=スクエアエリア
+area_tips_name2=ガンショップエリア
+area_tips_name3=デポエリア
+area_tips_name4=衣料品店エリア
+area_tips_name5=バーエリア
+area_tips_name6=闇市場エリア
+area_tips_name7=タトゥーエリア
+
+
+gang.member.number =ギャングメンバーの数：%d /%d
+gang.title.gang.list  =ギャングリスト
+gang.title.gang.apply =入会申し込み
+gang.title.gang.apply.list =アプリケーションリスト
+gang.title.gang.create.list =ギャングを作成する
+gang.button.exit =ギャングをやめる
+gang.button.apply.list =アプリケーションリスト
+gang.button.clear.apply.list =ワンクリックでリストをクリア
+gang.button.return =戻る
+gang.button.create.gang =ギャングを作成する
+gang.position.chairman =大統領
+gang.position.member =メンバー
+gang.tips.access.apply.fail =他のギルドに参加しました。最初にギルドを離れてください！
+gang.tips.already.apply =すでに適用されています
+gang.tips.sensitive.word =デリケートな言葉
+gang.tips.name.exist =ギャング名はすでに存在します
+gang.tips.name.too.long =ギャング名は%d文字未満である必要があります
+gang.tips.player.has.gang =プレイヤーが別のギャングに参加しました
+gang.tips.max.member =現在のギャングは満員です
+gang.tips.name.null =ギャング名を入力してください
+gang.tips.has.gang =すでにギャングにいる
+gang.tips.replace.chairman =社長が辞任して社長に就任
+gang.tips.apply.gang.success =%sに正常に参加しました
+gang.tips.create.gang.success =ギャングは正常に作成されました
+gang.tips.empty.gang =誰もギルドを作成していません。作成してください
+gang.tips.empty.apply.list =ギャングへの参加を申し込んだプレイヤーはいません
+gang.edit.box.default.tips =ギャング名を入力してください
+
+bastion.doorplate.word ={。}自分の家
+
+bastion.vault.manner.deposit =預り金
+bastion.vault.manner.fetch =テイクアウト
+bastion.vault.manner.steal =窃盗
+
+bastion.vault.manner.deposit.error.overflow =制限を超えました
+bastion.vault.manner.deposit.error.no.money =資金不足
+
+bastion.closet.no.select.item =服はありません
+
+bastion.door.current =現在
+bastion.door.manner.buy =買う
+bastion.door.attack.tip=あなたの家を攻撃した
+bastion.door.damaged.tip =あなたの家に侵入した
+bastion.door.start.hacked.tip =あなたの家に侵入してみてください
+bastion.door.hacked.tip =あなたの家に侵入した
+bastion.door.hacked.succeed =Consuma 1 decodificatore di controllo accessi e si sblocca correttamente
+bastion.door.hacked.failed =Consuma 1 decodificatore di controllo accessi e non riesce a sbloccarsi
+bastion.door.hacked.owner.update =所有者がドアロックを交換しました
+bastion.door.unlocking =ロックを解除する
+bastion.door.hacked.already.hacked =割れた
+bastion.door.hacked.already.damaged =破損
+
+bastion.closet.no.select.item = 服はありません
+
+bastion.garage.buy.error.had.unlock =ロック解除
+bastion.garage.fetch.error.no.car =車両なし
+bastion.garage.deposit.error.no.car =車両なし
+bastion.garage.deposit.error.no.garage =ガレージのロックが解除されていません
+bastion.garage.buy.error.no.enough.money =資金不足
+
+bastion.garage.deposit.dialog.title =車両を保管する
+bastion.garage.deposit.dialog.detail =車両を預けるかどうか
+bastion.garage.deposit.dialog.confirm =はい
+bastion.garage.deposit.dialog.cancel =いいえ
+
+bastion.door.sensor.no.hack.item =マスターキーが必要です
+
+bastion.armory.deposit.exceed.maximum =アーセナルがいっぱいです
+bastion.armory.deposit.no.select.item =そのような武器はありません
+bastion.armory.fetch.no.select.item =そのような武器はありません
+bastion.armory.steal.no.select.item =そのような武器はありません
+
+bastion.armory.button.text.deposit =預り金
+bastion.armory.button.text.fetch =テイクアウト
+bastion.armory.button.text.steal =窃盗
+bastion.armory.buy.error.had.unlock =ロック解除
+bastion.armory.buy.error.no.enough.money =資金不足
+
+bastion.toolkit.tip.please.select.item =ゲートを選択してください
+bastion.toolkit.fetch.no.select.item =交換するドアを選択してください
+bastion.toolkit.fetch.no.enough.money =資金不足
+bastion.toolkit.fetch.wrong.status =現在の状態を置き換えることはできません
+
+vehicle.icon.unlock.success =1台の車両デコーダーを消費し、正常にロック解除します
+vehicle.icon.unlock.fail=1台の車両デコーダーを消費し、ロック解除に失敗します
+vehicle.icon.unlocking=ロックを解除する
+vehicle.icon.noUnlockItem=車両デコーダーが必要
+vehicle.icon.beUnlock =あなたの車のロックを解除してみてください
+vehicle.icon.beAttack =あなたの車を攻撃した
+
+goods_shelf.tip.select.goods =アイテムを選択してください
+goods_shelf.purchase.succeed=購入成功
+goods_shelf.no.enough.currency=資金不足
+goods_shelf.closet.already.possess=所有
+goods_shelf.closet.buy=買う
+goods_shelf.closet.purchase.succeed=購入成功
+goods_shelf.black.market.purchase.succeed=購入成功
+
+
+charter.killed.tips =％sはあなたを殺しました
+charter.relive.tips =%s秒後に復活
+
+
+tips.no.money =資金不足
+
+bullet.shop.buy.success =購入成功
+
+exchange.title =両替
+exchange.yes =もちろん
+exchange.no =キャンセル
+exchange.buy.success =成功した両替
+exchange.buy.fail =両替に失敗しました
+
+player.motion.title=コミュニケーション行動
+player.motion.name1=akimbo
+player.motion.name2=挑発的な
+player.motion.name3=スクワット
+player.motion.name4=降伏
+player.motion.name5=呼び出す
+player.motion.name6=壁に対して1
+player.motion.name7=壁に対して2
+player.motion.name8=嘲笑
+player.motion.name9=考える
+player.motion.name10=死んだふり
+player.motion.name11=クロール
+player.motion.name12=ダンスステップ1
+player.motion.name13=ダンスステップ2
+player.motion.name14=ダンスステップ3
+player.motion.name15=挨拶
+player.motion.name16=彼の頭を掻く
+player.motion.name17=泣く
+player.motion.name18=大声で笑う
+player.motion.name19=怒り
+
+weapon.readyToBroken=現在の武器はもうすぐ壊れます！ ！ ！
+weapon.isBroken=現在の武器は壊れています！ ！ ！
+
+passCard.title =ブロックパス
+passCard.use.cube.confirm =ゴールドキューブの消費を確認する
+passCard.yes  =もちろん
+passCard.no  =キャンセル
+passCard.weaponTips =武器スロットがいっぱいになり、武器の交換が行われます、よろしいですか？
+passCard.carGetOffTips =車を降りてカーショップに乗り換えようとしていますが、よろしいですか？
+passCard.clothTips =このコスチュームはすでに存在しており、同じ金額のゲーム通貨に置き換えられます。よろしいですか？
+passCard.taskDetails =ミッションの詳細
+passCard.taskRewards =アワード
+passCard.taskDailyLimit =デイリーキャップ
+passCard.task01 ={。}プレーヤーを殺す
+passCard.task02 =破壊された{。}プレイヤーのドア
+passCard.task03 =サボタージュ{。}ATM
+passCard.task04 ={。}のお金を稼ぐ（パスリワードには含まれていません）
+passCard.task05 =お金を使う
+passCard.task06 =支出{。}ゴールドキューブ
+passCard.unlock =ロックを解除する
+passCard.not.open =イベントは開始されていません
+passCard.buy.success =購入成功
+passCard.buy.fail =購入に失敗しました
+passCard.cant.open.ui =現在の状態ではインターフェースを開くことができません
+passCard.carTips =まもなくカーショップに送られますよね？
+weapon.carry.cant.use=人を運ぶプロセスを攻撃することはできません！
+weapon.no.bullet=これ以上の弾丸はありません！
+
+passCard.buyLevel =次のレベルのロックを解除するために{。}ゴールデンキューブを支払うためにすぐに来ます、よろしいですか？
+passCard.buyPassport =プレミアムパスのロックを解除するために{。}ゴールデンキューブを支払うためにすぐに来ます、よろしいですか？
+
+name.guide.101 =侵略者を倒す
+name.guide.102 =落としたお金を拾う
+name.guide.103 =武器ラックのロックを解除します
+name.guide.104 =武器を取り出します
+name.guide.105 =お金を節約する
+name.guide.106 =取り出す！ ゲームをお楽しみください！
+name.guide.1 =1.体の武器は、死ぬと落下します\n2。武器ラックは武器を保護できます
+name.guide.2 =1.武器ラックは武器に自由にアクセスできます\n2、他のプレイヤーの武器を奪うことができます\ n3、自分の武器を保護します
+name.guide.3 =1.ボールトはお金を貯めることができます\n2。他のプレイヤーのボールトを奪うことができます\n3。自分のボールトを保護します
+name.guide.doortips =安全のため、外出する前に初心者のタスクを完了してください
+
+name.house.1 =武器ラックのロックを解除します
+name.house.2 =ガレージのロックを解除
+name.house.3 =アップグレードゲート
+name.house.4 =お金を節約する
+name.house.5 =お金を引き出す
+name.house.6 =武器ラック
+name.house.7 =ワードローブ
+name.house.8 =ガレージ
+name.shop.1 =服を買う
+name.shop.2 =服を買う
+name.shop.3 =服を買う
+name.shop.4 =服を買う
+name.shop.5 =服を買う
+name.shop.6 =車を買う
+name.shop.7 =車を買う
+name.shop.8 =車を買う
+name.shop.9 =車を買う
+name.shop.10 =車を買う
+name.shop.11 =車を買う
+name.shop.12 =武器を買う
+name.shop.13 =武器を買う
+name.shop.14 =武器を買う
+name.shop.15 =武器を買う
+name.shop.16 =武器を買う
+name.shop.17 =武器を買う
+name.shop.18 =弾丸を買う
+name.shop.19 =弾丸を買う
+name.shop.20 =弾丸を買う
+name.shop.21 =弾丸を買う
+name.shop.22 =闇市場での買い物
+name.shop.Tattoo=入れ墨を取得します
+
+g2055_item_dress_1_6=フラワーアームベスト（上）
+g2055_item_dress_2_1=トレンディストリート（髪）
+g2055_item_dress_2_2=トレンディなストリート（表現）
+g2055_item_dress_2_3=トレンディな通り（上）
+g2055_item_dress_2_4=トレンディな通り（下）
+g2055_item_dress_2_5=トレンディなストリート（靴）
+g2055_item_dress_3_1=バンディットスタイル（髪）
+g2055_item_dress_3_2=バンディットスタイル（表現）
+g2055_item_dress_3_3=バンディットスタイル（上）
+g2055_item_dress_3_4=バンディットスタイル（ボトムス）
+g2055_item_dress_3_5=バンディットスタイル（靴）
+player.paidmotion.name1=あなたは私を襲いました
+player.paidmotion.name2=お金を投げる
+player.paidmotion.name3=オレンジの正義
+player.paidmotion.name4=キック
+player.paidmotion.name5=前後に振る
+player.paidmotion.name6=コサック
+g2055_item_harley=オートバイ
+g2055_item_pika=選び出す
+g2055_item_benchi=車
+g2055_item_porsche=プレミアムスポーツカー
+g2055_item_lamborghini=スーパーカー
+g2055_item_bugatti=ブルーゴースト
+
+pass_card_close_tips=空のスペースをクリックしてウィンドウを閉じます
+
+gang.guide.tips=1.参加するギャングを見つける\n2。ギャングのメンバーと並んで戦うことができます\n3。領土を占領してすぐにお金を稼ぎましょう
+gang.auto.apply.all=ワンクリックアプリケーション
+gang.auto.join =自動的に合格
+
+gang.circle.tips.green=同じギャング
+gang.circle.tips.yellow=非ギャング
+gang.circle.tips.red=敵
+gang.circle.tips.no.gang=最初にギャングに参加してください
+
+vehicle.icon.text.canDrive=ドライブ
+vehicle.icon.text.canUnlock=ロックを解除する
+vehicle.icon.text.cannotUnlock=ロック解除アイテムがありません
+
+bastion.door.text.unlock=ドアのロックを解除
+
+gang.rank.title.name=最強のギャング
+gang.rank.title.area=占有面積
+gang.rank.title.time=占領時間
+gang.rank.title.noGang=ギャングなし
+
+language_end:g2055_lang_20220706

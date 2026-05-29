@@ -1,0 +1,102 @@
+{
+    "launcher": {
+        "//fullAuto": "半自动/全自动开关",
+        "fullAuto":true,
+        "//fireRate": "子弹射速，次/没秒",
+        "fireRate":0.12,
+        "//burstNum":"连发数量",
+        "burstNum":1,
+        "//burstCd":"连发时间间隔",
+        "burstCd":0,
+        "//reloadTime":"换弹时间",
+        "reloadTime":1,
+        "//pellets": "每发弹片数量",
+        "pellets":1,
+        "//pelletSpread": "单片散射值",
+        "pelletSpread":0,
+        "//clipSize": "弹夹容量",
+        "clipSize":200,
+        "openAim": 45,
+        "autoAim": true,
+        "autoFire": false,
+        "autoFireDistance": 150,
+        "autoFireDelay":0,
+        "s_part": "",
+        "weaponPlayerYaw": 10,
+        "action":{
+            "run":"g2055_gun_goldak_run",
+            "attack":[
+                "g2055_gun_goldak_attack"
+            ],
+            "idle":"g2055_gun_goldak_idle"
+        },
+        "moveSpeed": 0.91,
+        "moveAcc": 1,
+        "camera": {
+            "cameraDistance": 5.5,
+            "cameraXOffset": 1.1,
+            "cameraYOffset": 0.4,
+            "cameraFovAngle": 60
+        }
+    },
+    "bullet": {
+        "damageLevel":2,
+        "///": "散射值",
+        "spreadXY":    [0.4, 1, 999],
+        "spreadValues":[0,  0.4,0.7],
+
+        "//recoilInterval": "抖动间隔",
+        "recoilInterval":0.13,
+
+        "//recoilPitchS": "俯仰距离",
+        "recoilPitchS":[0.9,0.9],
+        "//recoilPitchSMax": "俯仰距离",
+        "recoilPitchSMax":4.6,
+        "//recoilPitchBalanceS": "俯仰平衡距离",
+        "recoilPitchBalanceS":[0.6,0.6],
+        "//recoilPitchBalanceT": "俯仰平衡上跳时间",
+        "recoilPitchBalanceT":0.08,
+
+        "//recoilYawS": "偏航距离",
+        "recoilYawS":[-0.3,0.3],
+        "//recoilYawSMax": "偏航平衡距离",
+        "recoilYawSMax":0.2,
+        "//recoilYawBalanceS": "偏航平衡距离",
+        "recoilYawBalanceS":[0.1,0.1],
+        "//recoilYawBalanceT": "偏航平衡上跳时间",
+        "recoilYawBalanceT":0.05,
+
+        "//recoilT": "上跳时间",
+        "recoilT":0.04,
+        "//recoilBackT": "回落时间",
+        "recoilBackT": 0.25,
+
+        "//damage":"子弹伤害",
+        "damage":5,
+        "//minDamage":"最小伤害",
+        "minDamage":5,
+        "//damageDecayStartDis": "伤害衰减起始距离",
+        "damageDecayStartDis":100,
+        "//damageDecayFactor1":"伤害衰减系数1",
+        "damageDecayFactor1":0.4,
+
+        "//damageDecayMaxDis": "伤害衰减最大距离",
+        "damageDecayMaxDis":300,
+        "//damageDecayFactor2":"伤害衰减系数2",
+        "damageDecayFactor2":0.6,
+
+
+        "bornSound": "ak_shoot",
+        "hitEffect": {
+            "effect": "g2050_cover_hurt_2.effect",
+            "time": 500,
+            "scale": [0.8, 0.8, 0.8]
+        },
+
+
+        "offset": [-0.18, 1.1, 1],
+        "lineTime":0.25,
+        "effectName":"g2055_bullettrail.effect"
+        
+    }
+}

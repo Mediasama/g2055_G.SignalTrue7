@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" name="g2055_center_of_accuracy" imagefile="g2055_center_of_accuracy.png" version="2" nativeVertRes="66" nativeHorzRes="196">
+      <Image xPos="131" name="img_0_center_of_accuracy03" width="64" height="64" yPos="1"/>
+    <Image xPos="1" name="img_0_center_of_accuracy01" width="64" height="64" yPos="1"/>
+    <Image xPos="66" name="img_0_center_of_accuracy02" width="64" height="64" yPos="1"/>
+</Imageset>

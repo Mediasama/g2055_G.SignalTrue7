@@ -1,0 +1,52 @@
+{
+  "actorName": "blank.actor",
+  "base": "base_trigger",
+  "collider": {
+    "type": "Box",
+    "extent": {
+      "x": 6,
+      "y": 2,
+      "z": 6
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "operationConfig": {
+    "spawn": [
+    ],
+    "destroy": [
+    ],
+    "entityEnter": [
+      {
+        "stateMask": {},
+        "behaviorList": [
+          {
+            "type": "OperateBastionPark",
+            "operateType": "Open"
+          }
+        ]
+      }
+    ],
+    "entityLeave": [
+      {
+        "stateMask": {},
+        "behaviorList": [
+          {
+            "type": "OperateBastionPark",
+            "operateType": "Close"
+          }
+        ]
+      }
+    ],
+    "useItem": [
+    ]
+  }
+}

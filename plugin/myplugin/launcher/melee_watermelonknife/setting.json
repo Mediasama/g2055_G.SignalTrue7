@@ -1,0 +1,51 @@
+{
+    "action": {
+        "run": "run",
+        "idle": "g2055_melee_bottle_idle"
+    },
+    "skill": {
+        "run":["skill_melee_watermelonknife_run_1","skill_melee_watermelonknife_run_2", "skill_melee_watermelonknife_run_3"],
+        "idle":["skill_melee_watermelonknife_idle_1","skill_melee_watermelonknife_idle_2"],
+        "jump":"skill_melee_axe",
+        "teabag":"skill_melee_axe_teabag",
+        "charge":"skill_melee_watermelonknife_charge"
+    },
+    "chargeAction":{
+        "castAction": "g2055_melee_charge_3",
+        "castEffect": "g2055_melee_charge.effect",
+        "offset": {
+            "x": 0,
+            "y": 0.4,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 2,
+        "castTime": 20
+    },
+    "collider": {
+        "extent": {
+            "x": 2,
+            "y": 2,
+            "z": 1
+        },
+        "type": "Box"
+    },
+    "colliderOffset": {
+        "x": 0,
+        "y": 0,
+        "z": -0.75
+    },
+    "moveSpeed": 1,
+    "moveAcc": 1,
+    "camera": {
+        "cameraDistance": 6,
+        "cameraXOffset": 0.0,
+        "cameraYOffset": 0.4,
+        "cameraFovAngle": 60,
+        "lockCamera": false
+    }
+}

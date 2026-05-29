@@ -1,0 +1,2750 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2055_girl.actor" Originalscale="1 1 1" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+			<SubActor name="girl.actor"/>
+			<SubActor name="girl_decoration.actor"/>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_01" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_01_04.skin" ChangeColor = "0 2.20321e-38 2.20321e-38 2.10059e-39" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_02" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_02_04.skin" ChangeColor = "0 3.81909e-38 3.81909e-38 2.04677e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_02_tattoo_01" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_02_04_tattoo_01.skin" ChangeColor = "0 3.81909e-38 3.81909e-38 2.04677e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_03" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_trousers_03.skin" ChangeColor = "0 1.86356e-38 1.86356e-38 8.25357e-39" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_04" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_04_04.skin" ChangeColor = "0 1.02788e-38 1.02788e-38 2.26717e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_05" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2035_clothe_7_trousers.skin" ChangeColor = "0 1.32157e-38 1.32157e-38 1.65188e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_06" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_trousers_06.skin" ChangeColor = "0 1.40443e-38 1.40443e-38 1.65188e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_07" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_07_04.skin" ChangeColor = "0 1.67069e-38 1.67069e-38 1.77126e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_08" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_08_04.skin" ChangeColor = "0 1.67069e-38 1.67069e-38 1.77126e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_09" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_09_04.skin" ChangeColor = "0 3.23088e-38 3.23088e-38 1.34882e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_10" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_10_04.skin" ChangeColor = "0 1.02768e-38 1.02768e-38 1.34882e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_pants" SlaveName="g2055_costume_11" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_11_04.skin" ChangeColor = "0 3.23088e-38 3.23088e-38 1.34882e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_01" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_01_03.skin" ChangeColor = "0 2.20321e-38 2.20321e-38 2.10059e-39" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_01_tattoo_01" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_01_03_tattoo_01.skin" ChangeColor = "0 2.30438e-38 2.30438e-38 1.18352e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_02" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_02_03.skin" ChangeColor = "0 3.81909e-38 3.81909e-38 2.04677e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_02_tattoo_01" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_02_03_tattoo_01.skin" ChangeColor = "0 1.61561e-38 1.61561e-38 1.36591e-39" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_03" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_trunk_03.skin" ChangeColor = "0 1.86356e-38 1.86356e-38 8.25357e-39" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_04" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_04_03.skin" ChangeColor = "0 1.02788e-38 1.02788e-38 2.26717e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_05" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2035_clothe_7_trunk.skin" ChangeColor = "0 1.32157e-38 1.32157e-38 1.65188e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_06" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_trunk_06.skin" ChangeColor = "0 1.40443e-38 1.40443e-38 1.65188e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_07" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_07_03.skin" ChangeColor = "0 1.67069e-38 1.67069e-38 1.77126e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_08" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_08_03.skin" ChangeColor = "0 1.67069e-38 1.67069e-38 1.77126e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_09" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_09_03.skin" ChangeColor = "0 1.02768e-38 1.02768e-38 1.34882e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_10" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_10_03.skin" ChangeColor = "0 1.02768e-38 1.02768e-38 1.34882e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Effect>
+					<FileName value="g2055_costume_10_03.effect"/>
+					<SocketName value="b_spine"/>
+					<Position_X value="-0.57"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="180"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_11" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_11_03.skin" ChangeColor = "0 1.02768e-38 1.02768e-38 1.34882e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" SlaveName="g2055_costume_11_tattoo_01" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_11_03_tattoo_01.skin" ChangeColor = "0 3.23088e-38 3.23088e-38 1.34882e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="g2055_costume_01" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_01_02_girl.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="g2055_costume_02" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_02_02_girl.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="g2055_costume_03" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_01_02_girl.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="g2055_costume_04" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_face_girl_04.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="g2055_costume_05" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2035_clothe_7_face.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="g2055_costume_06" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_face_06_mask.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_face_06_girl.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="g2055_costume_07" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_07_02_girl.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="g2055_costume_08" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g2055_costume_8_01.effect"/>
+					<SocketName value="s_head"/>
+					<Position_X value="-1.25"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.02"/>
+					<yaw value="0"/>
+					<pitch value="180"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_08_02.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="g2055_costume_09" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_09_02_girl.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="g2055_costume_10" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_10_02_girl.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" SlaveName="g2055_costume_11" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_09_02_girl.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="g2055_costume_01" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_01_01.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="g2055_costume_02" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_02_01.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="g2055_costume_03" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_head_03.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="g2055_costume_04" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_04_01.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="g2055_costume_05" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2035_clothe_7_hair.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="g2055_costume_06" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_head_06.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="g2055_costume_07" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_07_01.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="g2055_costume_08" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_08_01.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="g2055_costume_09" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_09_01.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="g2055_costume_10" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g2055_costume_10_01_girl.effect"/>
+					<SocketName value="s_head"/>
+					<Position_X value="-1.25"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.02"/>
+					<yaw value="0"/>
+					<pitch value="180"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_10_01_girl.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" SlaveName="g2055_costume_11" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_09_01.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="g2055_costume_01" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_01_05_l.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_01_05_r.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="g2055_costume_02" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_02_05.skin" ChangeColor = "0 3.81909e-38 3.81909e-38 2.04677e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="g2055_costume_03" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_shoes_03_l.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_shoes_03_r.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="g2055_costume_04" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2055_costume_04_05.skin" ChangeColor = "0 1.02788e-38 1.02788e-38 2.26717e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="g2055_costume_05" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2035_clothe_7_shoes_l.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2035_clothe_7_shoes_r.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.11"/>
+					<Position_Z value="-0.01"/>
+					<yaw value="-180"/>
+					<pitch value="2.23118e-05"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="g2055_costume_06" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_shoes_06_l.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_shoes_06_r.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="g2055_costume_07" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_07_05_l.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_07_05_r.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="g2055_costume_08" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_08_05_l.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_08_05_r.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="g2055_costume_09" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_09_05_l.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_09_05_r.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="g2055_costume_10" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g2055_costume_10_05.effect"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.11"/>
+					<Position_Z value="-0.01"/>
+					<yaw value="0"/>
+					<pitch value="180"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2055_costume_10_05.effect"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.12"/>
+					<Position_Z value="-0.01"/>
+					<yaw value="0"/>
+					<pitch value="180"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_10_05_l.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_10_05_r.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" SlaveName="g2055_costume_11" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_11_05_l.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_costume_11_05_r.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_gun_goldak" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_goldAK_01.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.3"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.05"/>
+					<yaw value="85"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_gun_minigun" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_minigun_03.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.63"/>
+					<Position_Y value="0.22"/>
+					<Position_Z value="-0.02"/>
+					<yaw value="77"/>
+					<pitch value="-14"/>
+					<roll value="108.9"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_gun_pistol" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="gun_42.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="-0.02"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_gun_shotgun" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="gun_04.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.1"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="-15"/>
+					<pitch value="10"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_item_telephone" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2052_prop_shouji.mesh"/>
+					<SocketName value="s_hand_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="-0.156937"/>
+					<Position_Z value="-0.156981"/>
+					<yaw value="0"/>
+					<pitch value="51"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_melee_bottle" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_throw_bottle_01.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.1"/>
+					<yaw value="0"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_melee_knuckles" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_melee_punch_01.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_melee_punch_02.mesh"/>
+					<SocketName value="s_hand_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_melee_machete" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2035_weapon_melee_5.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_melee_punch" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_throw_bottle" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_throw_bottle_01.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.2"/>
+					<yaw value="0"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_axe" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_axe_01.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.2"/>
+					<Position_Y value="0.01"/>
+					<Position_Z value="0.25"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_ballbat" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_ballbat_01.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.00114353"/>
+					<Position_Y value="0.01"/>
+					<Position_Z value="-0.268265"/>
+					<yaw value="0"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_brick" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_brick_01.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.13"/>
+					<Position_Y value="-0.02"/>
+					<Position_Z value="0.07"/>
+					<yaw value="2.5"/>
+					<pitch value="0"/>
+					<roll value="77.5"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_constructionhammer" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_constructionhammer.mesh"/>
+					<SocketName value="s_hand_l"/>
+					<Position_X value="-0.250241"/>
+					<Position_Y value="-0.21256"/>
+					<Position_Z value="0.50654"/>
+					<yaw value="-18.8791"/>
+					<pitch value="18.377"/>
+					<roll value="96.2346"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_crowbar" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_crowbar.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.1"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.25"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_dagger" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_dagger.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.254165"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_hammer" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_hammer_01.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.15"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.2"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_icehockeystick" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_icehockeystick.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="-0.03"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.5"/>
+					<yaw value="35"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_ironchain" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_ironchain.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="85"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_ironrod" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_ironrod.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.357226"/>
+					<yaw value="-4.46236e-05"/>
+					<pitch value="-90"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_nepalesemachete" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_nepalesemachete.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.269187"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_peaky" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_peaky_01.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.17"/>
+					<Position_Y value="0.06"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="180"/>
+					<scale value="0.8"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_steelpipe" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_steelpipe.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.02"/>
+					<Position_Y value="0.02"/>
+					<Position_Z value="0.52"/>
+					<yaw value="-100"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_tigerpaw" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_tigerpaw_01.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0.08"/>
+					<Position_Y value="0.08"/>
+					<Position_Z value="-0.02"/>
+					<yaw value="83.5"/>
+					<pitch value="-6"/>
+					<roll value="-180"/>
+					<scale value="1.5"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_tigerpaw_02.mesh"/>
+					<SocketName value="s_hand_l"/>
+					<Position_X value="0.08"/>
+					<Position_Y value="-0.08"/>
+					<Position_Z value="0.02"/>
+					<yaw value="83.5"/>
+					<pitch value="6"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_triangularspine" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_triangularspine.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="-0.0160089"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.355396"/>
+					<yaw value="-8.99696"/>
+					<pitch value="-0.234626"/>
+					<roll value="88.5184"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="gun" SlaveName="g2055_weapon_watermelonknife" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1">
+					<FileName value="g2055_weapon_watermelonknife.mesh"/>
+					<SocketName value="s_hand_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.356755"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="g2055_395_boneless" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "395_boneless.anim" BeginTime = "0" Times = "-1" Length = "1.3" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_403_snoop" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "403_snoop.anim" BeginTime = "0" Times = "-1" Length = "2.633" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_415_cry" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "415_cry.anim" BeginTime = "0" Times = "-1" Length = "1.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_headeffect_cry.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="2.8"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_422_laugh" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "422_laugh.anim" BeginTime = "0" Times = "-1" Length = "4.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_headeffect_laugh.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="2.8"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_arrested" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2035_arrested.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_ballbat_attack1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_ballbat_attack1.anim" BeginTime = "0" Times = "1" Length = "1.5" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_ballbat_attack1_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_ballbat_attack1_fast.anim" BeginTime = "0" Times = "1" Length = "0.8" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_ballbat_attack2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_ballbat_attack2.anim" BeginTime = "0" Times = "1" Length = "1.6" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_ballbat_attack2_charge" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_ballbat_attack2.anim" BeginTime = "0" Times = "1" Length = "1.6" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_melee_attackeffect_1.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.4"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_ballbat_attack2_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_ballbat_attack2_fast.anim" BeginTime = "0" Times = "1" Length = "0.866" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_ballbat_wcattack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_ballbat_wcattack.anim" BeginTime = "0" Times = "1" Length = "1.466" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_boy_wave" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_wave.anim" BeginTime = "0" Times = "-1" Length = "2.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_headeffect_wave.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="2.8"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_brick_attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_brick_attack.anim" BeginTime = "0" Times = "1" Length = "1.633" FadeTime = "0.25" Channel = "" TimeScale = "1.4">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_brick_attack2_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_brick_attack2_fast.anim" BeginTime = "0" Times = "1" Length = "0.966" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_brick_attack_charge" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_brick_attack.anim" BeginTime = "0" Times = "1" Length = "1.633" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_melee_attackeffect_1.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="-0.161065"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_brick_attack_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_brick_attack_fast.anim" BeginTime = "0" Times = "1" Length = "0.7" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_car_motuo_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_car_motuo_idle.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.01" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_chopper_attack1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_chopper_attack1.anim" BeginTime = "0" Times = "1" Length = "1.1" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_chopper_attack1_charge" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_chopper_attack1.anim" BeginTime = "0" Times = "1" Length = "1.1" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_melee_attackeffect_1.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.3"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_chopper_attack1_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_chopper_attack1_fast.anim" BeginTime = "0" Times = "1" Length = "0.533" FadeTime = "0.05" Channel = "" TimeScale = "0.7">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_chopper_attack2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_chopper_attack2.anim" BeginTime = "0" Times = "1" Length = "1.166" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_chopper_attack2_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_chopper_attack2_fast.anim" BeginTime = "0" Times = "1" Length = "0.6" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_chopper_wcattack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_chopper_wcattack.anim" BeginTime = "0" Times = "1" Length = "1.6" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_christmas_scratchhead_boy" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "christmas_scratchhead_boy.anim" BeginTime = "0" Times = "-1" Length = "6.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_headeffect_shock.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="2.8"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_constructorhammar_attack1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_constructorhammar_attack1.anim" BeginTime = "0" Times = "1" Length = "1.366" FadeTime = "0.05" Channel = "" TimeScale = "1.3">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_constructorhammar_attack2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_constructorhammar_attack2.anim" BeginTime = "0" Times = "1" Length = "1.533" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_constructorhammar_attack3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_constructorhammar_attack3.anim" BeginTime = "0" Times = "1" Length = "1.666" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_constructorhammar_attack4" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_constructorhammar_attack4.anim" BeginTime = "0" Times = "1" Length = "0.8" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_constructorhammar_attack5" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_constructorhammar_attack5.anim" BeginTime = "0" Times = "1" Length = "0.766" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_constructorhammar_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_constructorhammar_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_constructorhammar_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_constructorhammar_run.anim" BeginTime = "0" Times = "-1" Length = "0.833" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_dance_372" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "dance_372.anim" BeginTime = "0" Times = "-1" Length = "0.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_dance_506" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "dance_506.anim" BeginTime = "0" Times = "-1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_dead_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2035_fall.anim" BeginTime = "0" Times = "1" Length = "0.7" FadeTime = "0.01" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_dead_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_dead_2.anim" BeginTime = "0" Times = "1" Length = "1.033" FadeTime = "0.01" Channel = "" TimeScale = "1.4">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_dead_3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_dead_3.anim" BeginTime = "0" Times = "1" Length = "8.733" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_drive_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_drive_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_drive_idle2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_drive_idle2.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_fall" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2035_fall.anim" BeginTime = "0" Times = "1" Length = "0.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_fist_attack1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_fist_attack1.anim" BeginTime = "0" Times = "1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_fist_attack1_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_fist_attack1_fast.anim" BeginTime = "0" Times = "1" Length = "0.8" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_fist_attack2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_fist_attack2.anim" BeginTime = "0" Times = "1" Length = "1.5" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_fist_attack2_charge" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_fist_attack2.anim" BeginTime = "0" Times = "1" Length = "1.5" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_melee_attackeffect_1.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.6"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_fist_attack2_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_fist_attack2_fast.anim" BeginTime = "0" Times = "1" Length = "0.633" FadeTime = "0.15" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_fist_wcattack_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_fist_wcattack_1.anim" BeginTime = "0" Times = "1" Length = "1.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_fist_wcattack_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_fist_wcattack_2.anim" BeginTime = "0" Times = "1" Length = "0.8" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_fist_wcattack_3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_fist_wcattack_3.anim" BeginTime = "0" Times = "1" Length = "1.3" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_gang_occupied" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_gang_occupied.anim" BeginTime = "0" Times = "-1" Length = "3.933" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_gun_goldak_attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_gun_rifle_shoot.anim" BeginTime = "0" Times = "-1" Length = "0.166" FadeTime = "0.1" Channel = "upper" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_frame.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0.94"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.22"/>
+					<yaw value="90"/>
+					<pitch value="85"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2055_bullettrail_2.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.2"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.0497866"/>
+					<yaw value="90"/>
+					<pitch value="1.70755e-06"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_gun_goldak_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_gun_rifle_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.15" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_gun_goldak_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_gun_rifle_run.anim" BeginTime = "0" Times = "-1" Length = "0.833" FadeTime = "0.01" Channel = "" TimeScale = "1.3">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_gun_minigun_attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_gun_minigun_shoot.anim" BeginTime = "0" Times = "-1" Length = "0.433" FadeTime = "0.05" Channel = "upper" TimeScale = "2">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_frame.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="1.4"/>
+					<Position_Y value="0.4"/>
+					<Position_Z value="0.2"/>
+					<yaw value="0"/>
+					<pitch value="-15"/>
+					<roll value="20"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2055_bullettrail_3.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.3"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="-180"/>
+					<pitch value="2.23118e-05"/>
+					<roll value="92"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_gun_minigun_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_gun_minigun_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_gun_minigun_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_gun_minigun_run.anim" BeginTime = "0" Times = "-1" Length = "0.833" FadeTime = "0.05" Channel = "" TimeScale = "1.5">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_gun_pistol_attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_attack06.anim" BeginTime = "0" Times = "-1" Length = "0.433" FadeTime = "0.05" Channel = "upper" TimeScale = "1.7">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_frame.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0.25"/>
+					<Position_Y value="-0.05"/>
+					<Position_Z value="0.15"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2055_bullettrail_1.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="2.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_gun_pistol_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_stand06.anim" BeginTime = "0" Times = "-1" Length = "1.1" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_gun_pistol_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_walk01.anim" BeginTime = "0" Times = "-1" Length = "0.633" FadeTime = "0.01" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_gun_shotgun_attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_attack07.anim" BeginTime = "0" Times = "-1" Length = "0.433" FadeTime = "0.01" Channel = "upper" TimeScale = "0.8">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_frame.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0.6"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.3"/>
+					<yaw value="0"/>
+					<pitch value="-20"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2055_bullettrail_4.effect"/>
+					<SocketName value="s_hand_r"/>
+					<BeginTime value="0.1"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_gun_shotgun_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_stand07.anim" BeginTime = "0" Times = "-1" Length = "1.1" FadeTime = "0.01" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_gun_shotgun_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "smg_walk.anim" BeginTime = "0" Times = "-1" Length = "0.7" FadeTime = "0.05" Channel = "" TimeScale = "1.5">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_hammer_attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_hammer_attack.anim" BeginTime = "0" Times = "1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "0.9">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_hammer_attack_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_hammer_attack_fast.anim" BeginTime = "0" Times = "1" Length = "0.6" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_hitatm" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_hitatm.anim" BeginTime = "0" Times = "1" Length = "0.966" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_idle_creeping" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2035_idle_creeping.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_long_wave1_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_long_wave1_fast.anim" BeginTime = "0" Times = "1" Length = "0.6" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_long_wave2_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_long_wave2_fast.anim" BeginTime = "0" Times = "1" Length = "0.6" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_bottle_attack_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.01" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_bottle_attack_1_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_bottle_attack_1_fast.anim" BeginTime = "0" Times = "1" Length = "0.533" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_bottle_attack_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_bottle_attack_2.anim" BeginTime = "0" Times = "1" Length = "1.3" FadeTime = "0.05" Channel = "upper" TimeScale = "1.5">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_bottle_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_stand04.anim" BeginTime = "0" Times = "-1" Length = "1.1" FadeTime = "0.15" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_bottle_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_walk01.anim" BeginTime = "0" Times = "-1" Length = "0.633" FadeTime = "0.01" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_brick_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_brick_idle.anim" BeginTime = "0" Times = "-1" Length = "0.766" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_charge" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_knuckles_idle.anim" BeginTime = "0" Times = "-1" Length = "1.566" FadeTime = "0.25" Channel = "" TimeScale = "2">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_charge_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_charge_1.anim" BeginTime = "0" Times = "-1" Length = "0.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_charge_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_charge_2.anim" BeginTime = "0" Times = "-1" Length = "0.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_charge_3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_charge_3.anim" BeginTime = "0" Times = "-1" Length = "0.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_knuckles_attack_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_knuckles_attack_1.anim" BeginTime = "0" Times = "1" Length = "1" FadeTime = "0.01" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_knuckles_attack_1_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_knuckles_attack_1_fast.anim" BeginTime = "0" Times = "1" Length = "0.5" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_knuckles_attack_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_knuckles_attack_2.anim" BeginTime = "0" Times = "1" Length = "0.733" FadeTime = "0.01" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_knuckles_attack_2_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_knuckles_attack_2_fast.anim" BeginTime = "0" Times = "1" Length = "0.5" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_knuckles_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_knuckles_idle.anim" BeginTime = "0" Times = "-1" Length = "1.566" FadeTime = "0.25" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_knuckles_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_walk01.anim" BeginTime = "0" Times = "-1" Length = "0.633" FadeTime = "0.01" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_machete_attack_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.01" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_machete_attack_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_machete_attack_2.anim" BeginTime = "0" Times = "1" Length = "1.966" FadeTime = "0.05" Channel = "upper" TimeScale = "1.5">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_machete_attack_2_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_machete_attack_2_fast.anim" BeginTime = "0" Times = "1" Length = "0.566" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_machete_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2035_criminal_gun_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.15" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_machete_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_walk01.anim" BeginTime = "0" Times = "-1" Length = "0.633" FadeTime = "0.01" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_punch_attack_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_attack01.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.01" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_punch_attack_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_punch_attack_2.anim" BeginTime = "0" Times = "1" Length = "0.566" FadeTime = "0.01" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_punch_attack_2_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_melee_punch_attack_2_fast.anim" BeginTime = "0" Times = "1" Length = "0.4" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_punch_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_stand05.anim" BeginTime = "0" Times = "-1" Length = "12.4" FadeTime = "0.01" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_melee_punch_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "girl_walk01.anim" BeginTime = "0" Times = "-1" Length = "0.633" FadeTime = "0.01" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_akinmbo" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_akinmbo.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_backforward" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_backforward.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_bepickup" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_bepickup.anim" BeginTime = "0" Times = "1" Length = "1.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_bepickup_idle_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_bepickup_idle_2.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_bepickup_idle_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_bepickup_idle_1.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_beputdown" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_beputdown.anim" BeginTime = "0" Times = "1" Length = "0.6" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_knockout_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_knockout_1.anim" BeginTime = "0" Times = "-1" Length = "4.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_knockout_1_beteabag" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_knockout_1_beteabag.anim" BeginTime = "0" Times = "1" Length = "2.1" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_knockout_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_knockout_2.anim" BeginTime = "0" Times = "-1" Length = "5.466" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_knockout_2_beteabag" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_knockout_2_beteabag.anim" BeginTime = "0" Times = "1" Length = "0.733" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_pickup" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_pickup.anim" BeginTime = "0" Times = "1" Length = "1.1" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_pickup_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_pickup_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_pickup_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_pickup_run.anim" BeginTime = "0" Times = "-1" Length = "0.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_putdown" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_putdown.anim" BeginTime = "0" Times = "1" Length = "0.6" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_squat" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_squat.anim" BeginTime = "0" Times = "-1" Length = "17.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_headeffect_sweat.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.5"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_movement_surrender" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_surrender.anim" BeginTime = "0" Times = "-1" Length = "16.066" FadeTime = "0.25" Channel = "upper" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_headeffect_whiteflag.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="2"/>
+					<Position_X value="0"/>
+					<Position_Y value="1.94968"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_movement_telephone" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_telephone.anim" BeginTime = "0" Times = "-1" Length = "12.966" FadeTime = "0.25" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_wallstand_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_wallstand_1.anim" BeginTime = "0" Times = "-1" Length = "11.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_movement_wallstand_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_movement_wallstand_2.anim" BeginTime = "0" Times = "-1" Length = "12.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_npc_hurt" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2043_mage_hurt.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_paidmotion_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_paidmotion_1.anim" BeginTime = "0" Times = "-1" Length = "3" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_paidmotion_1_icon.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_paidmotion_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_paidmotion_2.anim" BeginTime = "0" Times = "-1" Length = "2.9" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_paidmotion_dancelight.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_paidmotion_3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_paidmotion_3.anim" BeginTime = "0" Times = "-1" Length = "6.933" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_paidmotion_dancelight.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_paidmotion_4" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_paidmotion_4.anim" BeginTime = "0" Times = "-1" Length = "8.4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_paidmotion_dancelight.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_paidmotion_5" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_paidmotion_5.anim" BeginTime = "0" Times = "-1" Length = "5.666" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_paidmotion_dirt.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2055_paidmotion_flowlight.effect"/>
+					<SocketName value="s_foot_l"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2055_paidmotion_flowlight.effect"/>
+					<SocketName value="s_foot_r"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_paidmotion_6" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_paidmotion_6.anim" BeginTime = "0" Times = "-1" Length = "0.933" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_paidmotion_dirt.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2055_paidmotion_flowlight.effect"/>
+					<SocketName value="s_foot_l"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2055_paidmotion_flowlight.effect"/>
+					<SocketName value="s_foot_r"/>
+					<BeginTime value="0"/>
+					<Times value="-1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2055_headeffect_laugh.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="2.8"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_peaky_attack1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_peaky_attack1.anim" BeginTime = "0" Times = "1" Length = "0.9" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_peaky_attack1_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_peaky_attack1_fast.anim" BeginTime = "0" Times = "1" Length = "0.4" FadeTime = "0.05" Channel = "" TimeScale = "0.9">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_peaky_attack2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_peaky_attack2.anim" BeginTime = "0" Times = "1" Length = "0.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_peaky_attack2_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_peaky_attack2_fast.anim" BeginTime = "0" Times = "1" Length = "0.4" FadeTime = "0.1" Channel = "" TimeScale = "0.9">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_pistol_attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_pistol_attack.anim" BeginTime = "0" Times = "1" Length = "0.233" FadeTime = "0" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_pistol_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_pistol_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_punch_kick1_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_punch_kick1_fast.anim" BeginTime = "0" Times = "1" Length = "1.033" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_punch_kick2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_punch_kick2.anim" BeginTime = "0" Times = "1" Length = "0.8" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_punch_upperpunch" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_punch_upperpunch.anim" BeginTime = "0" Times = "1" Length = "1.3" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_rage" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "rage.anim" BeginTime = "0" Times = "-1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2055_headeffect_angry.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="2.8"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2055_short_wave1_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_short_wave1_fast.anim" BeginTime = "0" Times = "1" Length = "0.466" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_steal_action" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_steal_action.anim" BeginTime = "0" Times = "-1" Length = "1.9" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_tattoo_machine_action" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_tattoo_laydown_action.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_teabag" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_teabag.anim" BeginTime = "0" Times = "-1" Length = "0.566" FadeTime = "0.01" Channel = "upper" TimeScale = "1.25">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_throw_attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_throw_attack.anim" BeginTime = "0" Times = "1" Length = "1.766" FadeTime = "0.15" Channel = "" TimeScale = "1.7">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_throw_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_throw_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.15" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_throw_run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_throw_run.anim" BeginTime = "0" Times = "-1" Length = "0.7" FadeTime = "0.15" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2055_tigerpaw_attack1_fast" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2055_tigerpaw_attack1_fast.anim" BeginTime = "0" Times = "1" Length = "0.666" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2052_car_motuo_idle.anim"/>
+				<Anim Name="g2052_car_ride.anim"/>
+				<Anim Name="g2055_drive_idle.anim"/>
+				<Anim Name="g2055_gun_rifle_idle.anim"/>
+				<Anim Name="g2055_gun_rifle_run.anim"/>
+				<Anim Name="g2055_gun_rifle_shoot.anim"/>
+				<Anim Name="g2055_dead_3.anim"/>
+				<Anim Name="g2055_throw_idle.anim"/>
+				<Anim Name="g2055_teabag.anim"/>
+				<Anim Name="g2055_melee_punch_attack_2.anim"/>
+				<Anim Name="g2055_melee_machete_attack_2.anim"/>
+				<Anim Name="g2055_melee_knuckles_idle.anim"/>
+				<Anim Name="g2055_melee_knuckles_attack_2.anim"/>
+				<Anim Name="g2055_melee_knuckles_attack_1.anim"/>
+				<Anim Name="g2055_melee_bottle_attack_2.anim"/>
+				<Anim Name="g2055_gun_minigun_shoot.anim"/>
+				<Anim Name="g2055_gun_minigun_run.anim"/>
+				<Anim Name="g2055_gun_minigun_idle.anim"/>
+				<Anim Name="g2055_dead_2.anim"/>
+				<Anim Name="g2055_tattoo_laydown_action.anim"/>
+				<Anim Name="g2055_steal_action.anim"/>
+				<Anim Name="g2055_drive_idle2.anim"/>
+				<Anim Name="g2055_gang_occupied.anim"/>
+				<Anim Name="g2055_movement_wallstand_2.anim"/>
+				<Anim Name="g2055_movement_wallstand_1.anim"/>
+				<Anim Name="g2055_movement_telephone.anim"/>
+				<Anim Name="g2055_movement_surrender.anim"/>
+				<Anim Name="g2055_movement_squat.anim"/>
+				<Anim Name="g2055_movement_backforward.anim"/>
+				<Anim Name="g2055_movement_akinmbo.anim"/>
+				<Anim Name="g2055_movement_putdown.anim"/>
+				<Anim Name="g2055_movement_pickup_run.anim"/>
+				<Anim Name="g2055_movement_pickup_idle.anim"/>
+				<Anim Name="g2055_movement_pickup.anim"/>
+				<Anim Name="g2055_movement_knockout_2.anim"/>
+				<Anim Name="g2055_movement_knockout_1.anim"/>
+				<Anim Name="g2055_movement_beputdown.anim"/>
+				<Anim Name="g2055_movement_bepickup_idle_2.anim"/>
+				<Anim Name="g2055_movement_bepickup_idle_1.anim"/>
+				<Anim Name="g2055_movement_bepickup.anim"/>
+				<Anim Name="g2055_hitatm.anim"/>
+				<Anim Name="g2055_fist_wcattack_2.anim"/>
+				<Anim Name="g2055_fist_wcattack_1.anim"/>
+				<Anim Name="g2055_fist_attack2.anim"/>
+				<Anim Name="g2055_fist_attack1.anim"/>
+				<Anim Name="g2055_chopper_wcattack.anim"/>
+				<Anim Name="g2055_chopper_attack2.anim"/>
+				<Anim Name="g2055_chopper_attack1.anim"/>
+				<Anim Name="g2055_ballbat_wcattack.anim"/>
+				<Anim Name="g2055_ballbat_attack2.anim"/>
+				<Anim Name="g2055_ballbat_attack1.anim"/>
+				<Anim Name="g2055_hammer_attack.anim"/>
+				<Anim Name="g2055_brick_attack.anim"/>
+				<Anim Name="g2055_peaky_attack2.anim"/>
+				<Anim Name="g2055_peaky_attack1.anim"/>
+				<Anim Name="g2055_fist_wcattack_3.anim"/>
+				<Anim Name="g2055_melee_charge_2.anim"/>
+				<Anim Name="christmas_scratchhead_boy.anim"/>
+				<Anim Name="boy_wave.anim"/>
+				<Anim Name="g2055_melee_charge_3.anim"/>
+				<Anim Name="g2055_melee_charge_1.anim"/>
+				<Anim Name="g2055_melee_brick_idle.anim"/>
+				<Anim Name="g2055_movement_knockout_2_beteabag.anim"/>
+				<Anim Name="g2055_movement_knockout_1_beteabag.anim"/>
+				<Anim Name="g2043_mage_hurt.anim"/>
+				<Anim Name="g2055_melee_punch_attack_2_fast.anim"/>
+				<Anim Name="g2055_melee_knuckles_attack_2_fast.anim"/>
+				<Anim Name="g2055_melee_knuckles_attack_1_fast.anim"/>
+				<Anim Name="g2055_melee_bottle_attack_2_fast.anim"/>
+				<Anim Name="g2055_melee_bottle_attack_1_fast.anim"/>
+				<Anim Name="g2055_hammer_attack_fast.anim"/>
+				<Anim Name="g2055_fist_attack2_fast.anim"/>
+				<Anim Name="g2055_fist_attack1_fast.anim"/>
+				<Anim Name="g2055_chopper_attack2_fast.anim"/>
+				<Anim Name="g2055_chopper_attack1_fast.anim"/>
+				<Anim Name="g2055_brick_attack_fast.anim"/>
+				<Anim Name="g2055_ballbat_attack2_fast.anim"/>
+				<Anim Name="g2055_ballbat_attack1_fast.anim"/>
+				<Anim Name="g2055_melee_machete_attack_2_fast.anim"/>
+				<Anim Name="g2055_peaky_attack2_fast.anim"/>
+				<Anim Name="g2055_peaky_attack1_fast.anim"/>
+				<Anim Name="g2055_paidmotion_6.anim"/>
+				<Anim Name="g2055_paidmotion_5.anim"/>
+				<Anim Name="g2055_paidmotion_4.anim"/>
+				<Anim Name="g2055_paidmotion_3.anim"/>
+				<Anim Name="g2055_paidmotion_2.anim"/>
+				<Anim Name="g2055_paidmotion_1.anim"/>
+				<Anim Name="g2055_punch_kick2.anim"/>
+				<Anim Name="g2055_punch_upperpunch.anim"/>
+				<Anim Name="g2055_tigerpaw_attack1_fast.anim"/>
+				<Anim Name="g2055_short_wave1_fast.anim"/>
+				<Anim Name="g2055_punch_kick1_fast.anim"/>
+				<Anim Name="g2055_pistol_idle.anim"/>
+				<Anim Name="g2055_pistol_attack.anim"/>
+				<Anim Name="g2055_long_wave2_fast.anim"/>
+				<Anim Name="g2055_long_wave1_fast.anim"/>
+				<Anim Name="g2055_brick_attack2_fast.anim"/>
+				<Anim Name="g2055_throw_run.anim"/>
+				<Anim Name="g2055_throw_attack.anim"/>
+				<Anim Name="g2055_constructorhammar_run.anim"/>
+				<Anim Name="g2055_constructorhammar_idle.anim"/>
+				<Anim Name="g2055_constructorhammar_attack5.anim"/>
+				<Anim Name="g2055_constructorhammar_attack4.anim"/>
+				<Anim Name="g2055_constructorhammar_attack3.anim"/>
+				<Anim Name="g2055_constructorhammar_attack2.anim"/>
+				<Anim Name="g2055_constructorhammar_attack1.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

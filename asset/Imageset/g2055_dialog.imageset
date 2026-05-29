@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="560" nativeHorzRes="485" version="2" imagefile="g2055_dialog.png" name="g2055_dialog" autoScaled="false">
+      <Image yPos="1" xPos="23" height="16" name="img_9_progressbar4" width="16"/>
+    <Image yPos="500" xPos="1" height="20" name="img_0_progress_bar01" width="442"/>
+    <Image yPos="310" xPos="205" height="32" name="img_0_condition" width="251"/>
+    <Image yPos="420" xPos="1" height="47" name="img_0_titel" width="393"/>
+    <Image yPos="1" xPos="60" height="104" name="img_9_popup" width="104"/>
+    <Image yPos="1" xPos="289" height="87" name="img_0_popup01" width="136"/>
+    <Image yPos="352" xPos="1" height="67" name="img_0_textbox" width="392"/>
+    <Image yPos="1" xPos="1" height="50" name="btn_9_slidestrip" width="4"/>
+    <Image yPos="1" xPos="40" height="50" name="btn_0_bubble01" width="19"/>
+    <Image yPos="521" xPos="1" height="38" name="img_0_plane02" width="483"/>
+    <Image yPos="483" xPos="1" height="16" name="img_0_progressbar3" width="411"/>
+    <Image yPos="1" xPos="165" height="308" name="img_0_plane03" width="123"/>
+    <Image yPos="310" xPos="1" height="41" name="img_0_arrow" width="203"/>
+    <Image yPos="468" xPos="1" height="14" name="img_0_progress_bar02" width="408"/>
+    <Image yPos="1" xPos="6" height="16" name="img_9_slidestrip" width="16"/>
+</Imageset>

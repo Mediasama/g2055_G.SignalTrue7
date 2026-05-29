@@ -1,0 +1,47 @@
+{
+    "base": "atm_base",
+    "ATMType": 1,
+    "actorName": "g2055_atm02.actor",
+    "brokenActorName": "g2055_atm02_broken.actor",
+    "posSyncDelay": 1,
+    "collider": {
+    "extent": {
+      "x": 1.65,
+      "y": 3.4,
+      "z": 1.35
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "colliderTrigger": {
+    "extent": {
+      "x": 4.5,
+      "y": 3.4,
+      "z": 4.2
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "action":{
+    "idle":"idle",
+    "hurt":"hurt"
+  }
+}

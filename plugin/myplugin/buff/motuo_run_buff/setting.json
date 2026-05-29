@@ -1,0 +1,20 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/g2055_motorRunSound.mp3",
+        "loop": true,
+        "volume": 0.5,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            50
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/motuo_run_buff"
+    ],
+    "removeBuff": [
+        "myplugin/motuo_idle_buff"
+    ],
+    "sync": "other"
+}

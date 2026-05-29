@@ -1,0 +1,50 @@
+{
+    "action": {
+        "run": "g2055_throw_run",
+        "idle": "idle"
+    },
+    "skill": {
+        "run":"skill_melee_throw_bottle",
+        "idle":"skill_melee_throw_bottle",
+        "jump":"skill_melee_throw_bottle",
+        "teabag":"skill_melee_bottle_teabag"
+    },
+    "chargeAction":{
+        "castAction": "g2055_melee_charge_2",
+        "castEffect": "g2055_melee_charge.effect",
+        "offset": {
+            "x": 0,
+            "y": 0.2,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 2,
+        "castTime": 20
+    },
+    "collider": {
+        "extent": {
+            "x": 2,
+            "y": 2,
+            "z": 1
+        },
+        "type": "Box"
+    },
+    "colliderOffset": {
+        "x": 0,
+        "y": 0,
+        "z": -0.75
+    },
+    "moveSpeed": 1,
+    "moveAcc": 1,
+    "camera": {
+        "cameraDistance": 6,
+        "cameraXOffset": 0.0,
+        "cameraYOffset": 0.4,
+        "cameraFovAngle": 60,
+        "lockCamera": true
+    }
+}

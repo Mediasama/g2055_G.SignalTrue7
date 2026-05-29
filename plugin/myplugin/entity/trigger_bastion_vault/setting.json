@@ -1,0 +1,62 @@
+{
+  "actorName": "blank.actor",
+  "base": "base_trigger",
+  "collider": {
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radius": 1,
+    "height": 2,
+    "type": "Cylinder"
+  },
+  "operationConfig": {
+    "spawn": [
+    ],
+    "destroy": [
+    ],
+    "entityEnter": [
+      {
+        "stateMask": {},
+        "behaviorList": [
+          {
+            "type": "OperateBastionFacility",
+            "operateType": "Open",
+            "triggerParam": {
+              "offset": {
+                "x": 0,
+                "y": 3,
+                "z": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "entityLeave": [
+      {
+        "stateMask": {},
+        "behaviorList": [
+          {
+            "type": "OperateBastionFacility",
+            "operateType": "Close"
+          }
+        ]
+      }
+    ],
+    "useItem": [
+    ]
+  },
+  "viewDistance": 100,
+  "facilityEffect": {
+    "path": "g2055_effect_treasury.effect",
+    "once": false,
+    "viewDistance":100,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "blend": {
+        "blendEnable": true,
+        "srcBlend": "SRC_ALPHA",
+        "dstBlend": "INV_SRC_ALPHA"
+    },
+    "sampler": {
+        "0": {
+            "addrUMode": "WRAP",
+            "addrVMode": "WRAP",
+            "mipFilter": "NONE"
+        }
+    },
+    "param": {
+        "texSampler": {
+            "type": "TEXTURE",
+            "value": 0
+        },
+        "matWVP": {
+            "type": "MAT4",
+            "value": "activeCamera"
+        },
+        "runtime": {
+            "type": "FLOAT",
+            "value": "runtime"
+        },
+        "speed": {
+            "type": "VEC2",
+            "value": "0.0, -0.025"
+        }
+    },
+    "vs": "common.vs",
+    "ps": "common_uv_animation.fs"
+}

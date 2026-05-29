@@ -1,0 +1,9 @@
+n_id	Unnamed	s_vehicle_icon	s_vehicle_name	n_vehicle_type	s_throwCfgName	n_vehicle_hp	n_vehicle_attack	n_vehicle_damage_lv	n_vehicle_defence_lv	n_vehicle_defense	n_vehicle_is_lock	n_vehicle_unlock_item	n_vehicle_unlock_time	n_vehicle_unlock_pro	s_vehicle_exhaust_hold	n_price
+id	备注	图标名称	多语言	载具类型(1-二轮,2-四轮）	载具plugin配置	载具血量	载具攻击	载具伤害等级	载具防御等级	载具防御	是否可上锁	解锁道具	解锁时间	解锁成功概率	载具怠速排气特效	价格
+60001	哈雷	gameres|asset/Imageset/g2055_car:g2055_vehicle_halei	g2055_item_harley	1	myplugin/vehical_motor_harley	50	5	1	1	0	0	1	8	1000	g2055_vehicle_bugatti_idle.effect	50000
+60002	川崎	gameres|asset/Imageset/g2055_car:g2055_vehicle_chuanqi	g2055_item_harley	1	myplugin/vehical_motor_chuanqi	150	5	1	1	0	1	1	8	200	g2055_vehicle_bugatti_idle.effect	200000
+60011	皮卡	gameres|asset/Imageset/g2055_car:g2055_vehicle_pika	g2055_item_harley	2	myplugin/vehical_pickup_01	30	5	1	1	0	0	1	8	1000		50000
+60012	轿车	gameres|asset/Imageset/g2055_car:g2055_vehicle_benchi	g2055_item_harley	2	myplugin/vehical_car_01	80	5	1	1	0	1	1	8	250		150000
+60021	保时捷	gameres|asset/Imageset/g2055_car:g2055_vehicle_baoshijie	g2055_item_porsche	2	myplugin/vehical_supercar_porsche	200	10	2	2	0	1	1	8	160	g2055_vehicle_bugatti_idle.effect	500000
+60031	兰博基尼	gameres|asset/Imageset/g2055_car:g2055_vehicle_lanbojini	g2055_item_lamborghini	2	myplugin/vehical_hypercar_lamborghini	300	10	2	2	0	1	1	8	80	g2055_vehicle_bugatti_idle.effect	1000000
+60032	布加迪	gameres|asset/Imageset/g2055_car:g2055_vehicle_bugatti	g2055_item_bugatti	2	myplugin/vehical_hypercar_bugatti	400	10	2	2	0	1	1	8	40	g2055_vehicle_bugatti_idle.effect	2000000

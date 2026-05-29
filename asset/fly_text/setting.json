@@ -1,0 +1,90 @@
+[
+    {
+        "atlas": 1,
+        "folder": "white",
+        "offset": {
+            "x": 0.5,
+            "y": 2,
+            "z": 0.5
+        },
+        "duration": 15,
+        "interval": 3
+    },
+    {
+        "atlas": 2,
+        "folder": "red",
+        "offset": {
+            "x": 0.5,
+            "y": 2,
+            "z": 0.5
+        },
+        "duration": 15,
+        "interval": 3
+    },
+    {
+        "atlas": 3,
+        "folder": "green",
+        "offset": {
+            "x": 0.5,
+            "y": 2,
+            "z": 0.5
+        },
+        "duration": 15,
+        "interval": 3
+    },
+    {
+        "atlas": 4,
+        "folder": "blue",
+        "offset": {
+            "x": 0.5,
+            "y": 2,
+            "z": 0.5
+        },
+        "duration": 15,
+        "interval": 3
+    },
+	{
+        "atlas": 5,
+        "folder": "purple",
+        "offset": {
+            "x": 0.5,
+            "y": 2,
+            "z": 0.5
+        },
+        "duration": 15,
+        "interval": 3
+    },
+	{
+        "atlas": 6,
+        "folder": "yellow",
+        "offset": {
+            "x": 0.5,
+            "y": 2,
+            "z": 0.5
+        },
+        "duration": 15,
+        "interval": 3
+    },
+	{
+        "atlas": 7,
+        "folder": "exp",
+        "offset": {
+            "x": 0.5,
+            "y": 2,
+            "z": 0.5
+        },
+        "duration": 15,
+        "interval": 3
+    },
+	{
+        "atlas": 8,
+        "folder": "critical",
+        "offset": {
+            "x": 0.5,
+            "y": 2,
+            "z": 0.5
+        },
+        "duration": 15,
+        "interval": 3
+    }
+]

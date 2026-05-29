@@ -1,0 +1,29 @@
+local ChatConnectorSender = T(Lib, "ChatConnectorSender")
+local CConnectorCenter = T(Lib, "ConnectorCenter")
+local cjson = require("cjson")
+local game_name = World.GameName
+local engine_version = EngineVersionSetting:getEngineVersion()
+local Game2ConnectorMsgType = {
+  CrossServerGameMsg = 30006,
+  JoinChatChannel = 30103,
+  LeaveChatChannel = 30104
+}
+
+function ChatConnectorSender:getRegionId()
+  local roomGameConfig = Server.CurServer:getConfig()
+  local regionId = roomGameConfig:getRegionId()
+  return regionId
+end
+
+function ChatConnectorSender:sendCrossServerGameMsg(msgData)
+  CConnectorCenter:sendMsg(Game2ConnectorMsgType.CrossServerGameMsg, msgData)
+end
+
+function ChatConnectorSender:joinChatChannel(lang, maxUser)
+  local data = {lang = lang, maxUser = maxUser}
+  CConnectorCenter:sendMsg(Game2ConnectorMsgType.JoinChatChannel, data)
+end
+
+function ChatConnectorSender:leaveChatChannel()
+  CConnectorCenter:sendMsg(Game2ConnectorMsgType.LeaveChatChannel, {})
+end

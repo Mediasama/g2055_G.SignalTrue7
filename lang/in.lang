@@ -1,0 +1,322 @@
+
+
+language_start:g2055_lang_20220706
+
+g2055_item_bottle=Botol anggur rusak
+g2055_item_knuckles=Brass Knuckles
+g2055_item_machete=parang
+g2055_item_axe=Kapak
+g2055_item_baseballbat=Tongkat pemukul baseball
+g2055_item_hammer=Palu besi
+g2055_item_Bricks=Bata
+g2055_item_tigerpaw=Cakar Harimau
+g2055_item_razorhat=Topi silet
+g2055_item_pistol=Pistol
+g2055_item_goldak=Senapan Emas
+g2055_item_shotgun=Shotgun
+g2055_item_minigun=Machine Gun Emas
+g2055_item_money=uang tunai
+g2055_item_doorDecoder=Decoder pintu
+g2055_item_vehicleDecoder=Decoder mobil
+
+g2055_item_ammo=Amunisi
+
+
+weapon.shop.buy.success =Berhasil dibeli
+bullet.shop.buy.success =Berhasil dibeli
+bullet.shop.buy.no.need =Tidak perlu membeli amunisi untuk saat ini
+bullet.shop.buy.fail =Amunisi tidak dapat dibeli untuk senjata saat ini
+
+tattoo.tips.other.player.tattoo =Tidak ada ruang untuk tato
+tattoo.tips.error.request =Permintaan ilegal
+tattoo.tips.empty.tattoo =Sudah memiliki semua tato
+tattoo.tips.exist.tattoo =Tato ini sudah dimiliki
+tips.no.money =Uang tidak mencukupi
+tattoo.tips.interrupt =Proses membuat tato terganggu
+tattoo.tips.success =Tato berhasil didapatkan
+
+territory.map.tips1 =Pemain
+territory.map.tips2 =Anggota geng
+territory.map.tips3 =Dealer mobil
+territory.map.tips4 =Toko pakaian
+territory.map.tips5 =Toko senjata
+territory.map.tips6 =Titik spawn
+territory.map.tips.bottom =Dapatkan uang dengan menguasai wilayah
+territory.tips.occupy.success =Berhasil Diduduki
+territory.tips.occupy.get.award =%s mendapatkan biaya perlindungan %d!
+territory.tips.other.player.occupying =Pemain lain menduduki
+territory.tips.error.request =Permintaan ilegal
+territory.tips.same.camp =Kamu berasal dari geng yang sama dan tidak bisa menduduki berulangkali
+territory.tips.need.add.gang =Untuk menduduki wilayah, harap join geng terlebih dahulu
+territory.tips.occupy.interrupt =Pendudukan terganggu
+territory.tips.occupied.by.gang =%s anda telah diduduki oleh %s
+territory.ui.tips.occupied =Diduduki
+territory.ui.tips.get.award =Dikenakan biaya perlindungan%d
+territory.ui.tips.unOccupied =Tidak ditempati
+area.tips.get.award =Ambil sekarang
+area.tips.rob.award =Rebut sekarang
+area.tips.now.award =Biaya perlindungan yang dikeluarkan
+area_tips_name1=Area Kasino
+area_tips_name2=Area toko senjata api
+area_tips_name3=Area dealer mobil
+area_tips_name4=Area Toko Pakaian
+area_tips_name5=Area bar
+area_tips_name6=Area Pasar Gelap
+area_tips_name7=Area salon tato
+
+
+gang.member.number =Jumlah anggota geng: %d%d
+gang.title.gang.list  =Daftar Geng
+gang.title.gang.apply =Daftar
+gang.title.gang.apply.list =Daftar
+gang.title.gang.create.list =Buat Geng
+gang.button.exit =Keluar
+gang.button.apply.list =Pendaftar
+gang.button.clear.apply.list =Hapus Semua
+gang.button.return =Kembali
+gang.button.create.gang =Buat Geng
+gang.position.chairman =Pemimpin
+gang.position.member =Anggota
+gang.tips.access.apply.fail =Kamu telah bergabung dengan geng lain, silakan keluar dulu!
+gang.tips.already.apply =diterapkan
+gang.tips.sensitive.word =Kata-kata sensitif
+gang.tips.name.exist =Nama geng sudah dipakai
+gang.tips.name.too.long =Nama geng harus kurang dari %d karakter
+gang.tips.player.has.gang =Pemain sudah bergabung ke geng lain
+gang.tips.max.member =Geng saat ini sudah penuh
+gang.tips.name.null =Mohon masukkan nama geng
+gang.tips.has.gang =Sudah di geng
+gang.tips.replace.chairman =Pemimpin keluar. Jadi pemimpin baru
+gang.tips.apply.gang.success =Berhasil bergabung %s
+gang.tips.create.gang.success =Kamu telah berhasil membuat geng
+gang.tips.empty.gang =Belum ada geng yang dibentuk. Mulai geng baru sekarang!
+gang.tips.empty.apply.list =Belum ada pendaftar
+gang.edit.box.default.tips =Masukkan nama geng
+
+bastion.doorplate.word =Rumah {.}
+
+bastion.vault.manner.deposit =Deposit
+bastion.vault.manner.fetch =Mengambil
+bastion.vault.manner.steal =Curi
+
+bastion.vault.manner.deposit.error.overflow =Melewati batas
+bastion.vault.manner.deposit.error.no.money =Uang tidak mencukupi
+
+bastion.closet.no.select.item =Pakaian tidak ada
+
+bastion.door.current =Saat Ini
+bastion.door.manner.buy =Beli
+bastion.door.attack.tip=Menyerang rumah Anda
+bastion.door.damaged.tip =membobol rumahmu
+bastion.door.start.hacked.tip =mencoba membobol rumahmu
+bastion.door.hacked.tip =membobol rumahmu
+bastion.door.hacked.succeed =Sử dụng 1 bộ giải mã kiểm soát truy cập và mở khóa thành công
+bastion.door.hacked.failed =Sử dụng 1 bộ giải mã kiểm soát truy cập và không mở khóa được
+bastion.door.hacked.owner.update =Pemilik telah mengganti kunci pintu
+bastion.door.unlocking =Membuka kunci
+bastion.door.hacked.already.hacked =Retak
+bastion.door.hacked.already.damaged =Rusak
+
+bastion.closet.no.select.item = Pakaian tidak tersedia
+
+bastion.garage.buy.error.had.unlock =Dibuka
+bastion.garage.fetch.error.no.car =Mobil tidak tersedia
+bastion.garage.deposit.error.no.car =Mobil tidak tersedia
+bastion.garage.deposit.error.no.garage =Garasi belum dibuka
+bastion.garage.buy.error.no.enough.money =Uang tidak mencukupi
+
+bastion.garage.deposit.dialog.title =Simpan kendaraan
+bastion.garage.deposit.dialog.detail =Apakah kamu mau menyimpan mobilnya?
+bastion.garage.deposit.dialog.confirm =Ya
+bastion.garage.deposit.dialog.cancel =Tidak
+
+bastion.door.sensor.no.hack.item =Kunci master dibutuhkan
+
+bastion.armory.deposit.exceed.maximum =Penyimpanan senjata penuh
+bastion.armory.deposit.no.select.item =Senjata tidak tersedia
+bastion.armory.fetch.no.select.item =Senjata tidak tersedia
+bastion.armory.steal.no.select.item =Senjata tidak tersedia
+
+bastion.armory.button.text.deposit =Deposit
+bastion.armory.button.text.fetch =Mengambil
+bastion.armory.button.text.steal =Curi
+bastion.armory.buy.error.had.unlock =Dibuka
+bastion.armory.buy.error.no.enough.money =Uang tidak mencukupi
+
+bastion.toolkit.tip.please.select.item =Silahkan pilih pintu
+bastion.toolkit.fetch.no.select.item =Pilih pintu untuk diganti
+bastion.toolkit.fetch.no.enough.money =Uang tidak mencukupi
+bastion.toolkit.fetch.wrong.status =Tidak bisa diganti dalam kondisi saat ini
+
+vehicle.icon.unlock.success =Konsumsi 1 dekoder kendaraan dan buka kunci dengan sukses
+vehicle.icon.unlock.fail=Menghabiskan 1 dekoder kendaraan dan gagal membuka kunci
+vehicle.icon.unlocking=Membuka kunci
+vehicle.icon.noUnlockItem=Dekoder kendaraan diperlukan
+vehicle.icon.beUnlock =mencoba membuka kunci kendaraanmu
+vehicle.icon.beAttack =Menyerang kendaraanmu
+
+goods_shelf.tip.select.goods =Silahkan pilih barang
+goods_shelf.purchase.succeed=Berhasil dibeli
+goods_shelf.no.enough.currency=Uang tidak mencukupi
+goods_shelf.closet.already.possess=Dimiliki
+goods_shelf.closet.buy=Beli
+goods_shelf.closet.purchase.succeed=Berhasil dibeli
+goods_shelf.black.market.purchase.succeed=Berhasil dibeli
+
+
+charter.killed.tips =%s membunuhmu
+charter.relive.tips =Dibangkitkan setelah %s detik
+
+
+tips.no.money =Uang tidak mencukupi
+
+bullet.shop.buy.success =Berhasil dibeli
+
+exchange.title =Penukaran uang
+exchange.yes =Konfirmasi
+exchange.no =Batal
+exchange.buy.success =Berhasil menukar uang
+exchange.buy.fail =Gagal menukar uang
+
+player.motion.title=Gerakan
+player.motion.name1=Tangan di pinggul
+player.motion.name2=Memprovokasi
+player.motion.name3=Berjongkok
+player.motion.name4=Menyerah
+player.motion.name5=Panggilan telepon
+player.motion.name6=Bersandar pada dinding 1
+player.motion.name7=Bersandar pada dinding 2
+player.motion.name8=Mengejek
+player.motion.name9=Berpikir
+player.motion.name10=Pura-pura mati
+player.motion.name11=Merangkak
+player.motion.name12=Tarian Langkah 1
+player.motion.name13=Tarian Langkah 2
+player.motion.name14=Tarian Langkah 3
+player.motion.name15=Salam
+player.motion.name16=menggaruk kepala
+player.motion.name17=Menangis
+player.motion.name18=Tertawa
+player.motion.name19=Marah
+
+weapon.readyToBroken=Senjata yang dipakai saat ini akan hancur !!!
+weapon.isBroken=Senjata yang dipakai saat ini rusak !!!
+
+passCard.title =Street Pass
+passCard.use.cube.confirm =Konfirmasikan penggunaan GCUBES
+passCard.yes  =Konfirmasi
+passCard.no  =Batal
+passCard.weaponTips =Slot senjata penuh, penggantian senjata akan terjadi, konfirmasi tindakan?
+passCard.carGetOffTips =Keluar dari mobil dan teleportasi mobil ke toko mobil, konfirmasi tindakan?
+passCard.clothTips =Anda sudah memiliki kostum ini, mengganti kostum dengan jumlah koin game yang setara, konfirmasi aksi?
+passCard.taskDetails =Detail Misi
+passCard.taskRewards =Hadiah
+passCard.taskDailyLimit =Batas harian
+passCard.task01 =Bunuh {.} Pemain
+passCard.task02 =Hancurkan {.} Pintu pemain
+passCard.task03 =Hancurkan {.} ATM
+passCard.task04 =Dapatkan {.} Uang (tidak termasuk hadiah jalanan jalanan)
+passCard.task05 =Menghabiskan {.} uang
+passCard.task06 =Habiskan {.} Gcubes
+passCard.unlock =Membuka
+passCard.not.open =Event belum dimulai
+passCard.buy.success =Pembelian Sukses
+passCard.buy.fail =Pembelian gagal
+passCard.cant.open.ui =Tidak dapat membuka antarmuka dalam keadaan saat ini
+passCard.carTips =Teleportasi ke toko mobil, konfirmasi tindakan?
+weapon.carry.cant.use=Proses membawa orang tidak bisa diserang!
+weapon.no.bullet=Tidak ada lagi peluru!
+
+passCard.buyLevel =Segera hadir untuk membayar {.} Golden Cube untuk membuka level berikutnya, apakah Anda yakin?
+passCard.buyPassport =Segera hadir untuk membayar {.} Golden Cube untuk membuka Premium Pass, apakah Anda yakin?
+
+name.guide.101 =kalahkan penjajah
+name.guide.102 =Ambil uang yang jatuh
+name.guide.103 =Buka kunci rak senjata
+name.guide.104 =keluarkan senjatanya
+name.guide.105 =hemat
+name.guide.106 =Keluar! Nikmati permainannya!
+name.guide.1 =1. Senjata di badan akan jatuh saat mati\n2. Rak senjata bisa melindungi senjatamu
+name.guide.2 =1. Rak senjata dapat dengan bebas mengakses senjata\n2, Anda dapat mengambil senjata pemain lain\n3, melindungi senjata Anda sendiri
+name.guide.3 =1. Gudang dapat menyimpan uang\n2. Anda dapat merampok brankas pemain lain\n3. Lindungi brankas Anda sendiri
+name.guide.doortips =Demi keselamatan Anda, harap selesaikan tugas pemula sebelum keluar
+
+name.house.1 =Buka kunci rak senjata
+name.house.2 =buka kunci garasi
+name.house.3 =gerbang peningkatan
+name.house.4 =hemat
+name.house.5 =menarik uang
+name.house.6 =rak senjata
+name.house.7 =Pakaian
+name.house.8 =garasi
+name.shop.1 =membeli pakaian
+name.shop.2 =membeli pakaian
+name.shop.3 =membeli pakaian
+name.shop.4 =membeli pakaian
+name.shop.5 =membeli pakaian
+name.shop.6 =membeli kendaraan
+name.shop.7 =membeli kendaraan
+name.shop.8 =membeli kendaraan
+name.shop.9 =membeli kendaraan
+name.shop.10 =membeli kendaraan
+name.shop.11 =membeli kendaraan
+name.shop.12 =beli senjata
+name.shop.13 =beli senjata
+name.shop.14 =beli senjata
+name.shop.15 =beli senjata
+name.shop.16 =beli senjata
+name.shop.17 =beli senjata
+name.shop.18 =beli peluru
+name.shop.19 =beli peluru
+name.shop.20 =beli peluru
+name.shop.21 =beli peluru
+name.shop.22 =belanja pasar gelap
+name.shop.Tattoo=mendapatkan tato
+
+g2055_item_dress_1_6=Bunga Lengan Rompi (Atas)
+g2055_item_dress_2_1=Trendy Street (Rambut)
+g2055_item_dress_2_2=Jalan trendi (ekspresi)
+g2055_item_dress_2_3=Jalan trendi (atas)
+g2055_item_dress_2_4=Jalan trendi (bawah)
+g2055_item_dress_2_5=Jalan trendi (sepatu)
+g2055_item_dress_3_1=Gaya bandit (rambut)
+g2055_item_dress_3_2=Gaya bandit (ekspresi)
+g2055_item_dress_3_3=Gaya bandit (atas)
+g2055_item_dress_3_4=Gaya bandit (bawah)
+g2055_item_dress_3_5=Gaya bandit (sepatu)
+player.paidmotion.name1=kamu memukulku
+player.paidmotion.name2=membuang uang
+player.paidmotion.name3=keadilan oranye
+player.paidmotion.name4=tendangan
+player.paidmotion.name5=gelombang bolak-balik
+player.paidmotion.name6=Cossack
+g2055_item_harley=sepeda motor
+g2055_item_pika=ambil
+g2055_item_benchi=mobil
+g2055_item_porsche=mobil sport premium
+g2055_item_lamborghini=mobil super
+g2055_item_bugatti=hantu biru
+
+pass_card_close_tips=Klik pada ruang kosong untuk menutup jendela
+
+gang.guide.tips=1. Temukan geng untuk bergabung\n2. Anda dapat bertarung berdampingan dengan anggota geng\n3. Menempati wilayah untuk mendapatkan uang dengan cepat
+gang.auto.apply.all=Aplikasi sekali klik
+gang.auto.join =lulus secara otomatis
+
+gang.circle.tips.green=geng yang sama
+gang.circle.tips.yellow=bukan geng
+gang.circle.tips.red=musuh
+gang.circle.tips.no.gang=Silakan bergabung dengan geng dulu
+
+vehicle.icon.text.canDrive=menyetir
+vehicle.icon.text.canUnlock=membuka kunci
+vehicle.icon.text.cannotUnlock=Tidak ada item pembuka kunci
+
+bastion.door.text.unlock=membuka kunci pintu
+
+gang.rank.title.name=geng terkuat
+gang.rank.title.area=Daerah yang diduduki
+gang.rank.title.time=Waktu kerja
+gang.rank.title.noGang=tidak ada geng
+
+language_end:g2055_lang_20220706

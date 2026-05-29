@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="460" nativeHorzRes="1422" version="2" imagefile="g2055_pass.png" name="g2055_pass" autoScaled="false">
+      <Image yPos="54" xPos="244" height="101" name="btn_0_task02" width="67"/>
+    <Image yPos="1" xPos="192" height="11" name="img_0_schedule02" width="385"/>
+    <Image yPos="166" xPos="1195" height="201" name="img_0_award02" width="175"/>
+    <Image yPos="54" xPos="448" height="111" name="btn_0_cube" width="110"/>
+    <Image yPos="166" xPos="673" height="201" name="img_0_award03" width="172"/>
+    <Image yPos="54" xPos="176" height="101" name="btn_0_award01" width="67"/>
+    <Image yPos="1" xPos="578" height="11" name="img_0_schedule01" width="385"/>
+    <Image yPos="1" xPos="30" height="16" name="icon_0_unlock" width="14"/>
+    <Image yPos="1" xPos="17" height="14" name="red_dot_small" width="12"/>
+    <Image yPos="54" xPos="1" height="38" name="img_0_schedule04" width="174"/>
+    <Image yPos="166" xPos="164" height="162" name="img_0_award_sel" width="162"/>
+    <Image yPos="166" xPos="500" height="172" name="icon_0_pass01" width="172"/>
+    <Image yPos="368" xPos="452" height="85" name="img_0_pass_bg" width="969"/>
+    <Image yPos="166" xPos="846" height="201" name="img_0_award04" width="172"/>
+    <Image yPos="1" xPos="1190" height="38" name="img_0_schedule03" width="174"/>
+    <Image yPos="1" xPos="964" height="29" name="img_9_title" width="225"/>
+    <Image yPos="166" xPos="1" height="162" name="img_0_award_bg" width="162"/>
+    <Image yPos="1" xPos="139" height="52" name="img_9_task02" width="52"/>
+    <Image yPos="1" xPos="90" height="48" name="img_9_task01" width="48"/>
+    <Image yPos="1" xPos="6" height="10" name="img_9_mask" width="10"/>
+    <Image yPos="54" xPos="559" height="31" name="img_0_unlock" width="788"/>
+    <Image yPos="54" xPos="312" height="101" name="btn_0_task01" width="67"/>
+    <Image yPos="166" xPos="1019" height="201" name="img_0_award01" width="175"/>
+    <Image yPos="1" xPos="45" height="44" name="img_0_receive" width="44"/>
+    <Image yPos="54" xPos="380" height="101" name="btn_0_award02" width="67"/>
+    <Image yPos="1" xPos="1" height="4" name="img_9_wire" width="4"/>
+    <Image yPos="368" xPos="1" height="91" name="img_0_exhibit" width="450"/>
+    <Image yPos="166" xPos="327" height="172" name="icon_0_pass02" width="172"/>
+</Imageset>

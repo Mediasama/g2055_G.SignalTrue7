@@ -1,0 +1,57 @@
+{
+    "type": "MissileAttack",
+    "action": [
+        "g2055_throw_attack"
+    ],
+    "castActionTime": 16,
+    "resetMoveSpeedTime": 1,
+    "preSwingTime": 4,
+    "backSwingTime": 5,
+    "cd": 16,
+    "isClick": true,
+    "priority": -2,
+    "hitPlayerSound":"g2055_bottle_crash",
+    "hitWallSound": "g2055_bottle_crash",
+    "damage":8,
+    "collider": {
+        "extent": {
+            "x": 10,
+            "y": 4,
+            "z": 15
+        },
+        "type": "Box"
+    },
+    "colliderOffset": {
+        "x": 0,
+        "y": -0.8,
+        "z": -8
+    },
+    "hitEffect": {
+        "effect": "g2055_brick_throw_break.effect",
+        "time": 500,
+        "scale": [0.8, 0.8, 0.8],
+        "offset": [0, 0, 0]
+    },
+    "hurtDistance":0.4,
+    "hurtTime":3,
+    "moveSpeed": 0.35,
+    "moveAcc": 5,
+
+    "throw": {
+        "throwEffect":"g2055_bottle_throw_missle_1.effect",
+        "throwHitEffect": "g2055_bottle_throw_break.effect",
+        "throwHitEffectScale": 1.6,
+        "throwGround": "g2055_bottle_throw_break.effect",
+        "throwGroundScale": 1.6,
+        "?gravity": "重力",
+        "gravity": -100,
+        "?flySpeed": "飞行速度1秒多少个单位",
+        "flySpeed": 40,
+        "flyDistance": 15,
+        "hitSound":"g2055_bottle_crash",
+        "throwSound":"g2055_throw_throw",
+        "hitPlayerOffset":[0, 0.8, 0],
+        "hitCarOffset":[0, 1, 0],
+        "hitDoorOffset":[1, 1, 0]
+    }
+}

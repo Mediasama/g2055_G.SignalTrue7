@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "nameBorder": true,
+  "autoRotateColliderBox": true,
+  "checkBlockCollision": false,
+  "checkBlockTouchEvent": false,
+  "checkEnterEvent": false,
+  "checkEnterEventOnClient": false,
+  "checkEntityTouchEvent": false,
+  "checkTouchEvent": false,
+  "disableCheckTouch": true,
+  "canClick": true,
+  "collision": false,
+  "collisionGroup": 32,
+  "useStaticCollider": true,
+  "viewDistance": 10,
+  "disableShadow": true,
+  "disableClientTick": true,
+  "stopChangeYaw": 1,
+  "calcYawBySpeedDir": 0,
+  "entityType": "Trigger"
+}

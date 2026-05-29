@@ -1,0 +1,322 @@
+
+
+language_start:g2055_lang_20220706
+
+g2055_item_bottle=Разбитая бутылка вина
+g2055_item_knuckles=Кастет
+g2055_item_machete=Мачете
+g2055_item_axe=Топор
+g2055_item_baseballbat=Бейсбольная бита
+g2055_item_hammer=Железный молот
+g2055_item_Bricks=Кирпич
+g2055_item_tigerpaw=Коготь тигра
+g2055_item_razorhat=Шляпа-бритва
+g2055_item_pistol=Пистолет
+g2055_item_goldak=Золотая винтовка
+g2055_item_shotgun=Дробовик
+g2055_item_minigun=Золотой пулемет
+g2055_item_money=Деньги
+g2055_item_doorDecoder=Дверной декодер
+g2055_item_vehicleDecoder=Автомобильный декодер
+
+g2055_item_ammo=Боеприпасы
+
+
+weapon.shop.buy.success =Куплено успешно
+bullet.shop.buy.success =Куплено успешно
+bullet.shop.buy.no.need =На данный момент нет необходимости закупать боеприпасы
+bullet.shop.buy.fail =Боеприпасы нельзя купить для этого оружия
+
+tattoo.tips.other.player.tattoo =Нет места для татуировки
+tattoo.tips.error.request =Неверный запрос
+tattoo.tips.empty.tattoo =Уже есть все татуировки
+tattoo.tips.exist.tattoo =У меня уже есть эта татуировка
+tips.no.money =Недостаточно средств
+tattoo.tips.interrupt =Процесс нанесения татуировки был прерван
+tattoo.tips.success =Татуировка сделана успешно
+
+territory.map.tips1 =Игрок
+territory.map.tips2 =Член банды
+territory.map.tips3 =Автосалон
+territory.map.tips4 =Магазин одежды
+territory.map.tips5 =Магазин огнестрельного оружия
+territory.map.tips6 =Точка возрождения
+territory.map.tips.bottom =Зарабатывайте деньги, получая территории
+territory.tips.occupy.success =Территория успешно получена
+territory.tips.occupy.get.award =%s получает плату за защиту %d!
+territory.tips.other.player.occupying =Другие игроки занимают
+territory.tips.error.request =Неверный запрос
+territory.tips.same.camp =Вы из одной банды и не можете повторно занимать территорию
+territory.tips.need.add.gang =Чтобы занять территорию, сначала присоединитесь к банде
+territory.tips.occupy.interrupt =Получение прервано
+territory.tips.occupied.by.gang =Ваш %s занят %s
+territory.ui.tips.occupied =Получено
+territory.ui.tips.get.award =Плата за защиту %d
+territory.ui.tips.unOccupied =Не занято
+area.tips.get.award =Забрать сейчас
+area.tips.rob.award =Получить сейчас
+area.tips.now.award =Плата за защиту собрана
+area_tips_name1=Район казино
+area_tips_name2=Помещение для хранения оружия
+area_tips_name3=Район автосалона
+area_tips_name4=Район магазина одежды
+area_tips_name5=Район баров
+area_tips_name6=Район черного рынка
+area_tips_name7=Район тату-салона
+
+
+gang.member.number =Количество членов банды: %d/%d
+gang.title.gang.list  =Список банд
+gang.title.gang.apply =Применить
+gang.title.gang.apply.list =Список
+gang.title.gang.create.list =Создать банду
+gang.button.exit =Выйти
+gang.button.apply.list =Список претендентов
+gang.button.clear.apply.list =Очистить все
+gang.button.return =Вернуться
+gang.button.create.gang =Создать банду
+gang.position.chairman =Лидер
+gang.position.member =Член банды
+gang.tips.access.apply.fail =Вы уже присоединились к другой банде, пожалуйста, сначала выйдите!
+gang.tips.already.apply =Применено
+gang.tips.sensitive.word =Чувствительные слова
+gang.tips.name.exist =Название банды уже существует
+gang.tips.name.too.long =Название банды должно содержать менее %d символов
+gang.tips.player.has.gang =Игрок уже присоединился к другой банде
+gang.tips.max.member =Текущая банда заполнена
+gang.tips.name.null =Пожалуйста, введите название банды
+gang.tips.has.gang =Уже в банде
+gang.tips.replace.chairman =Лидер ушел в отставку. Станьте новым лидером
+gang.tips.apply.gang.success =Успешно присоединились к %s
+gang.tips.create.gang.success =Вы успешно создали банду
+gang.tips.empty.gang =Банда еще не создана. Создайте прямо сейчас!
+gang.tips.empty.apply.list =Претендентов пока нет
+gang.edit.box.default.tips =Введите название банды
+
+bastion.doorplate.word =Дом {.}
+
+bastion.vault.manner.deposit =Сделать депозит
+bastion.vault.manner.fetch =Забрать
+bastion.vault.manner.steal =Украсть
+
+bastion.vault.manner.deposit.error.overflow =Превышен лимит
+bastion.vault.manner.deposit.error.no.money =Недостаточно средств
+
+bastion.closet.no.select.item =Одежда не существует
+
+bastion.door.current =Текущий
+bastion.door.manner.buy =Купить
+bastion.door.attack.tip=Атакуйте свой дом
+bastion.door.damaged.tip =Ворвался в твой дом
+bastion.door.start.hacked.tip =Пытался проникнуть в ваш дом
+bastion.door.hacked.tip =Ворвался в твой дом
+bastion.door.hacked.succeed =ใช้ตัวถอดรหัสการควบคุมการเข้าถึง 1 ตัวและปลดล็อคสำเร็จ
+bastion.door.hacked.failed =ใช้ตัวถอดรหัสการควบคุมการเข้าถึง 1 ตัวและไม่สามารถปลดล็อกได้
+bastion.door.hacked.owner.update =Хозяин заменил замок в двери
+bastion.door.unlocking =Разблокировка
+bastion.door.hacked.already.hacked =Треснувший
+bastion.door.hacked.already.damaged =Поврежденный
+
+bastion.closet.no.select.item = Одежда недоступна
+
+bastion.garage.buy.error.had.unlock =Разблокированный
+bastion.garage.fetch.error.no.car =Нет доступных автомобилей
+bastion.garage.deposit.error.no.car =Нет доступных автомобилей
+bastion.garage.deposit.error.no.garage =Вы не открыли гараж
+bastion.garage.buy.error.no.enough.money =Недостаточно средств
+
+bastion.garage.deposit.dialog.title =Собирать автомобили
+bastion.garage.deposit.dialog.detail =Хотите оставить машину на хранение?
+bastion.garage.deposit.dialog.confirm =Да
+bastion.garage.deposit.dialog.cancel =Нет
+
+bastion.door.sensor.no.hack.item =Требуется мастер-ключ
+
+bastion.armory.deposit.exceed.maximum =Арсенал полон
+bastion.armory.deposit.no.select.item =Оружие недоступно
+bastion.armory.fetch.no.select.item =Оружие недоступно
+bastion.armory.steal.no.select.item =Оружие недоступно
+
+bastion.armory.button.text.deposit =Сделать депозит
+bastion.armory.button.text.fetch =Забрать
+bastion.armory.button.text.steal =Украсть
+bastion.armory.buy.error.had.unlock =Разблокированный
+bastion.armory.buy.error.no.enough.money =Недостаточно средств
+
+bastion.toolkit.tip.please.select.item =Пожалуйста, выберите дверь
+bastion.toolkit.fetch.no.select.item =Пожалуйста, выберите дверь для замены
+bastion.toolkit.fetch.no.enough.money =Недостаточно средств
+bastion.toolkit.fetch.wrong.status =Не может быть заменен в текущем состоянии
+
+vehicle.icon.unlock.success =Израсходуйте 1 автомобильный декодер и успешно разблокируйте
+vehicle.icon.unlock.fail=Потребляет 1 автомобильный декодер и не может разблокировать
+vehicle.icon.unlocking=Разблокировка
+vehicle.icon.noUnlockItem=Нужен автомобильный декодер
+vehicle.icon.beUnlock =Пытался проникнуть в ваш дом
+vehicle.icon.beAttack =Ваша машина атакована
+
+goods_shelf.tip.select.goods =Пожалуйста, выберите!
+goods_shelf.purchase.succeed=Куплено успешно
+goods_shelf.no.enough.currency=Недостаточно средств
+goods_shelf.closet.already.possess=Принадлежит
+goods_shelf.closet.buy=Купить
+goods_shelf.closet.purchase.succeed=Куплено успешно
+goods_shelf.black.market.purchase.succeed=Куплено успешно
+
+
+charter.killed.tips =%s убил вас
+charter.relive.tips =Возрождение через %s секунд
+
+
+tips.no.money =Недостаточно средств
+
+bullet.shop.buy.success =Куплено успешно
+
+exchange.title =Обмен денег
+exchange.yes =Подтвердить
+exchange.no =Отмена
+exchange.buy.success =Успех обмена денег
+exchange.buy.fail =Не удалось обменять деньги
+
+player.motion.title=Жесты
+player.motion.name1=Руки на бедрах
+player.motion.name2=Спровоцировать
+player.motion.name3=Присесть
+player.motion.name4=Сдаться
+player.motion.name5=Телефонный звонок
+player.motion.name6=Прислониться к стене 1
+player.motion.name7=Прислониться к стене 2
+player.motion.name8=Дразнить
+player.motion.name9=Мышление
+player.motion.name10=Притвориться мертвым
+player.motion.name11=Ползти
+player.motion.name12=Танец 1
+player.motion.name13=Танец 2
+player.motion.name14=Танец 3
+player.motion.name15=Приветствие
+player.motion.name16=Чесать голову
+player.motion.name17=Плач
+player.motion.name18=Смех
+player.motion.name19=Злой
+
+weapon.readyToBroken=Текущее оружие вот-вот сломается!!!
+weapon.isBroken=Текущее оружие сломано!!!
+
+passCard.title =Уличный пропуск
+passCard.use.cube.confirm =Подтвердите использование З-кубов
+passCard.yes  =Подтвердить
+passCard.no  =Отмена
+passCard.weaponTips =Слоты для оружия заполнены, произойдет замена оружия, подтвердить действие?
+passCard.carGetOffTips =Выйти из машины и телепортировать машину в автомагазин, подтвердить действие?
+passCard.clothTips =У вас уже есть этот костюм, замените костюм эквивалентным количеством игровых монет, подтвердите действие?
+passCard.taskDetails =Детали миссии
+passCard.taskRewards =Награды
+passCard.taskDailyLimit =Дневной лимит
+passCard.task01 =Убить {.} игроков
+passCard.task02 =Уничтожить {.} дверей игроков
+passCard.task03 =Уничтожить {.} банкоматов
+passCard.task04 =Получите {.} денег (за исключением наград Уличного пропуска)
+passCard.task05 =Тратить деньги
+passCard.task06 =Потратьте {.} З-кубов
+passCard.unlock =Разблокировать
+passCard.not.open =Событие не началось
+passCard.buy.success =Успех покупки
+passCard.buy.fail =Покупка не удалась
+passCard.cant.open.ui =Не удается открыть интерфейс в текущем состоянии
+passCard.carTips =Телепортация в автомагазин, подтвердить действие?
+weapon.carry.cant.use=Процесс перевозки людей нельзя атаковать!
+weapon.no.bullet=Нет больше пуль!
+
+passCard.buyLevel =Скоро заплатите {.} Golden Cube, чтобы разблокировать следующий уровень, вы уверены?
+passCard.buyPassport =Скоро заплатите {.} Golden Cube, чтобы разблокировать Premium Pass, вы уверены?
+
+name.guide.101 =победить захватчиков
+name.guide.102 =Подберите выпавшие деньги
+name.guide.103 =Разблокировать стойку с оружием
+name.guide.104 =достать оружие
+name.guide.105 =Экономить деньги
+name.guide.106 =Убирайся! Наслаждайся игрой!
+name.guide.1 =1. Оружие на теле упадет, когда оно умрет\n2. Стойка для оружия может защитить ваше оружие.
+name.guide.2 =1. Стойка для оружия имеет свободный доступ к оружию\n2, вы можете выхватывать оружие других игроков\n3, защищать свое собственное оружие
+name.guide.3 =1. В хранилище можно хранить деньги.\n2. Вы можете грабить хранилища других игроков.\n3. Защитите собственное хранилище.
+name.guide.doortips =Для вашей безопасности, пожалуйста, выполните задание для новичков перед выходом на улицу.
+
+name.house.1 =Разблокировать стойку с оружием
+name.house.2 =открыть гараж
+name.house.3 =обновить ворота
+name.house.4 =Экономить деньги
+name.house.5 =снять деньги
+name.house.6 =стойка для оружия
+name.house.7 =Гардероб
+name.house.8 =гараж
+name.shop.1 =купить одежду
+name.shop.2 =купить одежду
+name.shop.3 =купить одежду
+name.shop.4 =купить одежду
+name.shop.5 =купить одежду
+name.shop.6 =купить автомобиль
+name.shop.7 =купить автомобиль
+name.shop.8 =купить автомобиль
+name.shop.9 =купить автомобиль
+name.shop.10 =купить автомобиль
+name.shop.11 =купить автомобиль
+name.shop.12 =купить оружие
+name.shop.13 =купить оружие
+name.shop.14 =купить оружие
+name.shop.15 =купить оружие
+name.shop.16 =купить оружие
+name.shop.17 =купить оружие
+name.shop.18 =купить пули
+name.shop.19 =купить пули
+name.shop.20 =купить пули
+name.shop.21 =купить пули
+name.shop.22 =покупки на черном рынке
+name.shop.Tattoo=сделать татуировку
+
+g2055_item_dress_1_6=Жилет с цветочным принтом (верхний)
+g2055_item_dress_2_1=Модная улица (волосы)
+g2055_item_dress_2_2=Модная улица (выражение)
+g2055_item_dress_2_3=Модная улица (вверху)
+g2055_item_dress_2_4=Модная улица (низы)
+g2055_item_dress_2_5=Модная улица (обувь)
+g2055_item_dress_3_1=Бандитский стиль (волосы)
+g2055_item_dress_3_2=Бандитский стиль (выражение)
+g2055_item_dress_3_3=Бандитский стиль (вверху)
+g2055_item_dress_3_4=Бандитский стиль (низ)
+g2055_item_dress_3_5=Бандитский стиль (обувь)
+player.paidmotion.name1=ты ударил меня
+player.paidmotion.name2=бросать деньги
+player.paidmotion.name3=оранжевое правосудие
+player.paidmotion.name4=пинать
+player.paidmotion.name5=махать туда-сюда
+player.paidmotion.name6=казак
+g2055_item_harley=мотоцикл
+g2055_item_pika=подбирать
+g2055_item_benchi=автомобиль
+g2055_item_porsche=спортивный автомобиль премиум-класса
+g2055_item_lamborghini=суперкар
+g2055_item_bugatti=синий призрак
+
+pass_card_close_tips=Нажмите на пустое место, чтобы закрыть окно
+
+gang.guide.tips=1. Найдите банду, к которой можно присоединиться.\n2. Вы можете сражаться плечом к плечу с членами банды.\n3. Захватите территорию, чтобы быстро получить деньги.
+gang.auto.apply.all=Приложение в один клик
+gang.auto.join =пройти автоматически
+
+gang.circle.tips.green=та же банда
+gang.circle.tips.yellow=не банда
+gang.circle.tips.red=враг
+gang.circle.tips.no.gang=Сначала присоединяйтесь к банде
+
+vehicle.icon.text.canDrive=водить машину
+vehicle.icon.text.canUnlock=разблокировать
+vehicle.icon.text.cannotUnlock=Отсутствуют элементы разблокировки
+
+bastion.door.text.unlock=открыть дверь
+
+gang.rank.title.name=самая сильная банда
+gang.rank.title.area=Занимаемая площадь
+gang.rank.title.time=Время занятий
+gang.rank.title.noGang=нет банды
+
+language_end:g2055_lang_20220706

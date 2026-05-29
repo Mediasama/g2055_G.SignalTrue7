@@ -1,0 +1,6 @@
+n_id	s_icon_button	s_icon_create	s_entity_actor
+帮会图标id	主界面图片	创建帮会图片	entity旗子皮肤
+1	gameres|asset/Imageset/g2055_icon:icon_0_gang01	gameres|asset/Imageset/g2055_icon:icon_0_gang01	2055_qizi_green.actor
+2	gameres|asset/Imageset/g2055_icon:icon_0_gang02	gameres|asset/Imageset/g2055_icon:icon_0_gang02	2055_qizi_blue.actor
+3	gameres|asset/Imageset/g2055_icon:icon_0_gang03	gameres|asset/Imageset/g2055_icon:icon_0_gang03	2055_qizi_yellow.actor
+4	gameres|asset/Imageset/g2055_icon:icon_0_gang04	gameres|asset/Imageset/g2055_icon:icon_0_gang04	2055_qizi_red.actor

@@ -1,0 +1,52 @@
+{
+  "settingKey": "dieSubStateSetting",
+  "自动伤害配置":"累积伤害到totalHurtSelfHp之后，间隔autoHurtTime帧就扣autoHurtSelfHp血",
+  "totalHurtSelfHp": 60,
+  "autoHurtTime": 20,
+  "autoHurtSelfHp":10,
+  "?invincibleTime": "无敌时间 帧",
+  "invincibleTime": 40,
+  "?reLifeHp": "没到自动扣血前，回血值达reLifeHp则复活，最大血量百分比",
+  "reLifeHp": 0.8,
+
+  "?throwMoveTime": "被扔过程时间帧",
+  "throwMoveTime": 7,
+  "?throwDis": "被扔距离",
+  "throwDis": 4,
+  "死亡倒地的触发碰撞triggerCollider": 0,
+  "triggerCollider":{
+    "extent":{
+      "x":3,
+      "y":1,
+      "z":3
+    },
+    "type":"Box"
+  },
+  "ridePos":
+  {
+    "OnGround": {
+      "rideIndex": 1
+    },
+    "AutoHurt": {
+      "rideIndex": 2
+    }
+  },
+  "actionMap":
+  {
+    "OnGround": {
+      "action": "g2055_movement_knockout_1",
+      "time": 10000,
+      "refreshBaseAction": false
+    },
+    "AutoHurt": {
+      "action": "g2055_movement_knockout_2",
+      "time": 10000,
+      "refreshBaseAction": false
+    },
+    "Throw": {
+      "action": "g2055_movement_putdown",
+      "time": 13,
+      "refreshBaseAction": true
+    }
+  }
+}

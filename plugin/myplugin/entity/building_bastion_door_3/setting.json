@@ -1,0 +1,47 @@
+{
+  "name": "",
+  "actorName": "g2055_damen_02_01.actor",
+  "base": "base_building",
+  "collider": {
+    "type": "Box",
+    "extent": {
+      "x": 2.56,
+      "y": 3.26,
+      "z": 0.14
+    },
+    "offset": {
+      "x": 1.28,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "defenseCollider": {
+    "Normal": {
+      "collisionGroup": 8,
+      "actorName": "g2055_damen_02_01.actor"
+    },
+    "Damaged": {
+      "collisionGroup": 0,
+      "actorName": "blank.actor"
+    },
+    "Hacked": {
+      "collisionGroup": 8,
+      "actorName": "g2055_damen_02_01.actor"
+    }
+  },
+  "headUICfg": {
+    "sceneUICfg": {
+      "position": {
+        "x": 1.28,
+        "y": 2.8,
+        "z": 0.5
+      },
+      "flags": 20
+    }
+  }
+}

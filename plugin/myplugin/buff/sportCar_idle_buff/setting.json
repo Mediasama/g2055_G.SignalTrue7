@@ -1,0 +1,20 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/g2055_sportCarEngineSound.mp3",
+        "loop": true,
+        "volume": 1.5,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            50
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/sportCar_idle_buff"
+    ],
+    "removeBuff": [
+        "myplugin/sportCar_run_buff"
+    ],
+    "sync": "other"
+}

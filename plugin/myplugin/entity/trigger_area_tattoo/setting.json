@@ -1,0 +1,53 @@
+{
+  "actorName": "empty.actor",
+  "base": "base_trigger",
+  "syncHeadName": false,
+  "collider": {
+    "type": "Box",
+    "extent": {
+      "x": 47,
+      "y": 50,
+      "z": 36
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }   
+  },
+  "operationConfig": {
+    "spawn": [
+    ],
+    "destroy": [
+    ],
+    "entityEnter": [
+      {
+        "stateMask": {},
+        "behaviorList": [
+          {
+            "type": "OperateArea",
+            "operateType": "Enter"
+          }
+        ]
+      }
+    ],
+    "entityLeave": [
+      {
+        "stateMask": {},
+        "behaviorList": [
+          {
+            "type": "OperateArea",
+            "operateType": "Exit"
+          }
+        ]
+      }
+    ],
+    "useItem": [
+    ]
+  }
+}

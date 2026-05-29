@@ -1,0 +1,322 @@
+
+
+language_start:g2055_lang_20220706
+
+g2055_item_bottle=Broken wine bottle
+g2055_item_knuckles=Brass knuckles
+g2055_item_machete=Machete
+g2055_item_axe=Axe
+g2055_item_baseballbat=Baseball bat
+g2055_item_hammer=Iron hammer
+g2055_item_Bricks=Brick
+g2055_item_tigerpaw=Tiger claw
+g2055_item_razorhat=Razor hat
+g2055_item_pistol=Pistol
+g2055_item_goldak=Golden Rifle
+g2055_item_shotgun=Shotgun
+g2055_item_minigun=Golden Machine Gun
+g2055_item_money=Cash
+g2055_item_doorDecoder=Door decoder
+g2055_item_vehicleDecoder=Car decoder
+
+g2055_item_ammo=Ammunition
+
+
+weapon.shop.buy.success =Purchased successfully
+bullet.shop.buy.success =Purchased successfully
+bullet.shop.buy.no.need =There is no need to purchase ammunition at the moment
+bullet.shop.buy.fail =Ammunition cannot be purchased for the current weapon
+
+tattoo.tips.other.player.tattoo =No space for tattoo
+tattoo.tips.error.request =Invalid request
+tattoo.tips.empty.tattoo =Already own all tattoos
+tattoo.tips.exist.tattoo =Already own this tattoo
+tips.no.money =Not enough money
+tattoo.tips.interrupt =The process of tattooing was interrupted
+tattoo.tips.success =Got the tattoo successfully
+
+territory.map.tips1 =Player
+territory.map.tips2 =Gang member
+territory.map.tips3 =Car dealership
+territory.map.tips4 =Clothing store
+territory.map.tips5 =Firearm store
+territory.map.tips6 =Spawn point
+territory.map.tips.bottom =Earn money by occupying territories
+territory.tips.occupy.success =Successfully occupied
+territory.tips.occupy.get.award =%s gets %d protection fee!
+territory.tips.other.player.occupying =Other players are occupying
+territory.tips.error.request =Invalid request
+territory.tips.same.camp =You are from the same gang and cannot occupy the area repeatedly
+territory.tips.need.add.gang =To occupy territory, please join a gang first
+territory.tips.occupy.interrupt =Occupation interrupted
+territory.tips.occupied.by.gang =Your %s has been occupied by %s
+territory.ui.tips.occupied =Occupied
+territory.ui.tips.get.award =Charge protection fee%d
+territory.ui.tips.unOccupied =Not occupied
+area.tips.get.award =Pick up now
+area.tips.rob.award =Snatch now
+area.tips.now.award =Protection fee collected
+area_tips_name1=Casino area
+area_tips_name2=Firearm store area
+area_tips_name3=Car dealership area
+area_tips_name4=Clothing Store area
+area_tips_name5=Bars area
+area_tips_name6=Black Market area
+area_tips_name7=Tattoo parlor area
+
+
+gang.member.number =Number of gang members: %d/%d
+gang.title.gang.list  =Gang list
+gang.title.gang.apply =Apply
+gang.title.gang.apply.list =List
+gang.title.gang.create.list =Create a gang
+gang.button.exit =Quit
+gang.button.apply.list =Application list
+gang.button.clear.apply.list =Clear all
+gang.button.return =Return
+gang.button.create.gang =Create a gang
+gang.position.chairman =Leader
+gang.position.member =Member
+gang.tips.access.apply.fail =You have already joined another gang, please quit first!
+gang.tips.already.apply =Applied
+gang.tips.sensitive.word =Sensitive words
+gang.tips.name.exist =Gang name already exists
+gang.tips.name.too.long =Gang name should be less than %d characters
+gang.tips.player.has.gang =Player has already joined another gang
+gang.tips.max.member =The current gang is full
+gang.tips.name.null =Please enter the gang name
+gang.tips.has.gang =Already in the gang
+gang.tips.replace.chairman =The leader has resigned. Become the new leader
+gang.tips.apply.gang.success =Successfully joined %s
+gang.tips.create.gang.success =You've successfully created a gang
+gang.tips.empty.gang =No gang has been created yet. Start one now!
+gang.tips.empty.apply.list =No applicants yet
+gang.edit.box.default.tips =Enter gang name
+
+bastion.doorplate.word ={.}'s house
+
+bastion.vault.manner.deposit =Deposit
+bastion.vault.manner.fetch =Retrieve
+bastion.vault.manner.steal =Steal
+
+bastion.vault.manner.deposit.error.overflow =Exceeded limit
+bastion.vault.manner.deposit.error.no.money =Not enough money
+
+bastion.closet.no.select.item =The clothing does not exist
+
+bastion.door.current =Current
+bastion.door.manner.buy =Buy
+bastion.door.attack.tip=Attack your home
+bastion.door.damaged.tip =broke into your home
+bastion.door.start.hacked.tip =tried to break into your home
+bastion.door.hacked.tip =broke into your home
+bastion.door.hacked.succeed =Consome 1 decodificador de controle de acesso e desbloqueia com sucesso
+bastion.door.hacked.failed =Consome 1 decodificador de controle de acesso e não consegue desbloquear
+bastion.door.hacked.owner.update =The owner has replaced the door's lock
+bastion.door.unlocking =Unlocking
+bastion.door.hacked.already.hacked =Cracked
+bastion.door.hacked.already.damaged =Damaged
+
+bastion.closet.no.select.item = Clothing unavailable
+
+bastion.garage.buy.error.had.unlock =Unlocked
+bastion.garage.fetch.error.no.car =No car available
+bastion.garage.deposit.error.no.car =No car available
+bastion.garage.deposit.error.no.garage =You have not unlocked the garage
+bastion.garage.buy.error.no.enough.money =Not enough money
+
+bastion.garage.deposit.dialog.title =Store vehicle
+bastion.garage.deposit.dialog.detail =Would you like to store the car?
+bastion.garage.deposit.dialog.confirm =Yes
+bastion.garage.deposit.dialog.cancel =No
+
+bastion.door.sensor.no.hack.item =A master key is required
+
+bastion.armory.deposit.exceed.maximum =Arsenal is full
+bastion.armory.deposit.no.select.item =Weapon not available
+bastion.armory.fetch.no.select.item =Weapon not available
+bastion.armory.steal.no.select.item =Weapon not available
+
+bastion.armory.button.text.deposit =Deposit
+bastion.armory.button.text.fetch =Retrieve
+bastion.armory.button.text.steal =Steal
+bastion.armory.buy.error.had.unlock =Unlocked
+bastion.armory.buy.error.no.enough.money =Not enough money
+
+bastion.toolkit.tip.please.select.item =Please select a door
+bastion.toolkit.fetch.no.select.item =Please select the door to replace
+bastion.toolkit.fetch.no.enough.money =Not enough money
+bastion.toolkit.fetch.wrong.status =Cannot be replaced in current state
+
+vehicle.icon.unlock.success =Consume 1 vehicle decoder and unlock successfully
+vehicle.icon.unlock.fail=Consumes 1 vehicle decoder and fails to unlock
+vehicle.icon.unlocking=Unlocking
+vehicle.icon.noUnlockItem=A vehicle decoder is needed
+vehicle.icon.beUnlock =tried to unlock your vehicle
+vehicle.icon.beAttack =Attacked your vehicle
+
+goods_shelf.tip.select.goods =Please select a good
+goods_shelf.purchase.succeed=Purchased successfully
+goods_shelf.no.enough.currency=Not enough money
+goods_shelf.closet.already.possess=Owned
+goods_shelf.closet.buy=Buy
+goods_shelf.closet.purchase.succeed=Purchased successfully
+goods_shelf.black.market.purchase.succeed=Purchased successfully
+
+
+charter.killed.tips =%s has killed you
+charter.relive.tips =Resurrected after %s seconds
+
+
+tips.no.money =Not enough money
+
+bullet.shop.buy.success =Purchased successfully
+
+exchange.title =Money Exchange
+exchange.yes =Confirm
+exchange.no =Cancel
+exchange.buy.success =Money exchange success
+exchange.buy.fail =Money exchange failed
+
+player.motion.title=Gestures
+player.motion.name1=Hands on hips
+player.motion.name2=Provoke
+player.motion.name3=Crouch down
+player.motion.name4=Surrender
+player.motion.name5=Phone call
+player.motion.name6=Lean against wall 1
+player.motion.name7=Lean against wall 2
+player.motion.name8=Taunt
+player.motion.name9=Thinking
+player.motion.name10=Play dead
+player.motion.name11=Crawl
+player.motion.name12=Dance steps 1
+player.motion.name13=Dance steps 2
+player.motion.name14=Dance steps 3
+player.motion.name15=Greeting
+player.motion.name16=Scratching head
+player.motion.name17=Crying
+player.motion.name18=Laughing
+player.motion.name19=Angry
+
+weapon.readyToBroken=Current weapon is about to break!!!
+weapon.isBroken=Current weapon is broken!!!
+
+passCard.title =Street Pass
+passCard.use.cube.confirm =Confirm use of GCubes
+passCard.yes  =Confirm
+passCard.no  =Cancel
+passCard.weaponTips =Weapon slots are full, weapon replacement will occur, confirm action?
+passCard.carGetOffTips =Getting off the car and teleporting the car to the car store, confirm action?
+passCard.clothTips =You already own this costume, replacing the costume with equivalent amount of game coins, confirm action?
+passCard.taskDetails =Mission detail
+passCard.taskRewards =Rewards
+passCard.taskDailyLimit =Daily cap
+passCard.task01 =Kill {.} players
+passCard.task02 =Destroy {.} players' doors
+passCard.task03 =Destroy {.} ATMs
+passCard.task04 =Obtain {.} money (Excluding Street Pass rewards)
+passCard.task05 =Spend {.} money
+passCard.task06 =Spend {.} GCubes
+passCard.unlock =Unlock
+passCard.not.open =The event hasn't started
+passCard.buy.success =Purchase success
+passCard.buy.fail =Purchase failed
+passCard.cant.open.ui =Cannot open interface in the current state
+passCard.carTips =Teleporting to the car store, confirm action?
+weapon.carry.cant.use=The process of carrying people cannot be attacked!
+weapon.no.bullet=No more bullets!
+
+passCard.buyLevel =Coming soon to pay {.} Golden Cube to unlock the next level, are you sure?
+passCard.buyPassport =Coming soon to pay {.} Golden Cube to unlock the Premium Pass, are you sure?
+
+name.guide.101 =defeat the invaders
+name.guide.102 =Pick up dropped money
+name.guide.103 =Unlock the weapon rack
+name.guide.104 =take out the weapon
+name.guide.105 =save money
+name.guide.106 =Get out! Enjoy the game!
+name.guide.1 =1. The weapon on the body will drop when it dies\n2. The weapon rack can protect your weapon
+name.guide.2 =1. The weapon rack can freely access weapons\n2, you can snatch other players' weapons\n3, protect your own weapons
+name.guide.3 =1. The vault can store money\n2. You can rob other players' vaults\n3. Protect your own vault
+name.guide.doortips =For your safety, please complete the novice task before going out
+
+name.house.1 =Unlock the weapon rack
+name.house.2 =unlock garage
+name.house.3 =upgrade gate
+name.house.4 =save money
+name.house.5 =withdraw money
+name.house.6 =weapon rack
+name.house.7 =Wardrobe
+name.house.8 =garage
+name.shop.1 =buy clothing
+name.shop.2 =buy clothing
+name.shop.3 =buy clothing
+name.shop.4 =buy clothing
+name.shop.5 =buy clothing
+name.shop.6 =buy a vehicle
+name.shop.7 =buy a vehicle
+name.shop.8 =buy a vehicle
+name.shop.9 =buy a vehicle
+name.shop.10 =buy a vehicle
+name.shop.11 =buy a vehicle
+name.shop.12 =buy weapons
+name.shop.13 =buy weapons
+name.shop.14 =buy weapons
+name.shop.15 =buy weapons
+name.shop.16 =buy weapons
+name.shop.17 =buy weapons
+name.shop.18 =buy bullets
+name.shop.19 =buy bullets
+name.shop.20 =buy bullets
+name.shop.21 =buy bullets
+name.shop.22 =black market shopping
+name.shop.Tattoo=get a tattoo
+
+g2055_item_dress_1_6=Flower Arm Vest (Top)
+g2055_item_dress_2_1=Trendy Street (Hair)
+g2055_item_dress_2_2=Trendy street (expression)
+g2055_item_dress_2_3=Trendy street (top)
+g2055_item_dress_2_4=Trendy street (bottoms)
+g2055_item_dress_2_5=Trendy street (shoes)
+g2055_item_dress_3_1=Bandit style (hair)
+g2055_item_dress_3_2=Bandit style (expression)
+g2055_item_dress_3_3=Bandit style (top)
+g2055_item_dress_3_4=Bandit style (bottoms)
+g2055_item_dress_3_5=Bandit style (shoes)
+player.paidmotion.name1=you hit me
+player.paidmotion.name2=throw money
+player.paidmotion.name3=orange justice
+player.paidmotion.name4=kick
+player.paidmotion.name5=wave back and forth
+player.paidmotion.name6=Cossack
+g2055_item_harley=motorcycle
+g2055_item_pika=pickup
+g2055_item_benchi=car
+g2055_item_porsche=premium sports car
+g2055_item_lamborghini=supercar
+g2055_item_bugatti=blue ghost
+
+pass_card_close_tips=Click on an empty space to close the window
+
+gang.guide.tips=1. Find a gang to join\n2. You can fight side by side with gang members\n3. Occupy the territory to get money quickly
+gang.auto.apply.all=One-click application
+gang.auto.join =pass automatically
+
+gang.circle.tips.green=same gang
+gang.circle.tips.yellow=non gang
+gang.circle.tips.red=enemy
+gang.circle.tips.no.gang=Please join the gang first
+
+vehicle.icon.text.canDrive=drive
+vehicle.icon.text.canUnlock=unlock
+vehicle.icon.text.cannotUnlock=Missing unlock items
+
+bastion.door.text.unlock=unlock door
+
+gang.rank.title.name=strongest gang
+gang.rank.title.area=Occupied area
+gang.rank.title.time=Occupation time
+gang.rank.title.noGang=No gang
+
+language_end:g2055_lang_20220706

@@ -1,0 +1,7 @@
+ENTITY_ENTER {
+
+}
+
+ENTITY_REBIRTH {
+	SetEntityPosition(map = "", pos = GetEntityPosition(entity = $obj1), rp = 0, ry = 0)
+}

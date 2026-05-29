@@ -1,0 +1,61 @@
+{
+  "actorName": "blank.actor",
+  "base": "base_trigger",
+  "collider": {
+    "type": "Box",
+    "extent": {
+      "x": 2.56,
+      "y": 3.26,
+      "z": 0.5
+    },
+    "offset": {
+      "x": 1.28,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "operationConfig": {
+    "spawn": [
+    ],
+    "destroy": [
+    ],
+    "entityEnter": [
+      {
+        "stateMask": {},
+        "behaviorList": [
+          {
+            "type": "OperateNpcDoor",
+            "operateType": "Open",
+            "from": "OutDoor",
+            "triggerParam": {
+              "offset": {
+                "x": 2,
+                "y": 2,
+                "z": 0.5
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "entityLeave": [
+      {
+        "stateMask": {},
+        "behaviorList": [
+          {
+            "type": "OperateNpcDoor",
+            "operateType": "Close",
+            "from": "OutDoor"
+          }
+        ]
+      }
+    ],
+    "useItem": [
+    ]
+  }
+}

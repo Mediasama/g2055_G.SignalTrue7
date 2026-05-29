@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="355" nativeHorzRes="28" version="2" imagefile="g2055_number_red.png" name="g2055_number_red" autoScaled="false">
+      <Image yPos="61" xPos="1" height="29" name="1" width="26"/>
+    <Image yPos="91" xPos="1" height="29" name="2" width="26"/>
+    <Image yPos="121" xPos="1" height="29" name="3" width="26"/>
+    <Image yPos="151" xPos="1" height="29" name="4" width="26"/>
+    <Image yPos="1" xPos="1" height="29" name="-" width="26"/>
+    <Image yPos="31" xPos="1" height="29" name="0" width="26"/>
+    <Image yPos="301" xPos="1" height="29" name="9" width="26"/>
+    <Image yPos="331" xPos="1" height="23" name="f" width="23"/>
+    <Image yPos="181" xPos="1" height="29" name="5" width="26"/>
+    <Image yPos="211" xPos="1" height="29" name="6" width="26"/>
+    <Image yPos="241" xPos="1" height="29" name="7" width="26"/>
+    <Image yPos="271" xPos="1" height="29" name="8" width="26"/>
+</Imageset>
