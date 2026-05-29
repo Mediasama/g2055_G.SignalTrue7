@@ -1,0 +1,19 @@
+{
+  "GUILayout": {
+    "version": "4",
+    "Window": {
+      "type": "DefaultWindow",
+      "name": "Root",
+      "Property": [
+        {
+          "name": "Area",
+          "value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "name": "MaxSize",
+          "value": "{{999,0},{999,0}}"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<GUILayout version="4">
+    <Window name="Root" type="DefaultWindow">
+        <Property value="{{0,0},{0,0},{1,0},{1,0}}" name="Area" />
+        <Property value="{{999,0},{999,0}}" name="MaxSize" />
+        <Property value="true" name="Visible" />
+    </Window>
+</GUILayout>
