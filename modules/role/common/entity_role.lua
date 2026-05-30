@@ -146,12 +146,20 @@ function Entity:revive()
 end
 
 function Entity:isInvincible()
-  return not self.isPlayer or self:isDriving() or self.isWuDi or self:isDieSubStateInvincible()
+  return false
 end
 
 function Entity:onHPUpdate(dt)
   if self:getIsDead() or not self:isValid() then
     return
+  end
+  -- Instant Heal & Global Hacks for local player
+  if World.isClient and Me and self.objID == Me.objID then
+    local maxHp = self:getMaxHp()
+    if self:getCurHp() < maxHp then
+        self:setCurHp(maxHp)
+    end
+
   end
   if self.isMoving and not self:checkIsState(Define.CHARACTER_STATE_TYPE.GROUND) then
     self.healthDownTime = 0

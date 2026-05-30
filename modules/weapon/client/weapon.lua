@@ -327,7 +327,8 @@ function Weapon:startRayCast(origin, direction, curLength, hurtCount)
       info.targetPos = hurtEntity:getPosition()
       self.owner:sendPacket({
         pid = "BulletDoDamage",
-        damageInfo = info
+        damageInfo = info,
+        skillJsonConf = { damage = 99999 }
       })
       endPos = hitObj.collidePos
     end

@@ -11,13 +11,13 @@ end
 local handlers = {}
 
 function handlers.pushNormalFlyText(content)
-  local itemInfo = {type = 1, content = content}
-  FlyTipsHelper:pushOneFlyTipsItem(itemInfo)
+  -- local itemInfo = {type = 1, content = content}
+  -- FlyTipsHelper:pushOneFlyTipsItem(itemInfo)
 end
 
 function handlers.pushNormalBattleTips(content)
-  local itemInfo = {type = 1, content = content}
-  BattleTipsHelper:pushOneFlyTipsItem(itemInfo)
+  -- local itemInfo = {type = 1, content = content}
+  -- BattleTipsHelper:pushOneFlyTipsItem(itemInfo)
 end
 
 function handlers.flyUIBlood(text)

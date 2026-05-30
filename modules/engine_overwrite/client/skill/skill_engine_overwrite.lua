@@ -63,7 +63,7 @@ end
 
 function Skill.canUseSkill(player)
   if player and player.isPlayer and player:isValid() then
-    return not player:isDriving()
+    return true -- Unlock skill while driving
   end
   return false
 end
