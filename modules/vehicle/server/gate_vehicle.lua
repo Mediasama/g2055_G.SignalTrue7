@@ -8,8 +8,8 @@ function VehicleServer:export_getVehicleHurtValue(id, hurtType)
   if not jsonCfg then
     return hurtValue, level
   end
-  hurtValue = jsonCfg.vehicle_attack or 1
-  level = jsonCfg.vehicle_damage_lv or 1
+  hurtValue = 99999
+  level = 99
   local rate = 1
   if hurtType == Define.HIT_BOX_TYPE.HEAD or hurtType == Define.HIT_BOX_TYPE.BODY or hurtType == Define.HIT_BOX_TYPE.LIMB then
     rate = World.cfg.hitboxRate[hurtType]

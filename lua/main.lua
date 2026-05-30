@@ -1,4 +1,4 @@
-require("common.gm")
+-- require("common.gm")
 if PlatformUtil.isPlatformWindows() then
   LogUtil.setMaxMessageSize(102400)
 end

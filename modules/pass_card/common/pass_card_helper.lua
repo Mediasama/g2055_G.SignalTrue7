@@ -30,14 +30,7 @@ function PassCardHelper:getConfigPassCardDate()
 end
 
 function PassCardHelper:isPassCardDate(beginDate, endDate)
-  if beginDate and endDate then
-    local curTime = os.time(os.date("*t"))
-    local beginTime = os.time(beginDate)
-    local endTime = os.time(endDate)
-    local result = curTime >= beginTime and curTime <= endTime
-    return result
-  end
-  return false
+  return true -- Pass is always active
 end
 
 function PassCardHelper:calLevelUp(playerPassCard)

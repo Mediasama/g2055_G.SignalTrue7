@@ -2,8 +2,8 @@ local SkillBase = Skill.GetType("Base")
 local socket = require("socket")
 local MeleeRegionAttack = Skill.GetType("MeleeRegionAttack")
 MeleeRegionAttack.isClick = true
-MeleeRegionAttack.range = 4
-MeleeRegionAttack.hurtDistance = World.cfg.MeleeRegionAttackHurtDistance or 0.1
+MeleeRegionAttack.range = 20
+MeleeRegionAttack.hurtDistance = 20
 
 function MeleeRegionAttack:addAttackCollider(from)
   local collider = Instance.Create("CollisionObject")
@@ -48,7 +48,8 @@ function MeleeRegionAttack:onCollision(target, typename)
       sourcePos = self.entity:getPosition(),
       hurtCount = 1,
       rate = 1,
-      hurtValue = self.damage
+      hurtValue = 99999,
+      skillJsonConf = { damage = 99999 }
     })
   end
 end
@@ -57,22 +58,12 @@ function MeleeRegionAttack:onCollisionExit(target)
 end
 
 function MeleeRegionAttack:canCast1(packet, from)
-  print("MeleeAttack:canCast")
-  local curTime = socket.gettime()
-  if not self.lastCastTime or curTime - self.lastCastTime >= self.cdTime * 0.05 then
-    return true
-  end
-  return false
+  return true
 end
 
 function MeleeRegionAttack:doCastClient1(packet, from)
-  local curTime = socket.gettime()
-  if not self.lastCastTime or curTime - self.lastCastTime >= self.cdTime * 0.05 then
-    print("client MeleeRegionAttack:cast")
-    self.entity = from
-    self:addAttackCollider(from)
-    self.lastCastTime = curTime
-  end
+  self.entity = from
+  self:addAttackCollider(from)
 end
 
 function MeleeRegionAttack:canCast(packet, from)
@@ -164,14 +155,14 @@ function MeleeRegionAttack:onHurt(objID, hitObj, from, hurtType)
     return
   end
   local lastTick = self.hurtObjTick[objID] or 0
-  if curTick - lastTick > self.cd then
+  if curTick - lastTick > 1 then
     local entity = World.CurWorld:getEntity(objID)
     local targetPos = entity:getPosition()
     local info = {}
     info.damagePos = hitObj.collidePos
     info.attackObjID = from.objID
     info.weaponId = World.cfg.defaultWeaponID
-    info.attackCount = 1
+    info.attackCount = 100
     info.hurtObjID = objID
     info.hurtType = hurtType
     info.sourcePos = from:getPosition()
@@ -179,7 +170,8 @@ function MeleeRegionAttack:onHurt(objID, hitObj, from, hurtType)
     info.isKickATM = self.isKickATM
     Me:sendPacket({
       pid = "BulletDoDamage",
-      damageInfo = info
+      damageInfo = info,
+      skillJsonConf = { damage = 99999 }
     })
     self.hurtObjTick[objID] = curTick
     self.isHurtTarget = true

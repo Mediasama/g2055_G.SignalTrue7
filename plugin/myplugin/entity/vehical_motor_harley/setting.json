@@ -1,8 +1,8 @@
 {
     "base": "trolley_base",
     "actorName": "g2055_vehicle_halei.actor",
-    "moveSpeed": 0.7,
-    "bodyTurnSpeed": 30,
+    "moveSpeed": 2.5,
+    "bodyTurnSpeed": 60,
     "jumpSpeed":0.6,
     "posSyncDelay": 1,
     "ridePos": [

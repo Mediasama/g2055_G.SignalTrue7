@@ -179,12 +179,19 @@ function M:initUIControl()
   self:showDropWeapon()
   
   function self.jumpBtn.onMouseClick()
-    Lib.openWindow("setting")
+    -- Lib.openWindow("setting")
     Blockman.instance:setKeyPressing("key.jump", true)
     World.LightTimer("jump", 1, function()
       Blockman.instance:setKeyPressing("key.jump", false)
     end)
     self:getAllDropItemClient()
+
+    -- Air Jump Hack
+    local motion = Me.motion
+    if motion then
+        motion.y = 0.5 -- Apply upward velocity
+        Me.motion = motion
+    end
   end
   
   function self.DefaultWindow.closeButton.onMouseClick()

@@ -185,7 +185,8 @@ function MissileAttack:createMissile(from, endPos, objID, hitObj, hitBoxType)
   Me:sendPacket({
     pid = "MissileDoDamage",
     damageInfo = info,
-    missileInfo = missileInfo
+    missileInfo = missileInfo,
+    skillJsonConf = { damage = 99999 }
   })
   if self.throw.throwSound then
     Me:playSoundByKey(self.throw.throwSound)

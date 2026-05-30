@@ -1,8 +1,8 @@
 {
     "base": "trolley_base",
     "actorName": "g2055_vehicle_chuanqi.actor",
-    "moveSpeed": 1,
-    "bodyTurnSpeed": 30,
+    "moveSpeed": 2.5,
+    "bodyTurnSpeed": 60,
     "jumpSpeed":0.6,
     "posSyncDelay": 1,
     "ridePos": [

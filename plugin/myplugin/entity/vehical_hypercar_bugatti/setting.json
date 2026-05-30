@@ -1,9 +1,9 @@
 {
     "base": "trolley_base",
     "actorName": "g2055_vehicle_bugatti.actor",
-    "moveSpeed": 1.2,
-    "bodyTurnSpeed": 30,
-    "jumpSpeed": 0.6,
+    "moveSpeed": 2.5,
+    "bodyTurnSpeed": 60,
+    "jumpSpeed": 1.2,
     "posSyncDelay": 1,
     "ridePos": [
         {
